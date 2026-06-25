@@ -1063,6 +1063,57 @@ def keyword_stats(rows):
     return counts
 
 
+def research_overview_html():
+    return """
+    <section class="research-brief" aria-labelledby="research-timeline-title">
+      <h2 id="research-timeline-title">Research Timeline</h2>
+      <div class="timeline-copy">
+        <p>1900-2026년 brain 연구 코퍼스는 해부학, 병리학, 생리학 중심의 초기 뇌과학에서 출발해 임상 신경학, 세포·분자 신경과학, 신경영상, 전기생리, connectomics, 계산신경과학과 neurotechnology로 확장된 장기 지형도다. 인용 기반으로 선별된 12,700편은 특정 연도별 유행보다, 후속 연구의 공통 언어가 된 atlas, 측정법, 임상 기준, 리뷰, 질환 코호트, 분석 도구의 축적을 강하게 드러낸다.</p>
+        <p>가장 큰 흐름은 일반 뇌과학과 리뷰, 임상 신경학·신경퇴행, 세포·분자·시냅스 연구가 넓은 기반을 형성하고, 그 위에 인지·시스템 신경과학, 발달·가소성·connectomics, EEG/MEG, 신경영상, 뇌혈관·손상, 계산신경과학과 BCI가 접속하는 구조다. 최근 구간으로 올수록 단일 방법론보다 다중모달 데이터, 장기 추적, 네트워크 수준 해석, AI 기반 분석, 자극·폐루프 시스템을 결합하는 연구가 더 중요해진다.</p>
+      </div>
+      <h2>Research Insights</h2>
+      <div class="research-insights">
+        <article class="insight-box">
+          <div class="insight-label">Infrastructure</div>
+          <h3>공유 인프라가 연구 방향을 재편한다</h3>
+          <p>높은 인용 신호는 단일 발견뿐 아니라 atlas, 좌표계, 영상·전기생리 프로토콜, 임상 척도처럼 여러 하위 분야가 함께 쓰는 기반 논문에 집중된다.</p>
+          <p class="insight-implication">시사점: 새 연구는 독립 결과보다 재사용 가능한 데이터, 표준, 도구를 동반할 때 장기 영향력이 커진다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Clinical Translation</div>
+          <h3>질병 연구는 회로·분자·영상의 결합으로 이동한다</h3>
+          <p>신경퇴행, 뇌손상, 종양, 뇌혈관 연구는 병리 분류에서 바이오마커, 영상, 세포 기전, 치료 반응을 함께 읽는 방향으로 넓어지고 있다.</p>
+          <p class="insight-implication">시사점: 임상적 유용성은 기전 설명과 환자군 재현성을 동시에 요구한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Multi-scale Models</div>
+          <h3>발달·가소성·connectomics가 스케일을 연결한다</h3>
+          <p>세포와 시냅스, 국소 회로, 전뇌 네트워크, 행동 변화를 이어 보려는 연구가 증가하며 생애주기와 질환 진행을 함께 설명하는 축이 된다.</p>
+          <p class="insight-implication">시사점: 횡단면 결과만으로는 부족하며 장기 추적과 네트워크 검증이 핵심 병목이다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">AI And Computation</div>
+          <h3>계산 모델은 관찰을 예측 문제로 바꾼다</h3>
+          <p>계산신경과학과 AI는 뇌 신호를 해석하는 보조 도구에서 representation, decoding, disease trajectory 예측을 다루는 연구 언어로 확장된다.</p>
+          <p class="insight-implication">시사점: 모델 성능보다 해석 가능성, 외부 검증, 데이터 편향 통제가 중요해진다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Neurotechnology</div>
+          <h3>자극·BCI는 임상 전환의 관문이 된다</h3>
+          <p>뇌자극, neurotechnology, BCI 연구는 신호 측정에서 개입과 폐루프 제어로 이동하며 안전성, 장기 안정성, 개인화가 핵심 기준이 된다.</p>
+          <p class="insight-implication">시사점: 실제 적용을 위해서는 정확도와 함께 사용성, 위험 관리, 환자별 적응 전략이 필요하다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Open Gaps</div>
+          <h3>표준화·인과성·다양성이 남은 병목이다</h3>
+          <p>인용 기반 지도는 강한 축을 보여주지만, 인구집단 다양성, 장비·분석 표준화, 인과 검증, 최신 연구의 인용 지연은 여전히 해석상의 주의점이다.</p>
+          <p class="insight-implication">시사점: 다음 단계의 brain research map은 citation rank와 함께 reproducibility와 clinical utility를 함께 평가해야 한다.</p>
+        </article>
+      </div>
+    </section>
+"""
+
+
 def write_period_analysis(selected):
     by_year = {year: [row for row in selected if row["year"] == year] for year in YEARS}
     analysis = {}
@@ -1356,6 +1407,7 @@ def write_site(selected):
     payload = json.dumps(site_rows(selected), ensure_ascii=False)
     category_payload = json.dumps(categories, ensure_ascii=False)
     keyword_payload = json.dumps(keyword_info, ensure_ascii=False)
+    research_overview = research_overview_html()
     index = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -1392,6 +1444,14 @@ def write_site(selected):
     .stats {{ display: grid; grid-template-columns: repeat(4, minmax(160px, 1fr)); gap: 12px; margin: 18px 0; }}
     .stat {{ border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: var(--soft); }}
     .stat strong {{ display: block; font-size: 26px; color: var(--ink); }}
+    .research-brief {{ margin: 28px 0; padding: 24px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }}
+    .timeline-copy {{ max-width: 1080px; }}
+    .research-insights {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 12px; }}
+    .insight-box {{ border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fff; }}
+    .insight-label {{ color: var(--focus); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0; }}
+    .insight-box h3 {{ margin: 6px 0 8px; font-size: 17px; }}
+    .insight-box p {{ margin: 8px 0 0; }}
+    .insight-implication {{ color: var(--ink); font-weight: 700; }}
     .keyword-panel {{ display: flex; flex-wrap: wrap; gap: 9px; margin: 12px 0 8px; }}
     .keyword-button {{ display: inline-flex; gap: 8px; align-items: center; border-radius: 999px; }}
     .keyword-button[aria-pressed="true"] {{ border-color: var(--focus); box-shadow: inset 0 0 0 2px var(--focus); }}
@@ -1472,6 +1532,7 @@ def write_site(selected):
       <button id="reset" type="button">Reset</button>
     </section>
     <section class="stats" id="stats" aria-live="polite"></section>
+    {research_overview}
     <h2>Keywords Convention</h2>
     <div class="keyword-panel" id="keywordPanel"></div>
     <div class="keyword-status" id="keywordStatus">No keyword selected.</div>
