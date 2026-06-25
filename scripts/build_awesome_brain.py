@@ -100,6 +100,57 @@ CANDIDATES_JSON = f"candidates_top{CANDIDATES_PER_YEAR}_{YEAR_FILE_STEM}.json"
 CANDIDATES_CSV = f"candidates_top{CANDIDATES_PER_YEAR}_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
+OVERALL_ANALYSIS_JSON = f"overall_analysis_{YEAR_FILE_STEM}.json"
+
+LANGUAGES = {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語",
+}
+
+UI_LABELS = {
+    "en": {
+        "papers": "papers",
+        "years": "active years",
+        "citations": "citations",
+        "categories": "categories",
+        "keyIdea": "Key idea",
+        "strengths": "Strengths",
+        "limitations": "Limitations",
+        "noKeyword": "No keyword selected.",
+    },
+    "ko": {
+        "papers": "논문",
+        "years": "활성 연도",
+        "citations": "인용",
+        "categories": "분류",
+        "keyIdea": "핵심 아이디어",
+        "strengths": "장점",
+        "limitations": "한계",
+        "noKeyword": "선택된 키워드가 없습니다.",
+    },
+    "zh": {
+        "papers": "论文",
+        "years": "活跃年份",
+        "citations": "引用",
+        "categories": "分类",
+        "keyIdea": "核心思想",
+        "strengths": "优势",
+        "limitations": "局限性",
+        "noKeyword": "未选择关键词。",
+    },
+    "ja": {
+        "papers": "論文",
+        "years": "対象年",
+        "citations": "引用",
+        "categories": "分類",
+        "keyIdea": "主要アイデア",
+        "strengths": "強み",
+        "limitations": "限界",
+        "noKeyword": "キーワード未選択です。",
+    },
+}
 
 RELEVANCE_TERMS = [
     "brain",
@@ -1151,6 +1202,229 @@ def research_copy():
     }
 
 
+def overall_research_templates():
+    return {
+        "en": {
+            "timelineTitle": "Research Timeline",
+            "summary": [
+                "For {range}, this brain corpus contains {papers} selected papers across {activeYears} active years, with {citations} citations. The strongest taxonomy signals are {topCategories}, and the most active year is {peakYear} ({peakYearCount} papers).",
+                "The leading citation-ranked paper is \"{topPaper}\" ({topPaperYear}, {topPaperCitations} citations) in {topPaperCategory}. Keywords such as {topKeywords} show how the period connects measurement, mechanisms, clinical translation, and computation.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {
+                    "label": "Period Shape",
+                    "title": "The selected range changes the field map",
+                    "body": "{topCategory} accounts for {topCategoryCount} papers, so the visible corpus is anchored by the taxonomies that were strongest in {range}.",
+                    "implication": "Implication: compare adjacent periods before treating one taxonomy as the field's long-term center.",
+                },
+                {
+                    "label": "Citation Mass",
+                    "title": "Citation concentration identifies shared infrastructure",
+                    "body": "The range carries {citations} citations, with the citation peak around {peakCitationYear}. Highly cited papers often define reusable atlases, protocols, cohorts, or analysis tools.",
+                    "implication": "Implication: durable brain research impact often comes from resources that other subfields can reuse.",
+                },
+                {
+                    "label": "Translation",
+                    "title": "Clinical and mechanistic signals should be read together",
+                    "body": "The top paper, \"{topPaper}\", sits in {topPaperCategory}, while leading categories include {topCategories}. This mix shows whether the period is driven by disease cohorts, mechanisms, measurement, or computation.",
+                    "implication": "Implication: strong summaries should connect patient relevance with causal or measurement evidence.",
+                },
+                {
+                    "label": "Methods",
+                    "title": "Keywords expose the period's methodological spine",
+                    "body": "Frequent tags such as {topKeywords} indicate which instruments, models, or research settings organize the selected years.",
+                    "implication": "Implication: keyword shifts are useful early signals before citation counts fully mature.",
+                },
+                {
+                    "label": "Open Gaps",
+                    "title": "Citation-ranked maps still need expert interpretation",
+                    "body": "Recent years, underrepresented populations, null results, and protocol differences may be muted even when the period summary looks stable.",
+                    "implication": "Implication: use this view as a navigation layer, then pair it with full-text review and reproducibility checks.",
+                },
+            ],
+        },
+        "ko": {
+            "timelineTitle": "연구 타임라인",
+            "summary": [
+                "{range} 기간의 brain 코퍼스는 활성 연도 {activeYears}년에 걸쳐 선별 논문 {papers}편과 인용 {citations}회를 포함합니다. 가장 강한 taxonomy 신호는 {topCategories}이며, 논문 수가 가장 많은 해는 {peakYear}년({peakYearCount}편)입니다.",
+                "인용 기준 최상위 논문은 {topPaperCategory} 분류의 \"{topPaper}\"({topPaperYear}, {topPaperCitations}회 인용)입니다. {topKeywords} 같은 키워드는 이 기간이 측정, 기전, 임상 전환, 계산 모델을 어떻게 연결하는지 보여줍니다.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {
+                    "label": "Period Shape",
+                    "title": "선택한 기간이 연구 지형을 바꿉니다",
+                    "body": "{topCategory}가 {topCategoryCount}편을 차지해, {range}의 가시적 코퍼스는 이 시기에 강했던 taxonomy 축을 중심으로 구성됩니다.",
+                    "implication": "시사점: 하나의 기간만 보고 장기 중심축을 단정하기보다 인접 기간과 비교해야 합니다.",
+                },
+                {
+                    "label": "Citation Mass",
+                    "title": "인용 집중은 공유 인프라를 드러냅니다",
+                    "body": "이 기간은 총 {citations}회 인용을 가지며, 인용 피크는 {peakCitationYear}년 부근입니다. 고인용 논문은 atlas, protocol, cohort, 분석 도구처럼 재사용 가능한 기반을 정의하는 경우가 많습니다.",
+                    "implication": "시사점: 지속적 영향력은 다른 하위 분야가 반복해서 쓰는 자원에서 자주 발생합니다.",
+                },
+                {
+                    "label": "Translation",
+                    "title": "임상 신호와 기전 신호를 함께 읽어야 합니다",
+                    "body": "최상위 논문 \"{topPaper}\"은 {topPaperCategory}에 속하고, 주요 분류는 {topCategories}입니다. 이 조합은 해당 기간이 질환 cohort, 생물학적 기전, 측정 기술, 계산 모델 중 무엇에 의해 움직였는지 보여줍니다.",
+                    "implication": "시사점: 좋은 요약은 환자 relevance와 causal 또는 measurement evidence를 함께 연결해야 합니다.",
+                },
+                {
+                    "label": "Methods",
+                    "title": "키워드는 기간별 방법론의 축을 보여줍니다",
+                    "body": "{topKeywords} 같은 빈도 높은 태그는 선택된 연도를 조직하는 도구, 모델, 연구 setting을 드러냅니다.",
+                    "implication": "시사점: 키워드 변화는 인용 수가 충분히 성숙하기 전에도 유용한 조기 신호가 됩니다.",
+                },
+                {
+                    "label": "Open Gaps",
+                    "title": "인용 기반 지도에는 전문가 해석이 필요합니다",
+                    "body": "요약이 안정적으로 보여도 최신 연구, 과소대표 집단, null result, protocol 차이는 약하게 보일 수 있습니다.",
+                    "implication": "시사점: 이 화면은 탐색 layer로 사용하고, 핵심 주장은 full-text review와 재현성 점검으로 보강해야 합니다.",
+                },
+            ],
+        },
+        "zh": {
+            "timelineTitle": "研究时间线",
+            "summary": [
+                "在 {range} 期间，brain 语料包含 {papers} 篇入选论文，覆盖 {activeYears} 个活跃年份，总引用为 {citations} 次。最强的 taxonomy 信号是 {topCategories}，论文数量峰值出现在 {peakYear} 年（{peakYearCount} 篇）。",
+                "按引用排序的领先论文是 {topPaperCategory} 中的《{topPaper}》（{topPaperYear}，{topPaperCitations} 次引用）。{topKeywords} 等关键词显示该时期如何连接测量、机制、临床转化和计算模型。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {
+                    "label": "Period Shape",
+                    "title": "所选时期会改变领域地图",
+                    "body": "{topCategory} 包含 {topCategoryCount} 篇论文，因此 {range} 的可见语料主要由该时期最强的 taxonomy 轴支撑。",
+                    "implication": "启示：不要只凭一个时间段判断长期中心，应与相邻时期一起比较。",
+                },
+                {
+                    "label": "Citation Mass",
+                    "title": "引用集中度揭示共享基础设施",
+                    "body": "该时期共有 {citations} 次引用，引用峰值接近 {peakCitationYear} 年。高引用论文往往定义可复用的 atlas、protocol、cohort 或分析工具。",
+                    "implication": "启示：持久影响力常来自可被多个子领域反复使用的资源。",
+                },
+                {
+                    "label": "Translation",
+                    "title": "临床信号和机制信号需要一起解读",
+                    "body": "领先论文《{topPaper}》属于 {topPaperCategory}，主要分类包括 {topCategories}。这种组合说明该时期更受疾病队列、机制、测量还是计算模型驱动。",
+                    "implication": "启示：高质量总结应同时连接患者相关性与因果或测量证据。",
+                },
+                {
+                    "label": "Methods",
+                    "title": "关键词呈现时期的方法学主干",
+                    "body": "{topKeywords} 等高频标签显示了组织所选年份的工具、模型和研究场景。",
+                    "implication": "启示：在引用尚未成熟时，关键词变化可以作为早期趋势信号。",
+                },
+                {
+                    "label": "Open Gaps",
+                    "title": "引用排序地图仍需要专家解释",
+                    "body": "即使时期摘要看起来稳定，最新研究、代表性不足的人群、阴性结果和 protocol 差异也可能被弱化。",
+                    "implication": "启示：把此视图作为导航层，再用全文审阅和可重复性检查支撑核心判断。",
+                },
+            ],
+        },
+        "ja": {
+            "timelineTitle": "研究タイムライン",
+            "summary": [
+                "{range} の brain コーパスには、{activeYears} の対象年にわたる選定論文 {papers} 本、引用 {citations} 件が含まれます。最も強い taxonomy 信号は {topCategories} で、論文数のピークは {peakYear} 年（{peakYearCount} 本）です。",
+                "引用順で最上位の論文は {topPaperCategory} の「{topPaper}」（{topPaperYear}、{topPaperCitations} 件引用）です。{topKeywords} などのキーワードは、この期間が計測、機序、臨床応用、計算モデルをどう結びつけているかを示します。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {
+                    "label": "Period Shape",
+                    "title": "選択した期間によって研究地図は変わります",
+                    "body": "{topCategory} が {topCategoryCount} 本を占めるため、{range} の可視化されたコーパスはこの時期に強かった taxonomy 軸を中心に構成されます。",
+                    "implication": "示唆：単一期間だけで長期的な中心領域を判断せず、隣接期間と比較する必要があります。",
+                },
+                {
+                    "label": "Citation Mass",
+                    "title": "引用の集中は共有インフラを示します",
+                    "body": "この期間の引用は合計 {citations} 件で、引用ピークは {peakCitationYear} 年付近です。高引用論文は atlas、protocol、cohort、解析ツールなど再利用可能な基盤を定義することがよくあります。",
+                    "implication": "示唆：持続的な影響力は、複数の下位分野が再利用できる資源から生まれやすいです。",
+                },
+                {
+                    "label": "Translation",
+                    "title": "臨床シグナルと機序シグナルを合わせて読む必要があります",
+                    "body": "最上位論文「{topPaper}」は {topPaperCategory} に属し、主要分類は {topCategories} です。この組み合わせは、その期間が疾患 cohort、機序、計測、計算モデルのどれに動かされているかを示します。",
+                    "implication": "示唆：良い要約は、患者への関連性と因果または計測エビデンスを結びつける必要があります。",
+                },
+                {
+                    "label": "Methods",
+                    "title": "キーワードは期間ごとの方法論の軸を示します",
+                    "body": "{topKeywords} などの高頻度タグは、選択された年を支える装置、モデル、研究設定を示します。",
+                    "implication": "示唆：引用数が十分に成熟する前でも、キーワードの変化は早期の傾向信号になります。",
+                },
+                {
+                    "label": "Open Gaps",
+                    "title": "引用ベースの地図には専門的解釈が必要です",
+                    "body": "要約が安定して見えても、最新研究、過小代表集団、null result、protocol の違いは弱く見えることがあります。",
+                    "implication": "示唆：この画面はナビゲーション層として使い、主要な判断は全文レビューと再現性確認で補強してください。",
+                },
+            ],
+        },
+    }
+
+
+def overall_period_summary(rows, start, end, by_year):
+    counts, citations = category_stats(rows)
+    keywords = keyword_stats(rows)
+    year_counts = Counter(row["year"] for row in rows)
+    year_citations = defaultdict(int)
+    for row in rows:
+        year_citations[row["year"]] += row["citationCount"]
+    peak_year, peak_count = year_counts.most_common(1)[0] if year_counts else (None, 0)
+    peak_citation_year = max(year_citations, key=year_citations.get) if year_citations else None
+    top = max(rows, key=lambda item: item["citationCount"]) if rows else None
+    return {
+        "startYear": start,
+        "endYear": end,
+        "rangeLabel": str(start) if start == end else f"{start}-{end}",
+        "totalPapers": len(rows),
+        "activeYears": sum(1 for year in range(start, end + 1) if by_year[year]),
+        "citationCount": sum(row["citationCount"] for row in rows),
+        "categoryCount": len(counts),
+        "topCategories": [
+            {"name": category, "count": count, "citations": citations[category]}
+            for category, count in counts.most_common(6)
+        ],
+        "topKeywords": [
+            {"name": keyword.strip(), "count": count}
+            for keyword, count in keywords.most_common(6)
+        ],
+        "peakYear": peak_year,
+        "peakYearCount": peak_count,
+        "peakCitationYear": peak_citation_year,
+        "peakCitationCount": year_citations.get(peak_citation_year, 0) if peak_citation_year else 0,
+        "topPaper": {
+            "title": top["title"],
+            "year": top["year"],
+            "category": top["category"],
+            "url": top["url"],
+            "citations": top["citationCount"],
+        } if top else None,
+    }
+
+
+def write_overall_analysis(selected):
+    by_year = {year: [row for row in selected if row["year"] == year] for year in YEARS}
+    analysis = {}
+    for start in YEARS:
+        period_rows = []
+        for end in range(start, END_YEAR + 1):
+            period_rows.extend(by_year[end])
+            analysis[f"{start}-{end}"] = overall_period_summary(period_rows, start, end, by_year)
+    payload = {
+        "generated": GENERATED_DATE,
+        "yearRange": YEAR_RANGE_TEXT,
+        "languages": LANGUAGES,
+        "uiLabels": UI_LABELS,
+        "analysis": analysis,
+    }
+    (DATA_DIR / OVERALL_ANALYSIS_JSON).write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def write_period_analysis(selected):
     by_year = {year: [row for row in selected if row["year"] == year] for year in YEARS}
     analysis = {}
@@ -1444,8 +1718,14 @@ def write_site(selected):
     payload = json.dumps(site_rows(selected), ensure_ascii=False)
     category_payload = json.dumps(categories, ensure_ascii=False)
     keyword_payload = json.dumps(keyword_info, ensure_ascii=False)
-    research_overview = research_overview_html()
+    research_overview = research_overview_html().strip()
     research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
+    overall_research_templates_payload = json.dumps(overall_research_templates(), ensure_ascii=False)
+    ui_labels_payload = json.dumps(UI_LABELS, ensure_ascii=False)
+    language_options = "\n".join(
+        f'<option value="{code}"{" selected" if code == "en" else ""}>{html.escape(label)}</option>'
+        for code, label in LANGUAGES.items()
+    )
     index = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -1563,8 +1843,7 @@ def write_site(selected):
       <label>End year<select id="endYear"></select></label>
       <label>Language
         <select id="language">
-          <option value="en">English</option>
-          <option value="ko">Korean labels</option>
+          {language_options}
         </select>
       </label>
       <button id="reset" type="button">Reset</button>
@@ -1585,13 +1864,13 @@ def write_site(selected):
     const CATEGORIES = {category_payload};
     const KEYWORDS = {keyword_payload};
     const RESEARCH_COPY = {research_copy_payload};
+    const OVERALL_RESEARCH_TEMPLATES = {overall_research_templates_payload};
+    const OVERALL_ANALYSIS_URL = 'data/{OVERALL_ANALYSIS_JSON}';
     const START_YEAR = {START_YEAR};
     const END_YEAR = {END_YEAR};
-    const labels = {{
-      en: {{ papers: 'papers', years: 'active years', citations: 'citations', categories: 'categories', keyIdea: 'Key idea', strengths: 'Strengths', limitations: 'Limitations', noKeyword: 'No keyword selected.' }},
-      ko: {{ papers: '논문', years: '활성 연도', citations: '인용', categories: '분류', keyIdea: '핵심 아이디어', strengths: '장점', limitations: '한계', noKeyword: '선택된 키워드가 없습니다.' }}
-    }};
+    const labels = {ui_labels_payload};
     const state = {{ start: START_YEAR, end: END_YEAR, keyword: null, lang: 'en' }};
+    let overallAnalysis = null;
     const startSelect = document.getElementById('startYear');
     const endSelect = document.getElementById('endYear');
     const presetSelect = document.getElementById('preset');
@@ -1623,10 +1902,66 @@ def write_site(selected):
         <div class="stat"><strong>${{fmt(citations)}}</strong>${{l.citations}}</div>
         <div class="stat"><strong>${{fmt(cats)}}</strong>${{l.categories}}</div>`;
     }}
+    function escapeHtml(value) {{
+      const escapeMap = {{ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }};
+      return String(value ?? '').replace(/[&<>"']/g, ch => escapeMap[ch]);
+    }}
+    function names(items, key = 'name') {{
+      return (items || []).slice(0, 3).map(item => item[key]).filter(Boolean).join(', ') || 'n/a';
+    }}
+    function researchTemplateData(metric) {{
+      const topCategories = metric.topCategories || [];
+      const topKeywords = metric.topKeywords || [];
+      const topCategory = topCategories[0] || {{}};
+      const topPaper = metric.topPaper || {{}};
+      return {{
+        range: metric.rangeLabel || `${{metric.startYear}}-${{metric.endYear}}`,
+        papers: fmt(metric.totalPapers),
+        activeYears: fmt(metric.activeYears),
+        citations: fmt(metric.citationCount),
+        topCategories: names(topCategories),
+        topCategory: topCategory.name || 'n/a',
+        topCategoryCount: fmt(topCategory.count || 0),
+        topKeywords: names(topKeywords),
+        peakYear: metric.peakYear || 'n/a',
+        peakYearCount: fmt(metric.peakYearCount || 0),
+        peakCitationYear: metric.peakCitationYear || 'n/a',
+        topPaper: topPaper.title || 'n/a',
+        topPaperYear: topPaper.year || 'n/a',
+        topPaperCategory: topPaper.category || 'n/a',
+        topPaperCitations: fmt(topPaper.citations || 0)
+      }};
+    }}
+    function applyTemplate(template, data) {{
+      let output = template || '';
+      Object.keys(data).forEach(key => {{
+        output = output.split('{{' + key + '}}').join(escapeHtml(data[key]));
+      }});
+      return output;
+    }}
+    function renderOverallResearch(metric) {{
+      const copy = OVERALL_RESEARCH_TEMPLATES[state.lang] || OVERALL_RESEARCH_TEMPLATES.en;
+      const data = researchTemplateData(metric);
+      const summaryHtml = (copy.summary || []).map(text => `<p>${{applyTemplate(text, data)}}</p>`).join('');
+      const insightHtml = (copy.insights || []).map(item => `
+        <article class="insight-box">
+          <div class="insight-label">${{escapeHtml(item.label)}}</div>
+          <h3>${{applyTemplate(item.title, data)}}</h3>
+          <p>${{applyTemplate(item.body, data)}}</p>
+          <p class="insight-implication">${{applyTemplate(item.implication, data)}}</p>
+        </article>`).join('');
+      return `
+        <h2 id="research-timeline-title">${{escapeHtml(copy.timelineTitle)}}</h2>
+        <div class="timeline-copy">${{summaryHtml}}</div>
+        <h2>${{escapeHtml(copy.insightsTitle)}}</h2>
+        <div class="research-insights">${{insightHtml}}</div>`;
+    }}
     function renderResearchCopy() {{
       const brief = document.getElementById('researchBrief');
       if (!brief) return;
-      brief.innerHTML = RESEARCH_COPY[state.lang] || RESEARCH_COPY.en;
+      const key = `${{state.start}}-${{state.end}}`;
+      const metric = overallAnalysis?.analysis?.[key];
+      brief.innerHTML = metric ? renderOverallResearch(metric) : (RESEARCH_COPY[state.lang] || RESEARCH_COPY.en);
     }}
     function renderKeywords(rows) {{
       keywordPanel.innerHTML = KEYWORDS.map(k => {{
@@ -1795,6 +2130,10 @@ def write_site(selected):
     }});
     fillYears();
     render();
+    fetch(OVERALL_ANALYSIS_URL)
+      .then(response => response.json())
+      .then(data => {{ overallAnalysis = data; render(); }})
+      .catch(() => {{}});
   </script>
 </body>
 </html>
@@ -1999,7 +2338,7 @@ echo git push -u origin main
 
 
 def copy_docs_data():
-    for filename in [PAPERS_CSV, PAPERS_JSON, CANDIDATES_CSV, CANDIDATES_JSON, TAXONOMY_CSV, PERIOD_ANALYSIS_JSON]:
+    for filename in [PAPERS_CSV, PAPERS_JSON, CANDIDATES_CSV, CANDIDATES_JSON, TAXONOMY_CSV, PERIOD_ANALYSIS_JSON, OVERALL_ANALYSIS_JSON]:
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
@@ -2012,6 +2351,7 @@ def main():
     write_json_csv(selected, candidates)
     write_taxonomy_dataset(selected)
     write_period_analysis(selected)
+    write_overall_analysis(selected)
     write_taxonomy_assets()
     write_readme(selected, candidates)
     write_site(selected)
