@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Awesome Brain
+message: If you use this metadata curation, please cite the repository and the original papers.
+type: dataset
+authors:
+  - family-names: Hong
+    given-names: Gi
+repository-code: https://github.com/honggi82/awesome-brain
+url: https://honggi82.github.io/awesome-brain/
+date-released: "2026-06-26"
+license: CC-BY-4.0

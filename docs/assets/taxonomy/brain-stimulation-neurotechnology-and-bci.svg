@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="Brain Stimulation, Neurotechnology, and BCI">
+  <rect width="320" height="180" rx="8" fill="#f8fafc"/>
+  <path d="M78 101c-17-7-28-24-24-43 4-23 26-36 48-28 9-20 39-20 50 0 23-9 48 7 51 31 20 2 36 18 36 39 0 24-20 42-45 42H99c-8 0-15-1-21-4" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M92 94c22-10 44-8 67 8 22 15 44 18 68 5" fill="none" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="103" cy="67" r="8" fill="#8b5cf6"/>
+  <circle cx="153" cy="55" r="8" fill="#16a34a"/>
+  <circle cx="202" cy="82" r="8" fill="#8b5cf6"/>
+  <text x="160" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">Brain Stimulation, Neurotechnology, and BCI</text>
+</svg>
