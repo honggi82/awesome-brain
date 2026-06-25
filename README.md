@@ -4,6 +4,14 @@
 
 A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 
+<p align="center">
+  <a href="https://honggi82.github.io/awesome-brain/">
+    <img src="https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--brain-0f766e?style=for-the-badge" alt="Open Interactive Website">
+  </a>
+</p>
+
+> Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/
+
 Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
 
 ## Project Links
