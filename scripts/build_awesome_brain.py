@@ -101,6 +101,7 @@ CANDIDATES_CSV = f"candidates_top{CANDIDATES_PER_YEAR}_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 OVERALL_ANALYSIS_JSON = f"overall_analysis_{YEAR_FILE_STEM}.json"
+GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 
 LANGUAGES = {
     "en": "English",
@@ -543,6 +544,7 @@ CSV_FIELDS = [
     "sourceId",
     "url",
     "openAccessPdf",
+    "githubUrl",
     "workType",
     "language",
     "relevanceReason",
@@ -580,6 +582,49 @@ def clean_text(value):
     text = text.replace("\u2010", "-").replace("\u2011", "-").replace("\u2012", "-").replace("\u2013", "-").replace("\u2014", "-")
     text = text.replace("\u2018", "'").replace("\u2019", "'").replace("\u201c", '"').replace("\u201d", '"')
     return re.sub(r"\s+", " ", text).strip()
+
+
+def title_key(value):
+    text = clean_text(value).lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_github_url(value):
+    text = clean_text(value)
+    match = re.search(r"https?://github\.com/[^\s<>\"')]+", text, flags=re.I)
+    if not match:
+        return ""
+    path = match.group(0).split("github.com/", 1)[1].rstrip(".,;")
+    return f"https://github.com/{path}"
+
+
+def load_github_links():
+    path = DATA_DIR / GITHUB_LINKS_JSON
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    links = {}
+    for key, value in payload.get("links", {}).items():
+        github_url = clean_github_url(value.get("githubUrl") if isinstance(value, dict) else value)
+        if github_url:
+            links[key] = {**value, "githubUrl": github_url} if isinstance(value, dict) else {"githubUrl": github_url}
+    return links
+
+
+def apply_github_links(rows):
+    links = load_github_links()
+    if not links:
+        return rows
+    for row in rows:
+        github_url = clean_github_url(row.get("githubUrl"))
+        if github_url:
+            row["githubUrl"] = github_url
+            continue
+        match = links.get(title_key(row.get("title")))
+        if match:
+            row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
+    return rows
 
 
 def strip_doi(doi):
@@ -1048,6 +1093,7 @@ def write_csv(path, rows, fields):
 
 def write_json_csv(selected, candidates):
     DATA_DIR.mkdir(exist_ok=True)
+    apply_github_links(selected)
     selected_export = [selected_csv_row(row) | {"abstract": row.get("abstract", "")} for row in selected]
     candidate_export = [candidate_csv_row(row) for row in candidates]
     (DATA_DIR / PAPERS_JSON).write_text(json.dumps(selected_export, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1696,6 +1742,7 @@ def site_rows(selected):
                 "limitations": row["limitations"],
                 "url": row["url"],
                 "openAccessPdf": row["openAccessPdf"],
+                "githubUrl": row.get("githubUrl", ""),
                 "workType": row["workType"],
             }
         )
@@ -1703,6 +1750,7 @@ def site_rows(selected):
 
 
 def write_site(selected):
+    apply_github_links(selected)
     categories = [
         {
             "name": item["name"],
@@ -2037,7 +2085,7 @@ def write_site(selected):
     }}
     function paperCard(p) {{
       const l = labels[state.lang];
-      const links = `<a href="${{p.url}}">paper</a>${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}`;
+      const links = `<a href="${{p.url}}">paper</a>${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}${{p.githubUrl ? ` · <a href="${{p.githubUrl}}">GitHub</a>` : ''}}`;
       return `<article class="paper-card" data-keywords="${{p.keywordTags.join(' ')}}">
         <div class="paper-head"><div><a class="paper-title" href="${{p.url}}">${{p.title}}</a><div class="meta">${{p.authors}}</div></div><div class="meta">#${{p.rank}} in ${{p.year}}</div></div>
         <div class="meta">${{p.year}} · ${{p.venue}} · ${{fmt(p.citationCount)}} citations · influential citations ${{fmt(p.influentialCitationCount)}} · score ${{p.importanceScore}} · ${{links}}</div>
@@ -2340,6 +2388,8 @@ echo git push -u origin main
 def copy_docs_data():
     for filename in [PAPERS_CSV, PAPERS_JSON, CANDIDATES_CSV, CANDIDATES_JSON, TAXONOMY_CSV, PERIOD_ANALYSIS_JSON, OVERALL_ANALYSIS_JSON]:
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
+    if (DATA_DIR / GITHUB_LINKS_JSON).exists():
+        shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
 
