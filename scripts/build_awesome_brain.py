@@ -1405,7 +1405,8 @@ def write_site(selected):
     summary {{ list-style: none; cursor: pointer; padding: 0; }}
     summary::-webkit-details-marker {{ display: none; }}
     .summary-row {{ display: grid; grid-template-columns: 98px minmax(220px, 1fr) repeat(3, minmax(110px, 150px)); gap: 14px; align-items: center; padding: 12px 14px; }}
-    .summary-row img {{ width: 98px; height: 56px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }}
+    .summary-row img, .summary-all-icon {{ width: 98px; height: 56px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }}
+    .summary-all-icon {{ display: inline-flex; align-items: center; justify-content: center; background: #eef6ff; color: #1d4ed8; font-weight: 800; }}
     .summary-metric {{ color: var(--muted); font-size: 13px; }}
     .summary-metric strong {{ display: block; color: var(--ink); font-size: 18px; }}
     .section-body {{ padding: 16px; border-top: 1px solid var(--line); }}
@@ -1426,7 +1427,7 @@ def write_site(selected):
       .controls, .stats, .charts, .section-grid {{ grid-template-columns: 1fr; }}
       .summary-row {{ grid-template-columns: 74px 1fr; }}
       .summary-metric {{ grid-column: 2; }}
-      .summary-row img {{ width: 74px; height: 52px; }}
+      .summary-row img, .summary-all-icon {{ width: 74px; height: 52px; }}
       .paper-head, .paper-card dl {{ display: block; }}
       .paper-card dt {{ margin-top: 8px; }}
     }}
@@ -1604,6 +1605,30 @@ def write_site(selected):
         <dl><dt>${{l.keyIdea}}</dt><dd>${{p.keyIdea}}</dd><dt>${{l.strengths}}</dt><dd>${{p.strengths}}</dd><dt>${{l.limitations}}</dt><dd>${{p.limitations}}</dd></dl>
       </article>`;
     }}
+    function allTaxonomiesDetails(rows) {{
+      const allRows = [...rows].sort((a, b) => b.citationCount - a.citationCount);
+      const years = allRows.map(p => p.year);
+      const citations = allRows.reduce((sum, p) => sum + p.citationCount, 0);
+      const top = allRows[0];
+      const visibleCards = allRows.slice(0, 120).map(paperCard).join('');
+      const extra = allRows.length > 120 ? `<p class="meta">Showing 120 of ${{fmt(allRows.length)}} matching papers across all taxonomies. The complete set is in the data files.</p>` : '';
+      return `<details>
+        <summary><div class="summary-row">
+          <div class="summary-all-icon" aria-hidden="true">All</div>
+          <div><h3>All Taxonomies</h3><div class="meta">Top paper: <a href="${{top.url}}">${{top.title}}</a></div></div>
+          <div class="summary-metric"><strong>${{fmt(allRows.length)}}</strong>papers</div>
+          <div class="summary-metric"><strong>${{Math.min(...years)}}-${{Math.max(...years)}}</strong>years</div>
+          <div class="summary-metric"><strong>${{fmt(citations)}}</strong>citations</div>
+        </div></summary>
+        <div class="section-body">
+          <div class="section-grid">
+            <div><h3>Category Overview</h3><p>All papers matching the current period and keyword filters, sorted by citation count across every taxonomy.</p></div>
+            <div><h3>Research Limitations</h3><p>Use the individual taxonomy rows below for category-specific context and limitations.</p></div>
+          </div>
+          <div class="paper-list">${{visibleCards}}</div>${{extra}}
+        </div>
+      </details>`;
+    }}
     function renderTaxonomy(rows) {{
       if (!rows.length) {{
         taxonomy.innerHTML = '<div class="empty">No papers match the current filters.</div>';
@@ -1612,7 +1637,7 @@ def write_site(selected):
       const byCategory = new Map();
       for (const category of CATEGORIES) byCategory.set(category.name, []);
       for (const row of rows) byCategory.get(row.category)?.push(row);
-      taxonomy.innerHTML = CATEGORIES.map(category => {{
+      const categoryDetails = CATEGORIES.map(category => {{
         const catRows = (byCategory.get(category.name) || []).sort((a, b) => b.citationCount - a.citationCount);
         if (!catRows.length) return '';
         const years = catRows.map(p => p.year);
@@ -1637,6 +1662,7 @@ def write_site(selected):
           </div>
         </details>`;
       }}).join('');
+      taxonomy.innerHTML = allTaxonomiesDetails(rows) + categoryDetails;
     }}
     function render() {{
       if (state.start > state.end) [state.start, state.end] = [state.end, state.start];
