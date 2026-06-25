@@ -1594,7 +1594,7 @@ def write_readme(selected, candidates):
     lines = [
         "# Awesome Brain",
         "",
-        "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+        "[![Awesome](https://awesome.re/badge-flat.png)](https://awesome.re)",
         "",
         "A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.",
         "",
@@ -1699,27 +1699,15 @@ def write_readme(selected, candidates):
     (ROOT / "README.html").write_text(markdown_to_html_doc("Awesome Brain", readme), encoding="utf-8")
 
 
-def taxonomy_svg(category):
-    name = category["name"]
-    accent = category["accent"]
-    secondary = category["secondary"]
-    escaped = html_escape(name)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-label="{escaped}">
-  <rect width="320" height="180" rx="8" fill="#f8fafc"/>
-  <path d="M78 101c-17-7-28-24-24-43 4-23 26-36 48-28 9-20 39-20 50 0 23-9 48 7 51 31 20 2 36 18 36 39 0 24-20 42-45 42H99c-8 0-15-1-21-4" fill="none" stroke="{accent}" stroke-width="10" stroke-linecap="round"/>
-  <path d="M92 94c22-10 44-8 67 8 22 15 44 18 68 5" fill="none" stroke="{secondary}" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="103" cy="67" r="8" fill="{secondary}"/>
-  <circle cx="153" cy="55" r="8" fill="{accent}"/>
-  <circle cx="202" cy="82" r="8" fill="{secondary}"/>
-  <text x="160" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172033">{escaped}</text>
-</svg>
-"""
-
-
 def write_taxonomy_assets():
     target = DOCS_DIR / "assets" / "taxonomy"
+    missing = []
     for category in CATEGORIES:
-        (target / f"{category['slug']}.svg").write_text(taxonomy_svg(category), encoding="utf-8")
+        image_path = target / f"{category['slug']}.png"
+        if not image_path.exists():
+            missing.append(image_path.as_posix())
+    if missing:
+        raise FileNotFoundError("Missing taxonomy PNG assets: " + ", ".join(missing))
 
 
 def site_rows(selected):
@@ -1758,7 +1746,7 @@ def write_site(selected):
             "accent": item["accent"],
             "overview": item["overview"],
             "limitations": item["limitations"],
-            "icon": f"assets/taxonomy/{item['slug']}.svg",
+            "icon": f"assets/taxonomy/{item['slug']}.png",
         }
         for item in CATEGORIES
     ]
