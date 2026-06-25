@@ -1065,7 +1065,7 @@ def keyword_stats(rows):
 
 def research_overview_html():
     return """
-    <section class="research-brief" aria-labelledby="research-timeline-title">
+    <section class="research-brief" id="researchBrief" aria-labelledby="research-timeline-title">
       <h2 id="research-timeline-title">Research Timeline</h2>
       <div class="timeline-copy">
         <p>1900-2026년 brain 연구 코퍼스는 해부학, 병리학, 생리학 중심의 초기 뇌과학에서 출발해 임상 신경학, 세포·분자 신경과학, 신경영상, 전기생리, connectomics, 계산신경과학과 neurotechnology로 확장된 장기 지형도다. 인용 기반으로 선별된 12,700편은 특정 연도별 유행보다, 후속 연구의 공통 언어가 된 atlas, 측정법, 임상 기준, 리뷰, 질환 코호트, 분석 도구의 축적을 강하게 드러낸다.</p>
@@ -1112,6 +1112,43 @@ def research_overview_html():
       </div>
     </section>
 """
+
+
+def research_copy():
+    return {
+        "en": """
+      <h2 id="research-timeline-title">Research Timeline</h2>
+      <div class="timeline-copy">
+        <p>The 1900-2026 brain corpus maps a long shift from anatomy, pathology, and physiology toward clinical neurology, cellular and molecular neuroscience, neuroimaging, electrophysiology, connectomics, computational neuroscience, and neurotechnology. The 12,700 citation-ranked papers emphasize shared research infrastructure: atlases, measurement protocols, clinical criteria, reviews, disease cohorts, and analysis tools that became common language across the field.</p>
+        <p>The largest bodies of work are general brain science and reviews, clinical neurology and neurodegeneration, and cellular, molecular, and synaptic neuroscience. Around them, cognitive and systems neuroscience, development and plasticity, EEG/MEG, neuroimaging, vascular and injury research, computational neuroscience, and BCI form a multi-scale map. Recent work increasingly combines multimodal data, longitudinal cohorts, network-level interpretation, AI-assisted analysis, and closed-loop intervention.</p>
+      </div>
+      <h2>Research Insights</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Infrastructure</div><h3>Shared infrastructure reshapes the field</h3><p>Highly cited work often defines reusable atlases, coordinates, imaging and electrophysiology protocols, or clinical scales rather than a single isolated finding.</p><p class="insight-implication">Implication: durable impact grows when new studies ship reusable data, standards, and tools.</p></article>
+        <article class="insight-box"><div class="insight-label">Clinical Translation</div><h3>Disease research is becoming multi-modal</h3><p>Neurodegeneration, brain injury, tumor, and vascular studies increasingly combine pathology, biomarkers, imaging, cell mechanisms, and treatment response.</p><p class="insight-implication">Implication: clinical usefulness depends on both mechanistic explanation and reproducible patient cohorts.</p></article>
+        <article class="insight-box"><div class="insight-label">Multi-scale Models</div><h3>Plasticity and connectomics link scales</h3><p>Development and plasticity research connects cells, synapses, local circuits, whole-brain networks, and behavior across lifespan and disease progression.</p><p class="insight-implication">Implication: longitudinal evidence and network validation are central bottlenecks.</p></article>
+        <article class="insight-box"><div class="insight-label">AI And Computation</div><h3>Computation turns observation into prediction</h3><p>Computational neuroscience and AI expand from analysis aids into languages for representation, decoding, and disease-trajectory prediction.</p><p class="insight-implication">Implication: interpretability, external validation, and bias control matter as much as model accuracy.</p></article>
+        <article class="insight-box"><div class="insight-label">Neurotechnology</div><h3>Stimulation and BCI mark the translation frontier</h3><p>Brain stimulation, neurotechnology, and BCI move from measurement toward intervention and closed-loop control.</p><p class="insight-implication">Implication: deployment needs usability, safety management, and patient-specific adaptation.</p></article>
+        <article class="insight-box"><div class="insight-label">Open Gaps</div><h3>Standardization, causality, and diversity remain open</h3><p>Citation maps reveal strong axes, but population diversity, protocol standardization, causal validation, and citation lag still shape interpretation.</p><p class="insight-implication">Implication: future maps should combine citation rank with reproducibility and clinical utility.</p></article>
+      </div>
+""",
+        "ko": """
+      <h2 id="research-timeline-title">연구 타임라인</h2>
+      <div class="timeline-copy">
+        <p>1900-2026년 brain 연구 코퍼스는 해부학, 병리학, 생리학 중심의 초기 뇌과학에서 출발해 임상 신경학, 세포·분자 신경과학, 신경영상, 전기생리, connectomics, 계산신경과학과 neurotechnology로 확장된 장기 지형도다. 인용 기반으로 선별된 12,700편은 특정 연도별 유행보다, 후속 연구의 공통 언어가 된 atlas, 측정법, 임상 기준, 리뷰, 질환 코호트, 분석 도구의 축적을 강하게 드러낸다.</p>
+        <p>가장 큰 흐름은 일반 뇌과학과 리뷰, 임상 신경학·신경퇴행, 세포·분자·시냅스 연구가 넓은 기반을 형성하고, 그 위에 인지·시스템 신경과학, 발달·가소성·connectomics, EEG/MEG, 신경영상, 뇌혈관·손상, 계산신경과학과 BCI가 접속하는 구조다. 최근 구간으로 올수록 단일 방법론보다 다중모달 데이터, 장기 추적, 네트워크 수준 해석, AI 기반 분석, 자극·폐루프 시스템을 결합하는 연구가 더 중요해진다.</p>
+      </div>
+      <h2>연구 인사이트</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Infrastructure</div><h3>공유 인프라가 연구 방향을 재편한다</h3><p>높은 인용 신호는 단일 발견뿐 아니라 atlas, 좌표계, 영상·전기생리 프로토콜, 임상 척도처럼 여러 하위 분야가 함께 쓰는 기반 논문에 집중된다.</p><p class="insight-implication">시사점: 새 연구는 독립 결과보다 재사용 가능한 데이터, 표준, 도구를 동반할 때 장기 영향력이 커진다.</p></article>
+        <article class="insight-box"><div class="insight-label">Clinical Translation</div><h3>질병 연구는 회로·분자·영상의 결합으로 이동한다</h3><p>신경퇴행, 뇌손상, 종양, 뇌혈관 연구는 병리 분류에서 바이오마커, 영상, 세포 기전, 치료 반응을 함께 읽는 방향으로 넓어지고 있다.</p><p class="insight-implication">시사점: 임상적 유용성은 기전 설명과 환자군 재현성을 동시에 요구한다.</p></article>
+        <article class="insight-box"><div class="insight-label">Multi-scale Models</div><h3>발달·가소성·connectomics가 스케일을 연결한다</h3><p>세포와 시냅스, 국소 회로, 전뇌 네트워크, 행동 변화를 이어 보려는 연구가 증가하며 생애주기와 질환 진행을 함께 설명하는 축이 된다.</p><p class="insight-implication">시사점: 횡단면 결과만으로는 부족하며 장기 추적과 네트워크 검증이 핵심 병목이다.</p></article>
+        <article class="insight-box"><div class="insight-label">AI And Computation</div><h3>계산 모델은 관찰을 예측 문제로 바꾼다</h3><p>계산신경과학과 AI는 뇌 신호를 해석하는 보조 도구에서 representation, decoding, disease trajectory 예측을 다루는 연구 언어로 확장된다.</p><p class="insight-implication">시사점: 모델 성능보다 해석 가능성, 외부 검증, 데이터 편향 통제가 중요해진다.</p></article>
+        <article class="insight-box"><div class="insight-label">Neurotechnology</div><h3>자극·BCI는 임상 전환의 관문이 된다</h3><p>뇌자극, neurotechnology, BCI 연구는 신호 측정에서 개입과 폐루프 제어로 이동하며 안전성, 장기 안정성, 개인화가 핵심 기준이 된다.</p><p class="insight-implication">시사점: 실제 적용을 위해서는 정확도와 함께 사용성, 위험 관리, 환자별 적응 전략이 필요하다.</p></article>
+        <article class="insight-box"><div class="insight-label">Open Gaps</div><h3>표준화·인과성·다양성이 남은 병목이다</h3><p>인용 기반 지도는 강한 축을 보여주지만, 인구집단 다양성, 장비·분석 표준화, 인과 검증, 최신 연구의 인용 지연은 여전히 해석상의 주의점이다.</p><p class="insight-implication">시사점: 다음 단계의 brain research map은 citation rank와 함께 reproducibility와 clinical utility를 함께 평가해야 한다.</p></article>
+      </div>
+""",
+    }
 
 
 def write_period_analysis(selected):
@@ -1408,6 +1445,7 @@ def write_site(selected):
     category_payload = json.dumps(categories, ensure_ascii=False)
     keyword_payload = json.dumps(keyword_info, ensure_ascii=False)
     research_overview = research_overview_html()
+    research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
     index = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -1546,6 +1584,7 @@ def write_site(selected):
     const PAPERS = {payload};
     const CATEGORIES = {category_payload};
     const KEYWORDS = {keyword_payload};
+    const RESEARCH_COPY = {research_copy_payload};
     const START_YEAR = {START_YEAR};
     const END_YEAR = {END_YEAR};
     const labels = {{
@@ -1583,6 +1622,11 @@ def write_site(selected):
         <div class="stat"><strong>${{fmt(activeYears)}}</strong>${{l.years}}</div>
         <div class="stat"><strong>${{fmt(citations)}}</strong>${{l.citations}}</div>
         <div class="stat"><strong>${{fmt(cats)}}</strong>${{l.categories}}</div>`;
+    }}
+    function renderResearchCopy() {{
+      const brief = document.getElementById('researchBrief');
+      if (!brief) return;
+      brief.innerHTML = RESEARCH_COPY[state.lang] || RESEARCH_COPY.en;
     }}
     function renderKeywords(rows) {{
       keywordPanel.innerHTML = KEYWORDS.map(k => {{
@@ -1731,6 +1775,7 @@ def write_site(selected):
       endSelect.value = state.end;
       const rows = filtered();
       renderStats(rows);
+      renderResearchCopy();
       renderKeywords(rows);
       renderCharts(rows);
       renderTaxonomy(rows);
