@@ -4,7 +4,7 @@
 
 A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 
-Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,060 papers by research taxonomy.
+Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
 
 ## Project Links
 
@@ -34,25 +34,25 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ## Taxonomy Overview
 
-- **Total selected papers**: 12,060 papers
-- **General Brain Science and Reviews**: 5,436 papers
-- **Clinical Neurology and Neurodegeneration**: 1,834 papers
-- **Cellular, Molecular, and Synaptic Neuroscience**: 1,674 papers
-- **Cognitive and Systems Neuroscience**: 708 papers
-- **Brain Development, Plasticity, and Connectomics**: 695 papers
-- **EEG, MEG, and Electrophysiology**: 598 papers
-- **Cerebrovascular, Metabolism, and Brain Injury**: 478 papers
-- **Neuroimaging and Brain Mapping**: 464 papers
-- **Computational Neuroscience and AI**: 118 papers
-- **Brain Stimulation, Neurotechnology, and BCI**: 55 papers
+- **Total selected papers**: 12,700 papers
+- **General Brain Science and Reviews**: 5,928 papers
+- **Clinical Neurology and Neurodegeneration**: 1,838 papers
+- **Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers
+- **Cognitive and Systems Neuroscience**: 720 papers
+- **Brain Development, Plasticity, and Connectomics**: 711 papers
+- **EEG, MEG, and Electrophysiology**: 647 papers
+- **Cerebrovascular, Metabolism, and Brain Injury**: 484 papers
+- **Neuroimaging and Brain Mapping**: 471 papers
+- **Computational Neuroscience and AI**: 117 papers
+- **Brain Stimulation, Neurotechnology, and BCI**: 54 papers
 
 ## Taxonomy Collections
 
 ### Neuroimaging and Brain Mapping
 
-- Papers selected: **464**
+- Papers selected: **471**
 - Years covered: **1901-2026**
-- Citation count in selected set: **598,751**
+- Citation count in selected set: **599,330**
 - Category Overview (main research trends):
   - High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.
   - The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.
@@ -88,7 +88,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Measuring phase synchrony in brain signals](https://doi.org/10.1002/(SICI)1097-0193(1999)8:4&lt;194::AID-HBM4&gt;3.0.CO;2-C)<br><sub>J. Lachaux, E. Rodríguez, J. Martinerie, F. Varela</sub></td><td>1999<br>Human Brain Mapping<br>3,822 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c)</td><td>Positions Measuring phase synchrony in brain signals within Neuroimaging and Brain Mapping.</td><td>high citation signal (3,822); recognized venue; open-access PDF metadata; human evidence signal</td><td>Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.; Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.; Human cohort effects can depend on recruitment, demographics, comorbidity, and measurement context.</td></tr>
 <tr><td align="right">19</td><td>[Intrinsic signal changes accompanying sensory stimulation: functional brain mapping with magnetic resonance imaging.](https://doi.org/10.1073/PNAS.89.13.5951)<br><sub>S. Ogawa, D. Tank, Ravi S. Menon, J. Ellermann, S. G. Kim, H. Merkle, et al.</sub></td><td>1992<br>Proceedings of the National Academy of Sciences of the United States of America<br>3,749 citations</td><td>![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) ![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c)</td><td>Positions Intrinsic signal changes accompanying sensory stimulation: functional brain mapping with magnetic resonance imaging. within Neuroimaging and Brain Mapping.</td><td>high citation signal (3,749); recognized venue; open-access PDF metadata</td><td>Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.; Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.; Imaging conclusions can depend on acquisition, preprocessing, and model specification.</td></tr>
 <tr><td align="right">20</td><td>[Imaging Cognition II: An Empirical Review of 275 PET and fMRI Studies](https://doi.org/10.1162/08989290051137585)<br><sub>R. Cabeza, L. Nyberg</sub></td><td>2000<br>Journal of Cognitive Neuroscience<br>3,749 citations</td><td>![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed)</td><td>Positions Imaging Cognition II: An Empirical Review of 275 PET and fMRI Studies within Neuroimaging and Brain Mapping.</td><td>high citation signal (3,749); recognized venue; synthesis or review value</td><td>Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.; Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.; Imaging conclusions can depend on acquisition, preprocessing, and model specification.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 464 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 471 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -96,9 +96,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### EEG, MEG, and Electrophysiology
 
-- Papers selected: **598**
+- Papers selected: **647**
 - Years covered: **1900-2026**
-- Citation count in selected set: **321,457**
+- Citation count in selected set: **322,302**
 - Category Overview (main research trends):
   - Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.
   - The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.
@@ -134,7 +134,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[The Emotional Brain: The Mysterious Underpinnings of Emotional Life](https://doi.org/10.1176/AJP.155.4.570)<br><sub>S. Paradiso</sub></td><td>1998<br>Unknown venue<br>2,859 citations</td><td>![EEG](https://img.shields.io/badge/keyword-EEG-0f766e)</td><td>Positions The Emotional Brain: The Mysterious Underpinnings of Emotional Life within EEG, MEG, and Electrophysiology.</td><td>high citation signal (2,859)</td><td>Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.; Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">19</td><td>[Electric Fields of the Brain: The Neurophysics of EEG](https://doi.org/10.1001/JAMA.1982.03320380071046)<br><sub>J. Fermaglich</sub></td><td>1982<br>Unknown venue<br>2,766 citations</td><td>![EEG](https://img.shields.io/badge/keyword-EEG-0f766e)</td><td>Positions Electric Fields of the Brain: The Neurophysics of EEG within EEG, MEG, and Electrophysiology.</td><td>high citation signal (2,766)</td><td>Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.; Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">20</td><td>[Recognition of the fetal alcohol syndrome in early infancy.](https://doi.org/10.1016/S0140-6736(73)91092-1)<br><sub>KennethLyons Jones, David W. Smith</sub></td><td>1973<br>The Lancet<br>2,745 citations</td><td>![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626)</td><td>Positions Recognition of the fetal alcohol syndrome in early infancy. within EEG, MEG, and Electrophysiology.</td><td>high citation signal (2,745); recognized venue</td><td>Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.; Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 598 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 647 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -142,9 +142,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Cellular, Molecular, and Synaptic Neuroscience
 
-- Papers selected: **1,674**
+- Papers selected: **1,730**
 - Years covered: **1900-2026**
-- Citation count in selected set: **1,457,135**
+- Citation count in selected set: **1,458,320**
 - Category Overview (main research trends):
   - This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.
   - High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.
@@ -180,7 +180,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[An RNA-Sequencing Transcriptome and Splicing Database of Glia, Neurons, and Vascular Cells of the Cerebral Cortex](https://doi.org/10.1523/JNEUROSCI.1860-14.2014)<br><sub>Ye Zhang, Kenian Chen, S. Sloan, Mariko L. Bennett, A. Scholze, S. O&#x27;Keeffe, et al.</sub></td><td>2014<br>Journal of Neuroscience<br>4,563 citations</td><td>![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>The major cell classes of the brain differ in their developmental processes, metabolism, signaling, and function.</td><td>high citation signal (4,563); recognized venue; open-access PDF metadata</td><td>Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.; Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">19</td><td>[Central sensitization: Implications for the diagnosis and treatment of pain](https://doi.org/10.1016/j.pain.2010.09.030)<br><sub>C. Woolf</sub></td><td>2010<br>Pain<br>4,361 citations</td><td>![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) ![human](https://img.shields.io/badge/keyword-human-be123c)</td><td>&amp;NA; Nociceptor inputs can trigger a prolonged but reversible increase in the excitability and synaptic efficacy of neurons in central nociceptive pathways, the phenomenon of central sensitization.</td><td>high citation signal (4,361); open-access PDF metadata; human evidence signal</td><td>Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.; Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.; Human cohort effects can depend on recruitment, demographics, comorbidity, and measurement context.</td></tr>
 <tr><td align="right">20</td><td>[A mechanism for cognitive dynamics: neuronal communication through neuronal coherence.](https://doi.org/10.1016/J.TICS.2005.08.011)<br><sub>P. Fries</sub></td><td>2005<br>Trends in Cognitive Sciences<br>4,256 citations</td><td>-</td><td>Positions A mechanism for cognitive dynamics: neuronal communication through neuronal coherence. within Cellular, Molecular, and Synaptic Neuroscience.</td><td>high citation signal (4,256); recognized venue</td><td>Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.; Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 1,674 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 1,730 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -188,9 +188,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Cognitive and Systems Neuroscience
 
-- Papers selected: **708**
+- Papers selected: **720**
 - Years covered: **1900-2026**
-- Citation count in selected set: **636,112**
+- Citation count in selected set: **636,954**
 - Category Overview (main research trends):
   - Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.
   - The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.
@@ -226,7 +226,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Drug delivery and nanoparticles: Applications and hazards](https://doi.org/10.2147/ijn.s596)<br><sub>W. D. De Jong, P. Borm</sub></td><td>2008<br>International Journal of Nanomedicine<br>3,431 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>The use of nanotechnology in medicine and more specifically drug delivery is set to spread rapidly.</td><td>high citation signal (3,431); open-access PDF metadata; human evidence signal</td><td>Task designs can simplify cognition enough that ecological validity becomes uncertain.; Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">19</td><td>[The Prefrontal Cortex](https://www.semanticscholar.org/paper/43f1d8775ba09eee5f785449597ecc783afde484)<br><sub>J. Fuster</sub></td><td>1997<br>Unknown venue<br>3,349 citations</td><td>-</td><td>Positions The Prefrontal Cortex within Cognitive and Systems Neuroscience.</td><td>high citation signal (3,349)</td><td>Task designs can simplify cognition enough that ecological validity becomes uncertain.; Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">20</td><td>[The Neural Basis of Economic Decision-Making in the Ultimatum Game](https://doi.org/10.1126/SCIENCE.1082976)<br><sub>A. Sanfey, J. Rilling, J. Aronson, L. Nystrom, J. Cohen</sub></td><td>2003<br>Science<br>3,339 citations</td><td>-</td><td>Positions The Neural Basis of Economic Decision-Making in the Ultimatum Game within Cognitive and Systems Neuroscience.</td><td>high citation signal (3,339); recognized venue</td><td>Task designs can simplify cognition enough that ecological validity becomes uncertain.; Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 708 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 720 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -234,9 +234,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Clinical Neurology and Neurodegeneration
 
-- Papers selected: **1,834**
+- Papers selected: **1,838**
 - Years covered: **1900-2026**
-- Citation count in selected set: **949,205**
+- Citation count in selected set: **950,683**
 - Category Overview (main research trends):
   - Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.
   - Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.
@@ -272,7 +272,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Cancer-associated IDH1 mutations produce 2-hydroxyglutarate](https://doi.org/10.1038/nature08617)<br><sub>L. Dang, D. White, S. Gross, Bryson D. Bennett, M. Bittinger, E. Driggers, et al.</sub></td><td>2009<br>Nature<br>4,034 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>Mutations in the enzyme cytosolic isocitrate dehydrogenase 1 (IDH1) are a common feature of a major subset of primary human brain cancers.</td><td>high citation signal (4,034); recognized venue; open-access PDF metadata; human evidence signal</td><td>Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.; Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">19</td><td>[Heart Disease and Stroke Statistics-2022 Update: A Report From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001052)<br><sub>C. Tsao, Aaron W. Aday, Zaid I Almarzooq, Á. Alonso, A. Beaton, M. Bittencourt, et al.</sub></td><td>2022<br>Circulation<br>3,989 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>Background: The American Heart Association, in conjunction with the National Institutes of Health, annually reports the most up-to-date statistics related to heart disease, stroke, and cardiovascular risk factors, including core health behaviors (smoking, physical activity, diet, and weight) and health factors (cholesterol, blood pressure, and glucose control) that contribute to cardiovascular health.</td><td>high citation signal (3,989); open-access PDF metadata; human evidence signal</td><td>Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.; Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">20</td><td>[Heart Disease and Stroke Statistics-2021 Update](https://doi.org/10.1161/CIR.0000000000000950)<br><sub>Salim S. Alvaro Hugo J. Emelia J. Marcio S. Clifton W. A Virani Alonso Aparicio Benjamin Bittencourt Callaw, S. Virani, Á. Alonso, H. Aparicio, E. Benjamin, M. Bittencourt, et al.</sub></td><td>2021<br>Circulation<br>3,958 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>BACKGROUND: The American Heart Association, in conjunction with the National Institutes of Health, annually reports the most up-to-date statistics related to heart disease, stroke, and cardiovascular risk factors, including core health behaviors (smoking, physical activity, diet, and weight) and health factors (cholesterol, blood pressure, and glucose control) that contribute to cardiovascular health.</td><td>high citation signal (3,958); open-access PDF metadata; human evidence signal</td><td>Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.; Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 1,834 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 1,838 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -280,9 +280,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Brain Development, Plasticity, and Connectomics
 
-- Papers selected: **695**
+- Papers selected: **711**
 - Years covered: **1900-2026**
-- Citation count in selected set: **725,154**
+- Citation count in selected set: **728,351**
 - Category Overview (main research trends):
   - This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.
   - Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.
@@ -318,7 +318,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Conn: A Functional Connectivity Toolbox for Correlated and Anticorrelated Brain Networks](https://doi.org/10.1089/brain.2012.0073)<br><sub>S. Whitfield-Gabrieli, Alfonso Nieto-Castanon</sub></td><td>2012<br>Brain Connectivity<br>4,676 citations</td><td>![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a)</td><td>Positions Conn: A Functional Connectivity Toolbox for Correlated and Anticorrelated Brain Networks within Brain Development, Plasticity, and Connectomics.</td><td>high citation signal (4,676); recognized venue</td><td>Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.; Network measures can depend heavily on parcellation, thresholding, and acquisition choices.; Imaging conclusions can depend on acquisition, preprocessing, and model specification.</td></tr>
 <tr><td align="right">19</td><td>[TCMSP: a database of systems pharmacology for drug discovery from herbal medicines](https://doi.org/10.1186/1758-2946-6-13)<br><sub>Jinlong Ru, Peng Li, Jinan Wang, W. Zhou, Bohui Li, Chao Huang, et al.</sub></td><td>2014<br>Journal of Cheminformatics<br>4,406 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a)</td><td>BackgroundModern medicine often clashes with traditional medicine such as Chinese herbal medicine because of the little understanding of the underlying mechanisms of action of the herbs.</td><td>high citation signal (4,406); open-access PDF metadata; human evidence signal</td><td>Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.; Network measures can depend heavily on parcellation, thresholding, and acquisition choices.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">20</td><td>[Mapping the Structural Core of Human Cerebral Cortex](https://doi.org/10.1371/journal.pbio.0060159)<br><sub>P. Hagmann, L. Cammoun, X. Gigandet, R. Meuli, C. Honey, V. Wedeen, et al.</sub></td><td>2008<br>PLoS Biology<br>4,318 citations</td><td>![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) ![human](https://img.shields.io/badge/keyword-human-be123c) ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a)</td><td>Structurally segregated and functionally specialized regions of the human cerebral cortex are interconnected by a dense network of cortico-cortical axonal pathways.</td><td>high citation signal (4,318); open-access PDF metadata; human evidence signal</td><td>Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.; Network measures can depend heavily on parcellation, thresholding, and acquisition choices.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 695 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 711 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -326,7 +326,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Brain Stimulation, Neurotechnology, and BCI
 
-- Papers selected: **55**
+- Papers selected: **54**
 - Years covered: **1916-2026**
 - Citation count in selected set: **47,944**
 - Category Overview (main research trends):
@@ -364,7 +364,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Brain-computer interfaces: a review](https://doi.org/10.1179/030801803225005102)<br><sub>S. Coyle, T. Ward, C. Markham</sub></td><td>2003<br>Unknown venue<br>1,169 citations</td><td>-</td><td>Positions Brain-computer interfaces: a review within Brain Stimulation, Neurotechnology, and BCI.</td><td>high citation signal (1,169); open-access PDF metadata; synthesis or review value</td><td>Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.; Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">19</td><td>[Brain Computer Interfaces, a Review](https://doi.org/10.3390/s120201211)<br><sub>Luis F. Nicolás-Alonso, J. G. Gil</sub></td><td>2012<br>Italian National Conference on Sensors<br>1,125 citations</td><td>![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>A brain-computer interface (BCI) is a hardware and software communications system that permits cerebral activity alone to control computers or external devices.</td><td>high citation signal (1,125); open-access PDF metadata; synthesis or review value</td><td>Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.; Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">20</td><td>[Neurotransmitter actions in the thalamus and cerebral cortex and their role in neuromodulation of thalamocortical activity.](https://doi.org/10.1016/0301-0082(92)90012-4)<br><sub>D. McCormick</sub></td><td>1992<br>Progress in neurobiology<br>1,106 citations</td><td>![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c)</td><td>Positions Neurotransmitter actions in the thalamus and cerebral cortex and their role in neuromodulation of thalamocortical activity. within Brain Stimulation, Neurotechnology, and BCI.</td><td>high citation signal (1,106); open-access PDF metadata</td><td>Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.; Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 55 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 54 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -372,9 +372,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Computational Neuroscience and AI
 
-- Papers selected: **118**
+- Papers selected: **117**
 - Years covered: **1907-2026**
-- Citation count in selected set: **113,798**
+- Citation count in selected set: **113,799**
 - Category Overview (main research trends):
   - Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.
   - AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.
@@ -410,7 +410,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[The theory of constructed emotion: an active inference account of interoception and categorization](https://doi.org/10.1093/scan/nsx060)<br><sub>L. F. Barrett</sub></td><td>2017<br>Social Cognitive and Affective Neuroscience<br>1,519 citations</td><td>-</td><td>The science of emotion has been using folk psychology categories derived from philosophy to search for the brain basis of emotion.</td><td>high citation signal (1,519); recognized venue; open-access PDF metadata</td><td>Predictive performance does not necessarily identify causal neural mechanisms.; Models can inherit dataset bias, preprocessing artifacts, and task constraints.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">19</td><td>[Interoceptive predictions in the brain](https://doi.org/10.1038/nrn3950)<br><sub>L. F. Barrett, Kyle Simmons</sub></td><td>2015<br>Nature Reviews Neuroscience<br>1,497 citations</td><td>![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>Intuition suggests that perception follows sensation and therefore bodily feelings originate in the body.</td><td>high citation signal (1,497); recognized venue; open-access PDF metadata</td><td>Predictive performance does not necessarily identify causal neural mechanisms.; Models can inherit dataset bias, preprocessing artifacts, and task constraints.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
 <tr><td align="right">20</td><td>[Deep convolutional neural network for the automated detection and diagnosis of seizure using EEG signals](https://doi.org/10.1016/j.compbiomed.2017.09.017)<br><sub>U. R. Acharya, U. R. Acharya, Shu Lih Oh, Yuki Hagiwara, J. Tan, H. Adeli</sub></td><td>2017<br>Comput. Biol. Medicine<br>1,437 citations</td><td>![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a)</td><td>An encephalogram (EEG) is a commonly used ancillary test to aide in the diagnosis of epilepsy.</td><td>high citation signal (1,437)</td><td>Predictive performance does not necessarily identify causal neural mechanisms.; Models can inherit dataset bias, preprocessing artifacts, and task constraints.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 118 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 117 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -418,9 +418,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### Cerebrovascular, Metabolism, and Brain Injury
 
-- Papers selected: **478**
+- Papers selected: **484**
 - Years covered: **1900-2026**
-- Citation count in selected set: **188,410**
+- Citation count in selected set: **188,723**
 - Category Overview (main research trends):
   - This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.
   - Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.
@@ -456,7 +456,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Serotonin, tryptophan metabolism and the brain-gut-microbiome axis.](https://doi.org/10.1016/j.bbr.2014.07.027)<br><sub>S. O&#x27;Mahony, G. Clarke, Y. Borre, T. Dinan, J. Cryan</sub></td><td>2015<br>Behavioural Brain Research<br>1,759 citations</td><td>-</td><td>Positions Serotonin, tryptophan metabolism and the brain-gut-microbiome axis. within Cerebrovascular, Metabolism, and Brain Injury.</td><td>high citation signal (1,759); recognized venue</td><td>Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.; Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">19</td><td>[Metabolism and functions of glutathione in brain.](https://doi.org/10.1016/S0301-0082(99)00060-X)<br><sub>R. Dringen</sub></td><td>2000<br>Progress in neurobiology<br>1,734 citations</td><td>-</td><td>Positions Metabolism and functions of glutathione in brain. within Cerebrovascular, Metabolism, and Brain Injury.</td><td>high citation signal (1,734)</td><td>Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.; Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">20</td><td>[Therapeutic Benefit of Intravenous Administration of Bone Marrow Stromal Cells After Cerebral Ischemia in Rats](https://doi.org/10.1161/01.STR.32.4.1005)<br><sub>Jieli Chen, Yi Li, Lei Wang, Zhenggang Zhang, Dunyue Lu, Mei Lu, et al.</sub></td><td>2001<br>Stroke<br>1,717 citations</td><td>![non-human](https://img.shields.io/badge/keyword-non--human-a855f7)</td><td>Positions Therapeutic Benefit of Intravenous Administration of Bone Marrow Stromal Cells After Cerebral Ischemia in Rats within Cerebrovascular, Metabolism, and Brain Injury.</td><td>high citation signal (1,717); open-access PDF metadata</td><td>Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.; Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.; Non-human findings need careful translation to human brain organization and clinical outcomes.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 478 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 484 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -464,9 +464,9 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 ### General Brain Science and Reviews
 
-- Papers selected: **5,436**
+- Papers selected: **5,928**
 - Years covered: **1900-2026**
-- Citation count in selected set: **2,100,031**
+- Citation count in selected set: **2,116,311**
 - Category Overview (main research trends):
   - General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.
   - Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.
@@ -502,7 +502,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 <tr><td align="right">18</td><td>[Assessment of outcome after severe brain damage.](https://doi.org/10.1016/S0140-6736(75)92830-5)<br><sub>B. Jennett, M. Bond</sub></td><td>1975<br>The Lancet<br>7,895 citations</td><td>-</td><td>Positions Assessment of outcome after severe brain damage. within General Brain Science and Reviews.</td><td>high citation signal (7,895); recognized venue</td><td>Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.; Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.; Metadata-level ranking should be complemented with full-text expert review before strong claims are made.</td></tr>
 <tr><td align="right">19</td><td>[Identification of human brain tumour initiating cells](https://doi.org/10.1038/nature03128)<br><sub>Sheila K. Singh, C. Hawkins, I. Clarke, J. Squire, J. Bayani, T. Hide, et al.</sub></td><td>2004<br>Nature<br>7,655 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c)</td><td>Positions Identification of human brain tumour initiating cells within General Brain Science and Reviews.</td><td>high citation signal (7,655); recognized venue; human evidence signal</td><td>Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.; Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.; Human cohort effects can depend on recruitment, demographics, comorbidity, and measurement context.</td></tr>
 <tr><td align="right">20</td><td>[Descartes&#x27; Error: Emotion, Reason and the Human Brain](https://doi.org/10.1136/BMJ.310.6988.1213)<br><sub>S. Spence</sub></td><td>1995<br>Unknown venue<br>7,532 citations</td><td>![human](https://img.shields.io/badge/keyword-human-be123c)</td><td>Positions Descartes&#x27; Error: Emotion, Reason and the Human Brain within General Brain Science and Reviews.</td><td>high citation signal (7,532); human evidence signal</td><td>Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.; Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.; Human cohort effects can depend on recruitment, demographics, comorbidity, and measurement context.</td></tr>
-<tr><td colspan="7">See the website and taxonomy CSV for all 5,436 papers in this category.</td></tr>
+<tr><td colspan="7">See the website and taxonomy CSV for all 5,928 papers in this category.</td></tr>
 </tbody>
 </table>
 
@@ -512,33 +512,33 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 | Year | Candidate papers | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | ---: | --- |
-| 1900 | 70 | 70 | 94 | [Some recent researches on the topography of the convolutions and fissures of the brain](https://doi.org/10.1007/BF03045171) |
-| 1901 | 79 | 79 | 283 | [The nervous system of the dog without a forebrain](https://doi.org/10.1113/jphysiol.1901.sp000855) |
-| 1902 | 55 | 55 | 231 | [The brain of petromyzon](https://doi.org/10.1002/cne.910120102) |
-| 1903 | 86 | 86 | 148 | [X. On the Morphology of the Brain in the Mammalia, with Special Reference to that of the Lemurs, Recent and Extinct.](https://doi.org/10.1111/J.1096-3642.1903.TB00497.X) |
-| 1904 | 72 | 72 | 89 | [THE EFFECT OF PARTIAL STARVATION ON THE BRAIN OF THE WHITE RAT](https://doi.org/10.1152/AJPLEGACY.1904.12.1.116) |
-| 1905 | 71 | 71 | 373 | [On the Development of the blood-vessels of the brain in the human embryo](https://doi.org/10.1002/AJA.1000040102) |
-| 1906 | 81 | 81 | 301 | [Some racial peculiarities of the Negro brain](https://doi.org/10.1002/AJA.1000050402) |
-| 1907 | 76 | 76 | 366 | [A New Topographical Survey of the Human Cerebral Cortex, being an Account of the Distribution of the Anatomically Distinct Cortical Areas and their Relationship to the Cerebral Sulci.](https://www.semanticscholar.org/paper/705b991b98b815d4d9e249cf44fb9d7097526af3) |
-| 1908 | 82 | 82 | 484 | [Youth: Its Education, Regimen, and Hygiene](https://doi.org/10.2307/2012171) |
-| 1909 | 83 | 83 | 675 | [ON THE RELATION OF TETANY TO THE PARATHYROID GLANDS AND TO CALCIUM METABOLISM](https://doi.org/10.1084/jem.11.1.118) |
-| 1910 | 76 | 76 | 338 | [On the Occurrence of a Mesocoelic Recess in the Human Brain, and Its Relation to the Sub-Commissural Organ of Lower Vertebrates; with Special Reference to the Distribution of Reissner's Fibre in the Vertebrate Series and Its Possible Function](https://doi.org/10.1098/RSPB.1910.0046) |
-| 1911 | 73 | 73 | 640 | [A System of Medicine](https://doi.org/10.1097/00000441-191102000-00010) |
-| 1912 | 80 | 80 | 330 | [The development of the cerebral cortex](https://doi.org/10.1002/AJA.1000140106) |
-| 1913 | 89 | 89 | 548 | [A DEMONSTRATION OF TREPONEMA PALLIDUM IN THE BRAIN IN CASES OF GENERAL PARALYSIS](https://doi.org/10.1084/jem.17.2.232) |
-| 1914 | 70 | 70 | 535 | [EXPERIMENTAL HYDROCEPHALUS](https://doi.org/10.1084/jem.19.1.106) |
-| 1915 | 67 | 67 | 539 | [The cell masses in the forebrain of the turtle, cistudo carolina](https://doi.org/10.1002/cne.900250502) |
-| 1916 | 66 | 66 | 2,141 | [Amino acids](https://doi.org/10.1007/978-94-011-2262-7) |
-| 1917 | 64 | 64 | 531 | [Primary and secondary findings in a series of attempts to transplant cerebral cortex in the albino rat](https://doi.org/10.1002/cne.900270403) |
-| 1918 | 82 | 82 | 1,531 | [DISTURBANCES OF VISION BY CEREBRAL LESIONS](https://doi.org/10.1136/bjo.2.7.353) |
-| 1919 | 73 | 73 | 1,362 | [DISTURBANCES OF SPATIAL ORIENTATION AND VISUAL ATTENTION, WITH LOSS OF STEREOSCOPIC VISION](https://doi.org/10.1001/ARCHNEURPSYC.1919.02180040002001) |
-| 1920 | 79 | 79 | 802 | [Dreams](https://www.semanticscholar.org/paper/e52be2fdfc5d6ad48feee716e398cb5c85aca8e2) |
-| 1921 | 69 | 69 | 572 | [THE RELATION OF THE HIND-BRAIN TO MICTURITION](https://doi.org/10.1093/BRAIN/44.1.23) |
+| 1900 | 133 | 100 | 268 | [Hughlings Jackson and the Cortical Motor Centres in the Light of Physiological Research](https://doi.org/10.1136/bmj.2.2083.1564) |
+| 1901 | 161 | 100 | 584 | [The division of differentiated cells in the central nervous system of the white rat](https://doi.org/10.1002/cne.910110403) |
+| 1902 | 113 | 100 | 827 | [Fishes](https://doi.org/10.1177/002205740205502517) |
+| 1903 | 157 | 100 | 531 | [THE BLOOD-PRESSURE REACTION OF ACUTE CEREBRAL COMPRESSION, ILLUSTRATED BY CASES OF INTRACRANIAL HEMORRHAGE.: A SEQUEL TO THE MÜTTER LECTURE FOR 1901](https://doi.org/10.1097/00000441-190306000-00006) |
+| 1904 | 138 | 100 | 242 | [On the development and nature of the Neuroglia](https://doi.org/10.1002/AJA.1000030303) |
+| 1905 | 139 | 100 | 2,170 | [ON THE THALAMUS *](https://doi.org/10.1136/bmj.1.2302.289) |
+| 1906 | 161 | 100 | 1,141 | [Histological Studies on the Localization of Cerebral Function](https://doi.org/10.2307/1412355) |
+| 1907 | 164 | 100 | 3,030 | [The Integrative Action of the Nervous System](https://doi.org/10.1038/076122a0) |
+| 1908 | 181 | 100 | 1,725 | [THE STRUCTURE AND FUNCTIONS OF THE CEREBELLUM EXAMINED BY A NEW METHOD.](https://doi.org/10.1093/BRAIN/31.1.45) |
+| 1909 | 182 | 100 | 1,917 | [The Central Nervous System of Vertebrates](https://doi.org/10.1038/081274C0) |
+| 1910 | 178 | 100 | 1,370 | [The morphology of the forebrain in amphibia and reptilia](https://doi.org/10.1002/CNE.920200502) |
+| 1911 | 165 | 100 | 3,064 | [Sensory disturbances from cerebral lesions](https://doi.org/10.1093/BRAIN/34.2-3.102) |
+| 1912 | 163 | 100 | 858 | [The development of the cerebral cortex](https://doi.org/10.1002/AJA.1000140106) |
+| 1913 | 196 | 100 | 1,608 | [AN EXPERIMENTAL AND CLINICAL STUDY OF INTERNAL HYDROCEPHALUS](https://doi.org/10.1001/JAMA.1913.04350260014006) |
+| 1914 | 153 | 100 | 1,043 | [EXPERIMENTAL HYDROCEPHALUS](https://doi.org/10.1084/jem.19.1.106) |
+| 1915 | 183 | 100 | 1,049 | [The cell masses in the forebrain of the turtle, cistudo carolina](https://doi.org/10.1002/cne.900250502) |
+| 1916 | 201 | 100 | 2,845 | [Amino acids](https://doi.org/10.1007/978-94-011-2262-7) |
+| 1917 | 182 | 100 | 2,177 | [OBSERVATIONS ON THE EXCITABLE CORTEX OF THE CHIMPANZEE, ORANG-UTAN, AND GORILLA](https://doi.org/10.1113/EXPPHYSIOL.1917.SP000240) |
+| 1918 | 175 | 100 | 1,873 | [DISTURBANCES OF VISION BY CEREBRAL LESIONS](https://doi.org/10.1136/bjo.2.7.353) |
+| 1919 | 169 | 100 | 1,920 | [DISTURBANCES OF SPATIAL ORIENTATION AND VISUAL ATTENTION, WITH LOSS OF STEREOSCOPIC VISION](https://doi.org/10.1001/ARCHNEURPSYC.1919.02180040002001) |
+| 1920 | 207 | 100 | 1,951 | [Norms for some structural changes in the human cerebellum from birth to old age](https://doi.org/10.1002/cne.900320102) |
+| 1921 | 174 | 100 | 1,330 | [THE RELATION OF THE HIND-BRAIN TO MICTURITION](https://doi.org/10.1093/BRAIN/44.1.23) |
 | 1922 | 110 | 100 | 1,355 | [STUDIES ON THE NECESSITY OF THE BRAIN FOR THE INCEPTION OF INSECT METAMORPHOSIS](https://doi.org/10.2307/1536759) |
-| 1923 | 75 | 75 | 785 | [CONDITIONS DETERMINING THE TRANSPLANTABILITY OF TISSUES IN THE BRAIN](https://doi.org/10.1084/jem.38.2.183) |
+| 1923 | 200 | 100 | 2,398 | [Further contributions to the study of the evolution of the forebrain](https://doi.org/10.1002/CNE.900350502) |
 | 1924 | 110 | 100 | 826 | [BRAIN ABSCESS](https://doi.org/10.5694/j.1326-5377.1924.tb65442.x) |
-| 1925 | 76 | 76 | 1,576 | [THE EFFECT OF LESIONS OF THE HIND- AND MID-BRAIN ON MICTURITION IN THE CAT](https://doi.org/10.1113/EXPPHYSIOL.1925.SP000345) |
-| 1926 | 66 | 66 | 842 | [On thalamic and tectal nuclei and fiber paths in the brain of the American alligator](https://doi.org/10.1002/CNE.900400107) |
+| 1925 | 177 | 100 | 2,987 | [Endocrinology](https://doi.org/10.1136/jnnp.s1-6.22.149) |
+| 1926 | 194 | 100 | 1,928 | [On thalamic and tectal nuclei and fiber paths in the brain of the American alligator](https://doi.org/10.1002/CNE.900400107) |
 | 1927 | 107 | 100 | 1,566 | [The diencephalon of the albino rat . Studies on the brain of the rat. No. 2](https://doi.org/10.1002/CNE.900430102) |
 | 1928 | 125 | 100 | 1,701 | [THE CEREBRAL CIRCULATION: I. OBSERVATION AND MEASUREMENT OF PIAL VESSELS](https://doi.org/10.1001/ARCHNEURPSYC.1928.02210110003001) |
 | 1929 | 139 | 100 | 2,782 | [Conditioned Reflexes. An Investigation of the Physiological Activity of the Cerebral Cortex](https://doi.org/10.2307/1134737) |
@@ -647,7 +647,7 @@ The collection uses the Semantic Scholar Academic Graph bulk paper search. For e
 ## Caveats
 
 - Citation counts favor older papers and can under-rank very recent 2026 work.
-- Some early years have fewer than 1,000 discoverable candidates or fewer than 100 selected papers because the public metadata pool is sparse before large-scale journal indexing.
+- Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.
 - Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.
 - Influential citation counts use Semantic Scholar metadata when available.
 - Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.

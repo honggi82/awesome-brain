@@ -7,7 +7,7 @@ Generated: 2026-06-26
 - Topic: brain research
 - Years: 1900-2026
 - Candidate target: up to 1,000 papers per year
-- Selection target: up to 100 papers per year
+- Selection target: 100 papers per year
 - Ranking: citation count descending, using Semantic Scholar `citationCount`
 - Metadata source: Semantic Scholar Academic Graph bulk search, free public metadata
 
