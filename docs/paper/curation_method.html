@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesome Brain Curation Method</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #172033; line-height: 1.65; }
+    h1, h2, h3 { line-height: 1.2; }
+    .table-block { white-space: pre-wrap; background: #f6f8fb; border: 1px solid #d9dee8; padding: 14px; overflow: auto; }
+  </style>
+</head>
+<body>
+<h1>Awesome Brain Curation Method</h1>
+
+<p>Generated: 2026-06-26</p>
+
+<h2>Scope</h2>
+
+<p>- Topic: brain research</p>
+<p>- Years: 1900-2026</p>
+<p>- Candidate target: up to 1,000 papers per year</p>
+<p>- Selection target: 100 papers per year</p>
+<p>- Ranking: citation count descending, using Semantic Scholar `citationCount`</p>
+<p>- Metadata source: Semantic Scholar Academic Graph bulk search, free public metadata</p>
+
+<h2>Query</h2>
+
+<p>For each year, the pipeline sends broad brain and neuroscience queries to Semantic Scholar, sorts by citation count, and paginates within the free public endpoint limits. Local relevance checks then keep records whose title, abstract, fields, or publication metadata indicate brain/neuroscience content.</p>
+
+<p>For early years where public metadata contains fewer than the requested target, the generated datasets keep the full audited pool and select all available citation-ranked records rather than fabricating missing entries.</p>
+
+<h2>Enrichment</h2>
+
+<p>The script deterministically assigns taxonomy categories, keyword convention tags, key ideas, strengths, and research-focused limitations. No paid API, paid LLM, paid translation service, or paid compute is used.</p>
+
+<h2>GitHub-Awesome Skill2 and Paper-Curation Provenance</h2>
+
+<p>This regeneration follows `github-awesome-skill2` in metadata-adapter mode for a large citation-ranked awesome repository while preserving the selected paper set in `data/papers_1900_2026.csv`. The workflow inspected the local `jehyunlee/paper-curation` checkout and is configured for Zotero-free folder-source PDF staging under `E:\조선대\연구\paper-curation\paper\awesome-brain`. Full PDF LLM review stages from paper-curation were not run because they require explicit approval for paid or metered APIs.</p>
+
+<h2>Verification Targets</h2>
+
+<p>The repository should contain selected and candidate CSV/JSON data, `README.md`, `README.html`, `docs/index.html`, period analysis JSON, taxonomy SVG assets, and English/Korean review HTML files.</p>
+</body>
+</html>

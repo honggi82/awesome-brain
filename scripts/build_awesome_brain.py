@@ -103,6 +103,7 @@ PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 OVERALL_ANALYSIS_JSON = f"overall_analysis_{YEAR_FILE_STEM}.json"
 GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 LINK_AUDIT_JSON = f"link_audit_{YEAR_FILE_STEM}.json"
+SKILL2_PROVENANCE_JSON = "paper_curation_skill2_provenance.json"
 
 LANGUAGES = {
     "en": "English",
@@ -2377,12 +2378,52 @@ For early years where public metadata contains fewer than the requested target, 
 
 The script deterministically assigns taxonomy categories, keyword convention tags, key ideas, strengths, and research-focused limitations. No paid API, paid LLM, paid translation service, or paid compute is used.
 
+## GitHub-Awesome Skill2 and Paper-Curation Provenance
+
+This regeneration follows `github-awesome-skill2` in metadata-adapter mode for a large citation-ranked awesome repository while preserving the selected paper set in `data/{PAPERS_CSV}`. The workflow inspected the local `jehyunlee/paper-curation` checkout and is configured for Zotero-free folder-source PDF staging under `E:\\조선대\\연구\\paper-curation\\paper\\awesome-brain`. Full PDF LLM review stages from paper-curation were not run because they require explicit approval for paid or metered APIs.
+
 ## Verification Targets
 
 The repository should contain selected and candidate CSV/JSON data, `README.md`, `README.html`, `docs/index.html`, period analysis JSON, taxonomy SVG assets, and English/Korean review HTML files.
 """
     (PAPER_DIR / "curation_method.md").write_text(markdown, encoding="utf-8")
     (PAPER_DIR / "curation_method.html").write_text(markdown_to_html_doc("Awesome Brain Curation Method", markdown), encoding="utf-8")
+
+
+def write_skill2_provenance(selected, candidates):
+    folder_source_pdf_dir = Path(r"E:\조선대\연구\paper-curation\paper\awesome-brain")
+    manifest_path = folder_source_pdf_dir / "_folder_source_manifest.json"
+    failures_path = folder_source_pdf_dir / "_folder_source_failures.json"
+    manifest_count = 0
+    failure_count = 0
+    if manifest_path.exists():
+        manifest_count = len(json.loads(manifest_path.read_text(encoding="utf-8")))
+    if failures_path.exists():
+        failure_count = len(json.loads(failures_path.read_text(encoding="utf-8")))
+    payload = {
+        "skill": "github-awesome-skill2",
+        "mode": "metadata-adapter",
+        "paper_curation_source": "E:\\조선대\\연구\\paper-curation",
+        "zotero_used": False,
+        "paid_or_metered_api_used": False,
+        "folder_source_pdf_dir": str(folder_source_pdf_dir),
+        "folder_source_manifest": str(manifest_path),
+        "folder_source_manifest_pdfs": manifest_count,
+        "folder_source_failed_records": failure_count,
+        "selected_dataset": f"data/{PAPERS_CSV}",
+        "candidate_dataset": f"data/{CANDIDATES_CSV}",
+        "selected_papers": len(selected),
+        "candidate_records": len(candidates),
+        "period": YEAR_RANGE_TEXT,
+        "candidate_target_per_year": CANDIDATES_PER_YEAR,
+        "selection_target_per_year": TARGET_PER_YEAR,
+        "ranking": "citationCount descending with influentialCitationCount and metadata importance score retained as audit signals",
+        "note": "The repository/site outputs are deterministic metadata curation artifacts; full PDF LLM reviews require separate explicit approval.",
+    }
+    (DATA_DIR / SKILL2_PROVENANCE_JSON).write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def write_citation_and_license():
@@ -2410,7 +2451,7 @@ echo git push -u origin main
 
 
 def copy_docs_data():
-    for filename in [PAPERS_CSV, PAPERS_JSON, CANDIDATES_CSV, CANDIDATES_JSON, TAXONOMY_CSV, PERIOD_ANALYSIS_JSON, OVERALL_ANALYSIS_JSON]:
+    for filename in [PAPERS_CSV, PAPERS_JSON, CANDIDATES_CSV, CANDIDATES_JSON, TAXONOMY_CSV, PERIOD_ANALYSIS_JSON, OVERALL_ANALYSIS_JSON, SKILL2_PROVENANCE_JSON]:
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
@@ -2418,6 +2459,7 @@ def copy_docs_data():
         shutil.copyfile(DATA_DIR / LINK_AUDIT_JSON, DOCS_DIR / "data" / LINK_AUDIT_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
+    shutil.copyfile(PAPER_DIR / "curation_method.html", DOCS_DIR / "paper" / "curation_method.html")
 
 
 def main():
@@ -2435,6 +2477,7 @@ def main():
     write_review_html(selected, korean=True)
     write_review_docx(selected)
     write_curation_method()
+    write_skill2_provenance(selected, candidates)
     write_citation_and_license()
     copy_docs_data()
     print(f"[done] generated {len(selected):,} selected papers from {len(candidates):,} candidates", flush=True)
