@@ -1718,6 +1718,10 @@ def write_readme(selected, candidates):
             "- Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.",
             "- Influential citation counts use Semantic Scholar metadata when available.",
             "- Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.",
+            "",
+            "## Acknowledgements",
+            "",
+            "This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.",
         ]
     )
     readme = "\n".join(lines) + "\n"
