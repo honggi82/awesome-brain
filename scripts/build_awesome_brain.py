@@ -102,6 +102,7 @@ TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 OVERALL_ANALYSIS_JSON = f"overall_analysis_{YEAR_FILE_STEM}.json"
 GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
+LINK_AUDIT_JSON = f"link_audit_{YEAR_FILE_STEM}.json"
 
 LANGUAGES = {
     "en": "English",
@@ -543,6 +544,7 @@ CSV_FIELDS = [
     "doi",
     "sourceId",
     "url",
+    "semanticScholarUrl",
     "openAccessPdf",
     "githubUrl",
     "workType",
@@ -599,6 +601,13 @@ def clean_github_url(value):
     return f"https://github.com/{path}"
 
 
+def semantic_scholar_url(row):
+    paper_id = clean_text(row.get("paperId") or row.get("sourceId"))
+    if re.fullmatch(r"[0-9a-f]{40}", paper_id, flags=re.I):
+        return f"https://www.semanticscholar.org/paper/{paper_id}"
+    return clean_text(row.get("semanticScholarUrl"))
+
+
 def is_official_github_entry(value):
     return isinstance(value, dict) and bool(value.get("githubOfficial")) and bool(value.get("mentionedInPaper"))
 
@@ -635,12 +644,11 @@ def load_github_links():
 def apply_github_links(rows):
     links = load_github_links()
     for row in rows:
-        github_url = official_github_url_from_paper_text(row)
-        match = links.get(title_key(row.get("title"))) if not github_url else None
+        match = links.get(title_key(row.get("title")))
         if match and is_official_github_entry(match):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
         else:
-            row["githubUrl"] = github_url
+            row["githubUrl"] = ""
     return rows
 
 
@@ -979,6 +987,7 @@ def normalize_s2_paper(paper):
         "doi": doi,
         "sourceId": clean_text(paper.get("paperId")),
         "url": url,
+        "semanticScholarUrl": semantic_scholar_url({"sourceId": paper.get("paperId", "")}),
         "openAccessPdf": clean_text(oa.get("url")) if isinstance(oa, dict) else "",
         "workType": "; ".join(clean_text(item) for item in paper.get("publicationTypes") or []) or "paper",
         "language": "unknown",
@@ -1746,6 +1755,7 @@ def site_rows(selected):
                 "strengths": row["strengths"],
                 "limitations": row["limitations"],
                 "url": row["url"],
+                "semanticScholarUrl": semantic_scholar_url(row),
                 "openAccessPdf": row["openAccessPdf"],
                 "githubUrl": row.get("githubUrl", ""),
                 "workType": row["workType"],
@@ -2095,7 +2105,7 @@ def write_site(selected):
     }}
     function paperCard(p) {{
       const l = labels[state.lang];
-      const links = `<a href="${{p.url}}">paper</a>${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}${{p.githubUrl ? ` · <a href="${{p.githubUrl}}">GitHub</a>` : ''}}`;
+      const links = `<a href="${{p.url}}">paper</a>${{p.semanticScholarUrl ? ` · <a href="${{p.semanticScholarUrl}}">Semantic Scholar</a>` : ''}}${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}${{p.githubUrl ? ` · <a href="${{p.githubUrl}}">GitHub</a>` : ''}}`;
       return `<article class="paper-card" data-keywords="${{p.keywordTags.join(' ')}}">
         <div class="paper-head"><div><a class="paper-title" href="${{p.url}}">${{p.title}}</a><div class="meta">${{p.authors}}</div></div><div class="meta">#${{p.rank}} in ${{p.year}}</div></div>
         <div class="meta">${{p.year}} · ${{p.venue}} · ${{fmt(p.citationCount)}} citations · influential citations ${{fmt(p.influentialCitationCount)}} · score ${{p.importanceScore}} · ${{links}}</div>
@@ -2400,6 +2410,8 @@ def copy_docs_data():
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
+    if (DATA_DIR / LINK_AUDIT_JSON).exists():
+        shutil.copyfile(DATA_DIR / LINK_AUDIT_JSON, DOCS_DIR / "data" / LINK_AUDIT_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
 

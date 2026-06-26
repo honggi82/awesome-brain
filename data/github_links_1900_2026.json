@@ -3,17 +3,17 @@
   "source": "Official GitHub links explicitly indicated by paper text or Papers with Code official paper-mentioned flags",
   "sourceUrl": "https://huggingface.co/datasets/pwc-archive/links-between-paper-and-code",
   "sourceLicense": "CC-BY-SA-4.0 for Papers with Code archive entries; paper-text links come from existing scholarly metadata",
-  "matchingPolicy": "Only display GitHub links that are explicit official paper links: direct GitHub URLs in paper abstract/metadata with code/repository availability context, or Papers with Code archive entries where githubOfficial and mentionedInPaper are both true. Broad title/arXiv code matches, third-party reimplementations, and metadata-only carryover links are excluded.",
+  "matchingPolicy": "Only display GitHub links that are explicit official paper links: direct GitHub URLs in paper abstract/metadata with code/repository availability context, or Papers with Code archive entries where githubOfficial and mentionedInPaper are both true. Broad title/arXiv code matches, third-party reimplementations, and metadata-only carryover links are excluded. Only GitHub URLs that remained reachable after direct link audit are retained. Only GitHub URLs that remained reachable after direct link audit are retained.",
   "paperCount": 12700,
-  "githubLinkCount": 31,
+  "githubLinkCount": 29,
   "matchedBy": {
-    "arxiv": 1,
-    "paper-text": 18,
-    "title": 12
+    "title": 12,
+    "paper-text": 16,
+    "arxiv": 1
   },
   "sources": {
-    "paper-text": 18,
-    "paperswithcode-archive": 13
+    "paperswithcode-archive": 13,
+    "paper-text": 16
   },
   "links": {
     "a survey on multimodal large language models": {
@@ -300,22 +300,6 @@
       "year": 2025,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
-    "robust compressed sensing mri with deep generative priors": {
-      "githubUrl": "https://github.com/utcsilab/csgm-mri-langevin}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "d theory show that posterior sampling is robust to changes in the ground-truth distribution and measurement process. Our code and models are available at: \\url{https://github.com/utcsilab/csgm-mri-langevin}.",
-      "title": "Robust Compressed Sensing MRI with Deep Generative Priors",
-      "year": 2021
-    },
     "robust decomposition of cell type mixtures in spatial transcriptomics": {
       "githubUrl": "https://github.com/dmcable/RCTD",
       "githubOfficial": true,
@@ -391,22 +375,6 @@
       "title": "SynthSeg: Segmentation of brain MRI scans of any contrast and resolution without retraining",
       "year": 2021,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
-    },
-    "temporal efficient training of spiking neural network via gradient re weighting": {
-      "githubUrl": "https://github.com/Gus-Lab/temporal_efficient_training}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "geNet. Remarkably on DVS-CIFAR10, we obtained 83$\\%$ top-1 accuracy, over 10$\\%$ improvement compared to existing state of the art. Codes are available at \\url{https://github.com/Gus-Lab/temporal_efficient_training}.",
-      "title": "Temporal Efficient Training of Spiking Neural Network via Gradient Re-weighting",
-      "year": 2022
     },
     "the rise and potential of large language model based agents a survey": {
       "githubUrl": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
@@ -486,5 +454,7 @@
       "title": "You Only Learn One Representation: Unified Network for Multiple Tasks",
       "year": 2021
     }
-  }
+  },
+  "linkAuditPolicy": "Display only official paper-indicated GitHub repositories that passed direct reachability checks; remove 404/unreachable repositories.",
+  "removedByLinkAudit": []
 }
