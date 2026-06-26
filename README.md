@@ -10,6 +10,19 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
   </a>
 </p>
 
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://github.com/honggi82/awesome-brain">English</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=de">Deutsch</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=es">Español</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=fr">français</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=ja">日本語</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=ko">한국어</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=pt">Português</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=ru">Русский</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-brain?lang=zh">中文</a>
+</div>
+
 > Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/
 
 Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.

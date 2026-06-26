@@ -1696,6 +1696,25 @@ def markdown_to_html_doc(title, markdown):
 """
 
 
+def readme_language_selector_lines(owner, repo):
+    base = f"https://www.readme-i18n.com/{owner}/{repo}"
+    return [
+        '<div align="center">',
+        "  <!-- Keep these links. Translations will automatically update with the README. -->",
+        f'  <a href="https://github.com/{owner}/{repo}">English</a> |',
+        f'  <a href="{base}?lang=de">Deutsch</a> |',
+        f'  <a href="{base}?lang=es">Español</a> |',
+        f'  <a href="{base}?lang=fr">français</a> |',
+        f'  <a href="{base}?lang=ja">日本語</a> |',
+        f'  <a href="{base}?lang=ko">한국어</a> |',
+        f'  <a href="{base}?lang=pt">Português</a> |',
+        f'  <a href="{base}?lang=ru">Русский</a> |',
+        f'  <a href="{base}?lang=zh">中文</a>',
+        "</div>",
+        "",
+    ]
+
+
 def write_readme(selected, candidates):
     counts, citations = category_stats(selected)
     stats = year_stats(selected)
@@ -1712,6 +1731,7 @@ def write_readme(selected, candidates):
         "  </a>",
         "</p>",
         "",
+        *readme_language_selector_lines("honggi82", "awesome-brain"),
         "> Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/",
         "",
         f"Generated on {GENERATED_DATE} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR:,} brain-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool, selects the top {TARGET_PER_YEAR} papers per year by citation count, and reorganizes the selected {len(selected):,} papers by research taxonomy.",
