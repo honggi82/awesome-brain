@@ -1450,7 +1450,7 @@ def overall_period_summary(rows, start, end, by_year):
     peak_year, peak_count = year_counts.most_common(1)[0] if year_counts else (None, 0)
     peak_citation_year = max(year_citations, key=year_citations.get) if year_citations else None
     top = max(rows, key=lambda item: item["citationCount"]) if rows else None
-    return {
+    summary = {
         "startYear": start,
         "endYear": end,
         "rangeLabel": str(start) if start == end else f"{start}-{end}",
@@ -1477,6 +1477,76 @@ def overall_period_summary(rows, start, end, by_year):
             "url": top["url"],
             "citations": top["citationCount"],
         } if top else None,
+    }
+    summary["periodInsights"] = paper_curation_period_insights(summary, "brain")
+    return summary
+
+
+def _insight_number(value):
+    return f"{int(value or 0):,}"
+
+
+def _insight_names(items, key="name", limit=3, fallback="metadata-ranked signals"):
+    values = [
+        str(item.get(key, "")).strip()
+        for item in (items or [])[:limit]
+        if str(item.get(key, "")).strip()
+    ]
+    return ", ".join(values) if values else fallback
+
+
+def paper_curation_period_insights(summary, corpus_label):
+    categories = summary.get("topCategories") or []
+    keywords = summary.get("topKeywords") or []
+    top_category = categories[0] if categories else {}
+    top_paper = summary.get("topPaper") or {}
+    range_label = summary.get("rangeLabel") or f"{summary.get('startYear')}-{summary.get('endYear')}"
+    top_category_name = top_category.get("name") or "the leading taxonomy"
+    top_category_count = _insight_number(top_category.get("count"))
+    category_names = _insight_names(categories)
+    keyword_names = _insight_names(keywords, fallback="keyword convention signals")
+    citations = _insight_number(summary.get("citationCount"))
+    papers = _insight_number(summary.get("totalPapers"))
+    peak_year = summary.get("peakYear") or "n/a"
+    peak_citation_year = summary.get("peakCitationYear") or "n/a"
+    top_paper_title = top_paper.get("title") or "the leading paper"
+    top_paper_year = top_paper.get("year") or "n/a"
+    top_paper_citations = _insight_number(top_paper.get("citations"))
+    top_paper_category = top_paper.get("category") or top_category_name
+
+    return {
+        "en": [
+            {
+                "label": "Period Shape",
+                "title": f"{range_label} is led by {top_category_name}",
+                "body": f"{top_category_name} contributes {top_category_count} selected papers, with {category_names} forming the visible taxonomy backbone for this period.",
+                "implication": "Implication: period changes should be read as changes in the research map, not just as a shorter paper list.",
+            },
+            {
+                "label": "Citation Backbone",
+                "title": f"{peak_citation_year} carries the citation center of gravity",
+                "body": f"The selected {corpus_label} range contains {papers} papers and {citations} citations; citation mass peaks around {peak_citation_year}, while paper volume peaks around {peak_year}.",
+                "implication": "Implication: paper-curation period views help separate durable infrastructure papers from fast-moving recent topics.",
+            },
+            {
+                "label": "Keyword Signals",
+                "title": f"Keyword evidence points to {keyword_names}",
+                "body": f"The period-specific keyword convention highlights {keyword_names}, giving a method-level reading that complements taxonomy and citation rank.",
+                "implication": "Implication: keyword shifts are useful early signals before citations fully mature.",
+            },
+            {
+                "label": "Representative Paper",
+                "title": f"\"{top_paper_title}\" anchors the selected range",
+                "body": f"The leading citation-ranked paper is from {top_paper_year} in {top_paper_category}, with {top_paper_citations} citations.",
+                "implication": "Implication: use the top paper as an entry point, then compare it with adjacent taxonomy clusters before drawing broad conclusions.",
+            },
+            {
+                "label": "Review Priority",
+                "title": "What deserves full-text review next",
+                "body": f"This metadata-adapter insight is generated in the spirit of paper-curation: it flags {category_names} and {keyword_names} as the period's highest-priority reading lanes.",
+                "implication": "Implication: full PDF review remains the next step for causal claims, reproducibility, and experimental detail.",
+            },
+        ]
     }
 
 
@@ -2014,7 +2084,8 @@ def write_site(selected):
       const copy = OVERALL_RESEARCH_TEMPLATES[state.lang] || OVERALL_RESEARCH_TEMPLATES.en;
       const data = researchTemplateData(metric);
       const summaryHtml = (copy.summary || []).map(text => `<p>${{applyTemplate(text, data)}}</p>`).join('');
-      const insightHtml = (copy.insights || []).map(item => `
+      const insightItems = metric?.periodInsights?.[state.lang] || metric?.periodInsights?.en || copy.insights || [];
+      const insightHtml = insightItems.map(item => `
         <article class="insight-box">
           <div class="insight-label">${{escapeHtml(item.label)}}</div>
           <h3>${{applyTemplate(item.title, data)}}</h3>
