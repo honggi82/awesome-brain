@@ -599,6 +599,24 @@ def clean_github_url(value):
     return f"https://github.com/{path}"
 
 
+def is_official_github_entry(value):
+    return isinstance(value, dict) and bool(value.get("githubOfficial")) and bool(value.get("mentionedInPaper"))
+
+
+def official_github_url_from_paper_text(row):
+    official_context = re.compile(
+        r"\b(code|codes|source|implementation|repo|repository|software|toolbox|package|model|models|weights|data|dataset|project|available|released|open-source|publicly)\b",
+        flags=re.I,
+    )
+    for field in ("abstract", "abstractSnippet"):
+        text = clean_text(row.get(field))
+        for match in re.finditer(r"https?://github\.com/[^\s<>\"')]+", text, flags=re.I):
+            window = text[max(0, match.start() - 160): match.end() + 80]
+            if official_context.search(window):
+                return clean_github_url(match.group(0))
+    return ""
+
+
 def load_github_links():
     path = DATA_DIR / GITHUB_LINKS_JSON
     if not path.exists():
@@ -606,6 +624,8 @@ def load_github_links():
     payload = json.loads(path.read_text(encoding="utf-8"))
     links = {}
     for key, value in payload.get("links", {}).items():
+        if not is_official_github_entry(value):
+            continue
         github_url = clean_github_url(value.get("githubUrl") if isinstance(value, dict) else value)
         if github_url:
             links[key] = {**value, "githubUrl": github_url} if isinstance(value, dict) else {"githubUrl": github_url}
@@ -614,16 +634,13 @@ def load_github_links():
 
 def apply_github_links(rows):
     links = load_github_links()
-    if not links:
-        return rows
     for row in rows:
-        github_url = clean_github_url(row.get("githubUrl"))
-        if github_url:
-            row["githubUrl"] = github_url
-            continue
-        match = links.get(title_key(row.get("title")))
-        if match:
+        github_url = official_github_url_from_paper_text(row)
+        match = links.get(title_key(row.get("title"))) if not github_url else None
+        if match and is_official_github_entry(match):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
+        else:
+            row["githubUrl"] = github_url
     return rows
 
 
