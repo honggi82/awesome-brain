@@ -2106,7 +2106,7 @@ def write_site(selected):
     function paperCard(p) {{
       const l = labels[state.lang];
       const links = `<a href="${{p.url}}">paper</a>${{p.semanticScholarUrl ? ` · <a href="${{p.semanticScholarUrl}}">Semantic Scholar</a>` : ''}}${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}${{p.githubUrl ? ` · <a href="${{p.githubUrl}}">GitHub</a>` : ''}}`;
-      return `<article class="paper-card" data-keywords="${{p.keywordTags.join(' ')}}">
+      return `<article class="paper-card" data-year="${{p.year}}" data-keywords="${{p.keywordTags.join(' ')}}">
         <div class="paper-head"><div><a class="paper-title" href="${{p.url}}">${{p.title}}</a><div class="meta">${{p.authors}}</div></div><div class="meta">#${{p.rank}} in ${{p.year}}</div></div>
         <div class="meta">${{p.year}} · ${{p.venue}} · ${{fmt(p.citationCount)}} citations · influential citations ${{fmt(p.influentialCitationCount)}} · score ${{p.importanceScore}} · ${{links}}</div>
         <div class="badges">${{badges(p.keywordTags)}}</div>
