@@ -1823,10 +1823,13 @@ def write_site(selected):
     .insight-box h3 {{ margin: 6px 0 8px; font-size: 17px; }}
     .insight-box p {{ margin: 8px 0 0; }}
     .insight-implication {{ color: var(--ink); font-weight: 700; }}
-    .keyword-panel {{ display: flex; flex-wrap: wrap; gap: 9px; margin: 12px 0 8px; }}
-    .keyword-button {{ display: inline-flex; gap: 8px; align-items: center; border-radius: 999px; }}
-    .keyword-button[aria-pressed="true"] {{ border-color: var(--focus); box-shadow: inset 0 0 0 2px var(--focus); }}
-    .keyword-dot {{ width: 10px; height: 10px; border-radius: 50%; background: var(--keyword-color); display: inline-block; }}
+    .keyword-panel {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin: 12px 0 8px; }}
+    .keyword-button {{ display: grid; gap: 8px; align-items: start; min-height: 112px; border-radius: 8px; text-align: left; line-height: 1.45; }}
+    .keyword-button[aria-pressed="true"] {{ border-color: var(--focus); box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.16); }}
+    .keyword-chip {{ justify-self: start; display: inline-flex; gap: 7px; align-items: center; border-radius: 999px; padding: 4px 9px; background: var(--keyword-color); color: white; font-size: 13px; font-weight: 800; }}
+    .keyword-dot {{ width: 8px; height: 8px; border-radius: 50%; background: currentColor; display: inline-block; opacity: 0.88; }}
+    .keyword-description {{ display: block; width: 100%; color: var(--muted); }}
+    .keyword-count {{ color: var(--focus); font-size: 12px; font-weight: 800; }}
     .keyword-status {{ min-height: 24px; color: var(--muted); margin: 4px 0 18px; }}
     .charts {{ display: grid; grid-template-columns: minmax(260px, 1fr) minmax(260px, 1fr); gap: 18px; margin: 18px 0 24px; }}
     .chart-wrap {{ border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 280px; }}
@@ -2020,8 +2023,10 @@ def write_site(selected):
       keywordPanel.innerHTML = KEYWORDS.map(k => {{
         const matchCount = PAPERS.filter(p => p.year >= state.start && p.year <= state.end && p.keywordTags.includes(k.name)).length;
         const pressed = state.keyword === k.name ? 'true' : 'false';
-        return `<button class="keyword-button" type="button" data-keyword="${{k.name}}" aria-pressed="${{pressed}}" style="--keyword-color:#${{k.color}}">
-          <span class="keyword-dot"></span><span>${{k.name}}</span><span>${{fmt(matchCount)}}</span>
+        return `<button class="keyword-button" type="button" data-keyword="${{escapeHtml(k.name)}}" aria-pressed="${{pressed}}" style="--keyword-color:#${{k.color}}">
+          <span class="keyword-chip"><span class="keyword-dot"></span><span>${{escapeHtml(k.name)}}</span></span>
+          <span class="keyword-description">${{escapeHtml(k.description)}}</span>
+          <span class="keyword-count">${{fmt(matchCount)}} papers</span>
         </button>`;
       }}).join('');
       if (state.keyword) {{
