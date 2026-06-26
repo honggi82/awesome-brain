@@ -1,7 +1,7 @@
-# Awesome Brain
+# Cérebro incrível
 [![Awesome](https://awesome.re/badge-flat.png)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
+Um mapa da pesquisa do cérebro com classificação de citações e taxonomia de 1900 a 2026.
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-brain/">
@@ -10,77 +10,77 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
   <a href="README.ja.md">日本語</a> |
   <a href="README.ko.md">한국어</a> |
-  <a href="README.pt.md">Português</a> |
+  <a href="README.pt.md"><strong>Português</strong></a> |
   <a href="README.ru.md">Русский</a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-> Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/
+> Navegue pelo site completo de taxonomia interativa com filtros de período, palavra-chave, gráfico e cartão de papel: https://honggi82.github.io/awesome-brain/
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
+Gerado em 27/06/2026 a partir de metadados públicos gratuitos do Semantic Scholar. A edição atual investiga até 1.000 artigos candidatos relacionados ao cérebro por ano entre 1900 e 2026, mantém um conjunto de candidatos auditados, seleciona os 100 melhores artigos por ano por contagem de citações e reorganiza os 12.700 artigos selecionados por taxonomia de pesquisa.
 
-## Project Links
+## Links do projeto
 
-- Website: https://honggi82.github.io/awesome-brain/
-- Selected dataset: `data/papers_1900_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_1900_2026.csv`
-- Precomputed period and keyword analysis: `data/period_analysis_1900_2026.json`
-- Candidate pool: `data/candidates_top1000_1900_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
-- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
+- Site: https://honggi82.github.io/awesome-brain/
+- Conjunto de dados selecionado: `data/papers_1900_2026.csv`
+- Conjunto de dados de taxonomia com ideias, pontos fortes e limitações em nível de papel: `data/papers_taxonomy_1900_2026.csv`
+- Período pré-computado e análise de palavras-chave: `data/period_analysis_1900_2026.json`
+- Grupo de candidatos: `data/candidates_top1000_1900_2026.csv`
+- Rascunho de revisão em inglês: `paper/review_en.html`, `paper/review_en.docx`
+- Rascunho de revisão coreano: `paper/review_ko.html`
+- Método de curadoria: `paper/curation_method.md`, `paper/curation_method.html`
 
-## Keywords Convention
+## Convenção de palavras-chave
 
-These badges define the brain keyword tags used to read and extend this collection.
+Esses emblemas definem as tags de palavras-chave cerebrais usadas para ler e estender esta coleção.
 
-- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: Magnetic resonance imaging, structural MRI, diffusion MRI, or MRI-derived brain measures.
-- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: Functional MRI, BOLD imaging, task activation, resting-state, or functional connectivity.
-- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Electroencephalography, event-related potentials, oscillations, or scalp electrophysiology.
-- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencephalography or magnetic source imaging of brain activity.
-- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Electrocorticography, intracranial EEG, or cortical surface recordings.
-- ![single-cell](https://img.shields.io/badge/keyword-single--cell-f59e0b) **single-cell**: Single-cell, single-nucleus, single-unit, spike, transcriptomic, or cell atlas studies.
-- ![human](https://img.shields.io/badge/keyword-human-be123c) **human**: Human participants, patients, volunteers, human brain tissue, or population cohorts.
-- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, non-human primate, rodent, zebrafish, fly, model organism, or simulation-focused studies.
-- ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: Brain connectivity, connectomics, networks, tractography, or atlas-based mapping.
-- ![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c) **stimulation**: Brain stimulation, DBS, TMS, tDCS, neuromodulation, implants, or closed-loop intervention.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: ressonância magnética, ressonância magnética estrutural, ressonância magnética de difusão ou medidas cerebrais derivadas de ressonância magnética.
+- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: ressonância magnética funcional, imagem BOLD, ativação de tarefa, estado de repouso ou conectividade funcional.
+- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Eletroencefalografia, potenciais relacionados a eventos, oscilações ou eletrofisiologia do couro cabeludo.
+- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencefalografia ou imagem de fonte magnética da atividade cerebral.
+- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Eletrocorticografia, EEG intracraniano ou registros de superfície cortical.
+- ![célula única](https://img.shields.io/badge/keyword-single--cell-f59e0b) **célula única**: estudos de célula única, núcleo único, unidade única, spike, transcriptômico ou atlas celular.
+- ![humano](https://img.shields.io/badge/keyword-human-be123c) **humano**: participantes humanos, pacientes, voluntários, tecido cerebral humano ou coortes populacionais.
+- ![não humano](https://img.shields.io/badge/keyword-non--human-a855f7) **não humano**: animais, primatas não humanos, roedores, peixes-zebra, moscas, organismos modelo ou estudos focados em simulação.
+- ![conectoma](https://img.shields.io/badge/keyword-connectome-16a34a) **conectoma**: conectividade cerebral, conectômica, redes, tractografia ou mapeamento baseado em atlas.
+- ![estimulação](https://img.shields.io/badge/keyword-stimulation-ea580c) **estimulação**: Estimulação cerebral, DBS, TMS, ETCC, neuromodulação, implantes ou intervenção em circuito fechado.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Artigos com um GitHub oficial ou link de repositório de código identificado na auditoria de metadados.
 
-## Taxonomy Overview
+## Visão geral da taxonomia
 
-- **Total selected papers**: 12,700 papers
-- **General Brain Science and Reviews**: 5,928 papers
-- **Clinical Neurology and Neurodegeneration**: 1,838 papers
-- **Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers
-- **Cognitive and Systems Neuroscience**: 720 papers
-- **Brain Development, Plasticity, and Connectomics**: 711 papers
-- **EEG, MEG, and Electrophysiology**: 647 papers
-- **Cerebrovascular, Metabolism, and Brain Injury**: 484 papers
-- **Neuroimaging and Brain Mapping**: 471 papers
-- **Computational Neuroscience and AI**: 117 papers
-- **Brain Stimulation, Neurotechnology, and BCI**: 54 papers
+- **Total de artigos selecionados**: 12.700 artigos
+- **Ciência Geral do Cérebro e Revisões**: 5.928 artigos
+- **Neurologia Clínica e Neurodegeneração**: 1.838 artigos
+- **Neurociência Celular, Molecular e Sináptica**: 1.730 artigos
+- **Neurociência Cognitiva e de Sistemas**: 720 artigos
+- **Desenvolvimento cerebral, plasticidade e conectômica**: 711 artigos
+- **EEG, MEG e Eletrofisiologia**: 647 artigos
+- **Cerebrovascular, metabolismo e lesão cerebral**: 484 artigos
+- **Neuroimagem e mapeamento cerebral**: 471 artigos
+- **Neurociência Computacional e IA**: 117 artigos
+- **Estimulação Cerebral, Neurotecnologia e BCI**: 54 artigos
 
-## Taxonomy Collections
+## Coleções de taxonomia
 
-### Neuroimaging and Brain Mapping
+### Neuroimagem e mapeamento cerebral
 
-- Papers selected: **471**
-- Years covered: **1901-2026**
-- Citation count in selected set: **599,330**
-- Category Overview (main research trends):
-  - High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.
-  - The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.
-  - Imaging biomarkers increasingly connect anatomy and physiology to cognition, development, degeneration, and psychiatric phenotypes.
-- Limitations:
-  - Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.
-  - Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.
-  - Citation-ranked imaging lists can favor widely reused atlases and datasets over newer mechanistic studies.
+- Artigos selecionados: **471**
+- Anos cobertos: **1901-2026**
+- Contagem de citações no conjunto selecionado: **599.330**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - O trabalho de imagens cerebrais de alta citação mapeia estrutura, função, conectividade e assinaturas de doenças em ressonância magnética, fMRI, PET, DTI e coortes multimodais.
+  - A tendência recente mais forte é a neuroimagem populacional em larga escala com pré-processamento harmonizado, atlas compartilhados e conjuntos de dados abertos.
+  - Os biomarcadores de imagem conectam cada vez mais a anatomia e a fisiologia à cognição, desenvolvimento, degeneração e fenótipos psiquiátricos.
+- Limitações:
+  - Variações de scanner, protocolo, local e pré-processamento podem limitar a reprodutibilidade entre coortes.
+  - Os biomarcadores de imagem associativos muitas vezes precisam de evidências longitudinais ou de intervenção mais fortes antes que sejam feitas alegações causais.
+  - Listas de imagens classificadas por citações podem favorecer atlas e conjuntos de dados amplamente reutilizados em vez de estudos mecanísticos mais recentes.
 
 <details>
 <summary><strong>Show representative papers for Neuroimaging and Brain Mapping</strong></summary>
@@ -114,19 +114,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### EEG, MEG, and Electrophysiology
+### EEG, MEG e Eletrofisiologia
 
-- Papers selected: **647**
-- Years covered: **1900-2026**
-- Citation count in selected set: **322,302**
-- Category Overview (main research trends):
-  - Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.
-  - The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.
-  - EEG and MEG remain central where temporal precision, clinical accessibility, or non-invasive monitoring are more important than spatial detail.
-- Limitations:
-  - Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.
-  - Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.
-  - Hardware, montage, preprocessing, and reference choices can make direct comparison difficult.
+- Artigos selecionados: **647**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **322.302**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - Artigos de eletrofisiologia organizam pesquisas cerebrais em torno de dinâmicas neurais rápidas, oscilações, respostas relacionadas a eventos e ritmos relacionados a doenças.
+  - O campo está avançando em direção à localização de fontes, fusão multimodal, gravações móveis e decodificação assistida por aprendizado de máquina.
+  - EEG e MEG permanecem centrais onde a precisão temporal, a acessibilidade clínica ou o monitoramento não invasivo são mais importantes que os detalhes espaciais.
+- Limitações:
+  - A baixa relação sinal-ruído, artefatos e incerteza na localização da fonte complicam a interpretação.
+  - Muitos estudos baseiam-se em tarefas controladas e podem não generalizar para o comportamento diário ou para a monitorização clínica.
+  - Escolhas de hardware, montagem, pré-processamento e referência podem dificultar a comparação direta.
 
 <details>
 <summary><strong>Show representative papers for EEG, MEG, and Electrophysiology</strong></summary>
@@ -160,19 +160,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cellular, Molecular, and Synaptic Neuroscience
+### Neurociência Celular, Molecular e Sináptica
 
-- Papers selected: **1,730**
-- Years covered: **1900-2026**
-- Citation count in selected set: **1,458,320**
-- Category Overview (main research trends):
-  - This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.
-  - High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.
-  - Classic synaptic and plasticity papers remain prominent because they define mechanisms reused across learning, development, and disease research.
-- Limitations:
-  - Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.
-  - Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.
-  - Animal and ex vivo findings need careful translation to human disease and cognition.
+- Artigos selecionados: **1.730**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **1.458.320**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - Esta área captura tipos de células, circuitos, plasticidade sináptica, vias moleculares e atlas unicelulares que explicam a função cerebral a partir do nível microscópico.
+  - A transcriptômica de alto rendimento e os atlas celulares em grande escala unem cada vez mais a identidade molecular com a anatomia e a função do circuito.
+  - Os artigos clássicos sobre sináptica e plasticidade permanecem proeminentes porque definem mecanismos reutilizados na aprendizagem, no desenvolvimento e na pesquisa de doenças.
+- Limitações:
+  - Os mecanismos celulares podem ser difíceis de conectar diretamente à dinâmica de todo o cérebro ou ao comportamento humano.
+  - Amostragem unicelular, dissociação, alinhamento e efeitos de lote podem influenciar populações de células inferidas.
+  - As descobertas em animais e ex vivo precisam de uma tradução cuidadosa para doenças e cognição humanas.
 
 <details>
 <summary><strong>Show representative papers for Cellular, Molecular, and Synaptic Neuroscience</strong></summary>
@@ -206,19 +206,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cognitive and Systems Neuroscience
+### Neurociência Cognitiva e de Sistemas
 
-- Papers selected: **720**
-- Years covered: **1900-2026**
-- Citation count in selected set: **636,954**
-- Category Overview (main research trends):
-  - Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.
-  - The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.
-  - Highly cited papers often become conceptual anchors for how brain systems implement cognition.
-- Limitations:
-  - Task designs can simplify cognition enough that ecological validity becomes uncertain.
-  - Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.
-  - Correlational neural signatures need causal tests before they are treated as mechanisms.
+- Artigos selecionados: **720**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **636.954**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - O trabalho cognitivo e sistêmico conecta redes, circuitos e dinâmicas cerebrais à percepção, ação, memória, atenção, aprendizagem e tomada de decisão.
+  - A literatura combina cada vez mais comportamento, registro neural, imagem, modelos computacionais e perturbação causal.
+  - Artigos altamente citados muitas vezes se tornam âncoras conceituais de como os sistemas cerebrais implementam a cognição.
+- Limitações:
+  - Os projetos de tarefas podem simplificar a cognição o suficiente para que a validade ecológica se torne incerta.
+  - O alinhamento entre espécies entre circuitos, comportamento e experiência subjetiva permanece imperfeito.
+  - Assinaturas neurais correlacionais precisam de testes causais antes de serem tratadas como mecanismos.
 
 <details>
 <summary><strong>Show representative papers for Cognitive and Systems Neuroscience</strong></summary>
@@ -252,19 +252,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Clinical Neurology and Neurodegeneration
+### Neurologia Clínica e Neurodegeneração
 
-- Papers selected: **1,838**
-- Years covered: **1900-2026**
-- Citation count in selected set: **950,683**
-- Category Overview (main research trends):
-  - Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.
-  - Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.
-  - Translation depends on connecting biological signatures to outcomes that matter to patients and care systems.
-- Limitations:
-  - Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.
-  - Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.
-  - High citation counts can favor broad disease frameworks over smaller mechanistic or interventional studies.
+- Artigos selecionados: **1.838**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **950.683**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - A pesquisa clínica do cérebro concentra-se no diagnóstico, mecanismos, biomarcadores, tratamento e prognóstico para distúrbios neurológicos e neurodegenerativos.
+  - Grandes coortes e estruturas de biomarcadores tornaram a demência, o acidente vascular cerebral, a epilepsia, a doença de Parkinson e as lesões cerebrais especialmente visíveis nas visualizações classificadas por citações.
+  - A tradução depende da ligação de assinaturas biológicas a resultados que são importantes para os pacientes e para os sistemas de cuidados.
+- Limitações:
+  - As coortes clínicas geralmente diferem no estágio da doença, comorbidade, histórico de tratamento e duração do acompanhamento.
+  - Os biomarcadores podem não ser transferidos de forma limpa entre populações, scanners, ambientes de cuidados ou critérios de diagnóstico.
+  - Contagens altas de citações podem favorecer quadros amplos de doenças em detrimento de estudos mecanísticos ou intervencionistas menores.
 
 <details>
 <summary><strong>Show representative papers for Clinical Neurology and Neurodegeneration</strong></summary>
@@ -298,19 +298,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Development, Plasticity, and Connectomics
+### Desenvolvimento cerebral, plasticidade e conectômica
 
-- Papers selected: **711**
-- Years covered: **1900-2026**
-- Citation count in selected set: **728,351**
-- Category Overview (main research trends):
-  - This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.
-  - Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.
-  - Plasticity research links cellular mechanisms, experience, rehabilitation, and large-scale brain reorganization.
-- Limitations:
-  - Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.
-  - Network measures can depend heavily on parcellation, thresholding, and acquisition choices.
-  - Plasticity claims need stronger evidence separating transient compensation from durable functional improvement.
+- Artigos selecionados: **711**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **728.351**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - Esta categoria segue como a estrutura, as redes e as funções do cérebro mudam ao longo do desenvolvimento, aprendizagem, envelhecimento e recuperação.
+  - A conectômica mudou o campo de regiões isoladas para organização em nível de rede e trajetórias de vida.
+  - A pesquisa sobre plasticidade vincula mecanismos celulares, experiência, reabilitação e reorganização cerebral em larga escala.
+- Limitações:
+  - Os estudos de desenvolvimento e envelhecimento são sensíveis à composição da coorte, ao atrito e aos intervalos de amostragem longitudinal.
+  - As medidas de rede podem depender fortemente de opções de parcelamento, limiares e aquisição.
+  - As alegações de plasticidade precisam de evidências mais fortes que separam a compensação transitória da melhoria funcional durável.
 
 <details>
 <summary><strong>Show representative papers for Brain Development, Plasticity, and Connectomics</strong></summary>
@@ -344,19 +344,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Stimulation, Neurotechnology, and BCI
+### Estimulação cerebral, neurotecnologia e BCI
 
-- Papers selected: **54**
-- Years covered: **1916-2026**
-- Citation count in selected set: **47,944**
-- Category Overview (main research trends):
-  - Neurotechnology work uses stimulation, implants, decoding, and closed-loop systems to probe or restore brain function.
-  - The field is moving from proof-of-concept control and stimulation toward durable devices, adaptive therapy, and user-centered deployment.
-  - BCI and neuromodulation papers connect engineering performance with clinical function, safety, and usability.
-- Limitations:
-  - Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.
-  - Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.
-  - Performance in controlled sessions may not reflect daily-life reliability or user burden.
+- Artigos selecionados: **54**
+- Anos cobertos: **1916-2026**
+- Contagem de citações no conjunto selecionado: **47.944**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - O trabalho da neurotecnologia usa estimulação, implantes, decodificação e sistemas de circuito fechado para sondar ou restaurar a função cerebral.
+  - O campo está mudando de controle e estimulação de prova de conceito para dispositivos duráveis, terapia adaptativa e implantação centrada no usuário.
+  - Os artigos da BCI e de neuromodulação conectam o desempenho da engenharia com função clínica, segurança e usabilidade.
+- Limitações:
+  - Coortes pequenas, risco invasivo, manutenção do dispositivo e estabilidade a longo prazo continuam sendo as principais barreiras à tradução.
+  - Os efeitos de ciclo fechado são difíceis de separar do placebo, do treinamento, da medicação e da flutuação da doença.
+  - O desempenho em sessões controladas pode não refletir a confiabilidade da vida diária ou a sobrecarga do usuário.
 
 <details>
 <summary><strong>Show representative papers for Brain Stimulation, Neurotechnology, and BCI</strong></summary>
@@ -390,19 +390,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Computational Neuroscience and AI
+### Neurociência Computacional e IA
 
-- Papers selected: **117**
-- Years covered: **1907-2026**
-- Citation count in selected set: **113,799**
-- Category Overview (main research trends):
-  - Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.
-  - AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.
-  - High-impact work often clarifies which computations could plausibly be implemented by neural circuits.
-- Limitations:
-  - Predictive performance does not necessarily identify causal neural mechanisms.
-  - Models can inherit dataset bias, preprocessing artifacts, and task constraints.
-  - Interpretability and biological plausibility remain central challenges for large AI-based models.
+- Artigos selecionados: **117**
+- Anos cobertos: **1907-2026**
+- Contagem de citações no conjunto selecionado: **113.799**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - A pesquisa computacional do cérebro formaliza codificação neural, inferência, aprendizagem, dinâmica e decodificação com modelos estatísticos e de aprendizado de máquina.
+  - Os métodos de IA são cada vez mais utilizados como ferramentas de análise e como hipóteses para computação cerebral.
+  - Trabalhos de alto impacto geralmente esclarecem quais cálculos poderiam ser implementados de forma plausível por circuitos neurais.
+- Limitações:
+  - O desempenho preditivo não identifica necessariamente mecanismos neurais causais.
+  - Os modelos podem herdar tendências do conjunto de dados, artefatos de pré-processamento e restrições de tarefas.
+  - A interpretabilidade e a plausibilidade biológica continuam a ser desafios centrais para grandes modelos baseados em IA.
 
 <details>
 <summary><strong>Show representative papers for Computational Neuroscience and AI</strong></summary>
@@ -436,19 +436,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cerebrovascular, Metabolism, and Brain Injury
+### Cerebrovascular, metabolismo e lesão cerebral
 
-- Papers selected: **484**
-- Years covered: **1900-2026**
-- Citation count in selected set: **188,723**
-- Category Overview (main research trends):
-  - This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.
-  - Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.
-  - The area is clinically important because small changes in timing, physiology, and treatment windows can alter outcomes.
-- Limitations:
-  - Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.
-  - Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.
-  - Translational failures remain common when mechanistic signals are not tied to functional outcomes.
+- Artigos selecionados: **484**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **188.723**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - Esta categoria abrange vias vasculares, metabólicas, inflamatórias e de lesões que moldam o dano cerebral e a recuperação.
+  - Estudos altamente citados frequentemente definem mecanismos, evidências de cuidados agudos ou biomarcadores para acidente vascular cerebral, trauma e disfunção de barreira.
+  - A área é clinicamente importante porque pequenas mudanças no tempo, na fisiologia e nas janelas de tratamento podem alterar os resultados.
+- Limitações:
+  - Os estudos de lesões agudas podem ser sensíveis ao momento, à gravidade, à comorbidade e à heterogeneidade do tratamento.
+  - Os modelos animais podem não capturar o risco vascular humano, a complexidade das lesões ou o contexto de reabilitação.
+  - As falhas translacionais permanecem comuns quando os sinais mecanicistas não estão vinculados aos resultados funcionais.
 
 <details>
 <summary><strong>Show representative papers for Cerebrovascular, Metabolism, and Brain Injury</strong></summary>
@@ -482,19 +482,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### General Brain Science and Reviews
+### Ciência Geral do Cérebro e Avaliações
 
-- Papers selected: **5,928**
-- Years covered: **1900-2026**
-- Citation count in selected set: **2,116,311**
-- Category Overview (main research trends):
-  - General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.
-  - Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.
-  - This category also catches broad brain papers that do not fit cleanly into one methodological or disease-focused area.
-- Limitations:
-  - Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.
-  - Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.
-  - Metadata-level curation cannot replace full-text expert appraisal of claims and evidence quality.
+- Artigos selecionados: **5.928**
+- Anos cobertos: **1900-2026**
+- Contagem de citações no conjunto selecionado: **2.116.311**
+- Visão geral da categoria (principais tendências de pesquisa):
+  - Artigos gerais sobre ciências do cérebro sintetizam métodos, conceitos, atlas, conjuntos de dados e estruturas de domínios cruzados.
+  - Revisões e artigos de consenso são pontos de entrada úteis porque conectam subcampos especializados e padronizam a terminologia.
+  - Esta categoria também abrange artigos abrangentes que não se enquadram perfeitamente em uma área metodológica ou focada em doenças.
+- Limitações:
+  - Revisões amplas podem dominar as listas classificadas por citações, ao mesmo tempo que obscurecem avanços empíricos mais restritos.
+  - Os limites da taxonomia são imperfeitos porque muitos artigos cerebrais combinam métodos, escalas e doenças.
+  - A curadoria em nível de metadados não pode substituir a avaliação especializada em texto completo das reivindicações e da qualidade das evidências.
 
 <details>
 <summary><strong>Show representative papers for General Brain Science and Reviews</strong></summary>
@@ -528,7 +528,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-## Yearly Coverage
+## Cobertura Anual
 
 | Year | Candidate papers | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | ---: | --- |
@@ -660,18 +660,18 @@ These badges define the brain keyword tags used to read and extend this collecti
 | 2025 | 1,000 | 100 | 13,298 | [2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001303) |
 | 2026 | 1,000 | 100 | 1,409 | [2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.](https://doi.org/10.1161/CIR.0000000000001412) |
 
-## Method
+## Método
 
-The collection uses the Semantic Scholar Academic Graph bulk paper search. For each publication year from 1900 through 2026, the pipeline runs broad brain and neuroscience queries, requests results sorted by `citationCount:desc`, merges and deduplicates the results, keeps up to 1,000 brain-relevant candidates per year after local title/abstract/field relevance checks, and selects the top 100 papers per year by citation count. Taxonomy, keyword tags, key ideas, strengths, limitations, and audit scores are deterministic rule-based enrichments so the repository can be regenerated without paid APIs.
+A coleção usa a pesquisa de artigos em massa do Semantic Scholar Academic Graph. Para cada ano de publicação de 1900 a 2026, o pipeline executa amplas consultas cerebrais e de neurociência, solicita resultados classificados por `citationCount:desc`, mescla e desduplica os resultados, mantém até 1.000 candidatos relevantes para o cérebro por ano após verificações locais de relevância de título/resumo/campo e seleciona os 100 principais artigos por ano por contagem de citações. Taxonomia, tags de palavras-chave, ideias-chave, pontos fortes, limitações e pontuações de auditoria são enriquecimentos determinísticos baseados em regras para que o repositório possa ser regenerado sem APIs pagas.
 
-## Caveats
+## Advertências
 
-- Citation counts favor older papers and can under-rank very recent 2026 work.
-- Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.
-- Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.
-- Influential citation counts use Semantic Scholar metadata when available.
-- Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.
+- A contagem de citações favorece artigos mais antigos e pode subclassificar trabalhos muito recentes de 2026.
+- Alguns anos iniciais têm menos de 1.000 candidatos detectáveis porque o conjunto público de metadados é escasso antes da indexação de periódicos em grande escala; anualmente ainda contribui com 100 trabalhos selecionados.
+- Os metadados do Semantic Scholar são metadados acadêmicos amplos; esta não é uma revisão sistemática completa de cada PDF.
+- Contagens de citações influentes usam metadados do Semantic Scholar quando disponíveis.
+- A pesquisa cerebral muito ampla abrange neurociência, neurologia, psicologia, biologia molecular, computação e medicina clínica, de modo que os limites da taxonomia são necessariamente aproximados.
 
-## Acknowledgements
+## Agradecimentos
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+Este repositório e site interativo foram criados com agradecimento a [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Seu fluxo de trabalho de curadoria de artigos e organização do repositório informaram a abordagem usada aqui para um mapa de pesquisa com classificação de citações e taxonomia em primeiro lugar.

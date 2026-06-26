@@ -1,7 +1,7 @@
-# Awesome Brain
+# 很棒的大脑
 [![Awesome](https://awesome.re/badge-flat.png)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
+1900 年至 2026 年大脑研究的分类学优先、引文排名地图。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-brain/">
@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
@@ -18,69 +18,69 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
-  <a href="README.zh.md">中文</a>
+  <a href="README.zh.md"><strong>中文</strong></a>
 </div>
 
-> Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/
+> 浏览带有句点、关键字、图表和纸卡过滤器的完整交互式分类网站：https://honggi82.github.io/awesome-brain/
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
+由免费公共语义学者元数据于 2026 年 6 月 27 日生成。当前版本每年调查 1900 年至 2026 年间多达 1,000 篇与大脑相关的候选论文，保留经过审核的候选论文库，每年根据引用次数选择前 100 篇论文，并根据研究分类重新组织所选的 12,700 篇论文。
 
-## Project Links
+## 项目链接
 
-- Website: https://honggi82.github.io/awesome-brain/
-- Selected dataset: `data/papers_1900_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_1900_2026.csv`
-- Precomputed period and keyword analysis: `data/period_analysis_1900_2026.json`
-- Candidate pool: `data/candidates_top1000_1900_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
-- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
+- 网址：https://honggi82.github.io/awesome-brain/
+- 选定的数据集：`data/papers_1900_2026.csv`
+- 具有论文级想法、优点和局限性的分类数据集：`data/papers_taxonomy_1900_2026.csv`
+- 预计算周期和关键字分析：`data/period_analysis_1900_2026.json`
+- 候选池：`data/candidates_top1000_1900_2026.csv`
+- 英文审稿稿：`paper/review_en.html`、`paper/review_en.docx`
+- 韩国审稿：`paper/review_ko.html`
+- 策展方式：`paper/curation_method.md`、`paper/curation_method.html`
 
-## Keywords Convention
+## 关键词约定
 
-These badges define the brain keyword tags used to read and extend this collection.
+这些徽章定义了用于阅读和扩展此集合的大脑关键字标签。
 
-- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: Magnetic resonance imaging, structural MRI, diffusion MRI, or MRI-derived brain measures.
-- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: Functional MRI, BOLD imaging, task activation, resting-state, or functional connectivity.
-- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Electroencephalography, event-related potentials, oscillations, or scalp electrophysiology.
-- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencephalography or magnetic source imaging of brain activity.
-- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Electrocorticography, intracranial EEG, or cortical surface recordings.
-- ![single-cell](https://img.shields.io/badge/keyword-single--cell-f59e0b) **single-cell**: Single-cell, single-nucleus, single-unit, spike, transcriptomic, or cell atlas studies.
-- ![human](https://img.shields.io/badge/keyword-human-be123c) **human**: Human participants, patients, volunteers, human brain tissue, or population cohorts.
-- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, non-human primate, rodent, zebrafish, fly, model organism, or simulation-focused studies.
-- ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: Brain connectivity, connectomics, networks, tractography, or atlas-based mapping.
-- ![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c) **stimulation**: Brain stimulation, DBS, TMS, tDCS, neuromodulation, implants, or closed-loop intervention.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**：磁共振成像、结构 MRI、扩散 MRI 或 MRI 衍生的脑部测量。
+- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**：功能 MRI、BOLD 成像、任务激活、静息状态或功能连接。
+- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**：脑电图、事件相关电位、振荡或头皮电生理学。
+- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**：脑磁图或大脑活动的磁源成像。
+- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**：皮质电图、颅内脑电图或皮质表面记录。
+- ![单细胞](https://img.shields.io/badge/keyword-single--cell-f59e0b) **单细胞**：单细胞、单核、单单位、刺突、转录组或细胞图谱研究。
+- ![人类](https://img.shields.io/badge/keyword-human-be123c) **人类**：人类参与者、患者、志愿者、人类脑组织或人群。
+- ![非人类](https://img.shields.io/badge/keyword-non--human-a855f7) **非人类**：动物、非人类灵长类动物、啮齿动物、斑马鱼、苍蝇、模型生物或以模拟为重点的研究。
+- ![连接组](https://img.shields.io/badge/keyword-connectome-16a34a) **连接组**：大脑连接、连接组、网络、纤维束成像或基于图谱的映射。
+- ![刺激](https://img.shields.io/badge/keyword-stimulation-ea580c) **刺激**：脑刺激、DBS、TMS、tDCS、神经调节、植入或闭环干预。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**：在元数据审计中识别出具有官方 GitHub 或代码存储库链接的论文。
 
-## Taxonomy Overview
+## 分类概述
 
-- **Total selected papers**: 12,700 papers
-- **General Brain Science and Reviews**: 5,928 papers
-- **Clinical Neurology and Neurodegeneration**: 1,838 papers
-- **Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers
-- **Cognitive and Systems Neuroscience**: 720 papers
-- **Brain Development, Plasticity, and Connectomics**: 711 papers
-- **EEG, MEG, and Electrophysiology**: 647 papers
-- **Cerebrovascular, Metabolism, and Brain Injury**: 484 papers
-- **Neuroimaging and Brain Mapping**: 471 papers
-- **Computational Neuroscience and AI**: 117 papers
-- **Brain Stimulation, Neurotechnology, and BCI**: 54 papers
+- **所选论文总数**：12,700 篇论文
+- **一般脑科学和评论**：5,928 篇论文
+- **临床神经病学和神经退行性疾病**：1,838 篇论文
+- **细胞、分子和突触神经科学**：1,730 篇论文
+- **认知和系统神经科学**：720 篇论文
+- **大脑发育、可塑性和连接组学**：711 篇论文
+- **脑电图、脑磁图和电生理学**：647 篇论文
+- **脑血管、代谢和脑损伤**：484 篇论文
+- **神经影像和脑图谱**：471 篇论文
+- **计算神经科学和人工智能**：117 篇论文
+- **大脑刺激、神经技术和 BCI**：54 篇论文
 
-## Taxonomy Collections
+## 分类学集合
 
-### Neuroimaging and Brain Mapping
+### 神经影像和脑图谱
 
-- Papers selected: **471**
-- Years covered: **1901-2026**
-- Citation count in selected set: **599,330**
-- Category Overview (main research trends):
-  - High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.
-  - The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.
-  - Imaging biomarkers increasingly connect anatomy and physiology to cognition, development, degeneration, and psychiatric phenotypes.
-- Limitations:
-  - Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.
-  - Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.
-  - Citation-ranked imaging lists can favor widely reused atlases and datasets over newer mechanistic studies.
+- 所选论文：**471**
+- 涵盖年份： **1901-2026**
+- 所选集中的引用计数：**599,330**
+- 类别概述（主要研究趋势）：
+  - 高引用率脑成像工作绘制了 MRI、fMRI、PET、DTI 和多模态队列的结构、功能、连接性和疾病特征。
+  - 最近最强劲的趋势是大规模群体神经成像，具有统一的预处理、共享图集和开放数据集。
+  - 成像生物标志物越来越多地将解剖学和生理学与认知、发育、退化和精神表型联系起来。
+- 限制：
+  - 扫描仪、方案、位点和预处理的变化可能会限制不同群体之间的再现性。
+  - 在做出因果关系之前，关联成像生物标志物通常需要更强的纵向或干预证据。
+  - 与较新的机制研究相比，引文排名的成像列表更有利于广泛重复使用的图集和数据集。
 
 <details>
 <summary><strong>Show representative papers for Neuroimaging and Brain Mapping</strong></summary>
@@ -114,19 +114,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### EEG, MEG, and Electrophysiology
+### 脑电图、脑磁图和电生理学
 
-- Papers selected: **647**
-- Years covered: **1900-2026**
-- Citation count in selected set: **322,302**
-- Category Overview (main research trends):
-  - Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.
-  - The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.
-  - EEG and MEG remain central where temporal precision, clinical accessibility, or non-invasive monitoring are more important than spatial detail.
-- Limitations:
-  - Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.
-  - Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.
-  - Hardware, montage, preprocessing, and reference choices can make direct comparison difficult.
+- 所选论文：**647**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**322,302**
+- 类别概述（主要研究趋势）：
+  - 电生理学论文围绕快速神经动力学、振荡、事件相关反应和疾病相关节律组织大脑研究。
+  - 该领域正在朝着源定位、多模态融合、移动录音和机器学习辅助解码的方向发展。
+  - 脑电图和脑磁图仍然是核心，其中时间精度、临床可及性或无创监测比空间细节更重要。
+- 限制：
+  - 低信噪比、伪影和源定位不确定性使解释变得复杂。
+  - 许多研究依赖于受控任务，可能无法推广到日常行为或临床监测。
+  - 硬件、蒙太奇、预处理和参考选择可能会使直接比较变得困难。
 
 <details>
 <summary><strong>Show representative papers for EEG, MEG, and Electrophysiology</strong></summary>
@@ -160,19 +160,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cellular, Molecular, and Synaptic Neuroscience
+### 细胞、分子和突触神经科学
 
-- Papers selected: **1,730**
-- Years covered: **1900-2026**
-- Citation count in selected set: **1,458,320**
-- Category Overview (main research trends):
-  - This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.
-  - High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.
-  - Classic synaptic and plasticity papers remain prominent because they define mechanisms reused across learning, development, and disease research.
-- Limitations:
-  - Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.
-  - Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.
-  - Animal and ex vivo findings need careful translation to human disease and cognition.
+- 所选论文： **1,730**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**1,458,320**
+- 类别概述（主要研究趋势）：
+  - 该区域捕获细胞类型、回路、突触可塑性、分子途径和单细胞图谱，从微观水平解释大脑功能。
+  - 高通量转录组学和大规模细胞图谱日益将分子身份与解剖学和电路功能联系起来。
+  - 经典的突触和可塑性论文仍然很突出，因为它们定义了在学习、发育和疾病研究中重复使用的机制。
+- 限制：
+  - 细胞机制可能很难直接与全脑动力学或人类行为联系起来。
+  - 单细胞采样、解离、排列和批次效应可能会使推断的细胞群产生偏差。
+  - 动物和离体研究结果需要仔细转化为人类疾病和认知。
 
 <details>
 <summary><strong>Show representative papers for Cellular, Molecular, and Synaptic Neuroscience</strong></summary>
@@ -206,19 +206,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cognitive and Systems Neuroscience
+### 认知与系统神经科学
 
-- Papers selected: **720**
-- Years covered: **1900-2026**
-- Citation count in selected set: **636,954**
-- Category Overview (main research trends):
-  - Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.
-  - The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.
-  - Highly cited papers often become conceptual anchors for how brain systems implement cognition.
-- Limitations:
-  - Task designs can simplify cognition enough that ecological validity becomes uncertain.
-  - Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.
-  - Correlational neural signatures need causal tests before they are treated as mechanisms.
+- 所选论文： **720**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**636,954**
+- 类别概述（主要研究趋势）：
+  - 认知和系统工作将大脑网络、回路和动力学与感知、行动、记忆、注意力、学习和决策联系起来。
+  - 文献越来越多地将行为、神经记录、成像、计算模型和因果扰动结合起来。
+  - 被高度引用的论文通常成为大脑系统如何实现认知的概念锚。
+- 限制：
+  - 任务设计可以足够简化认知，以至于生态有效性变得不确定。
+  - 电路、行为和主观体验之间的跨物种一致性仍然不完善。
+  - 相关神经特征在被视为机制之前需要进行因果测试。
 
 <details>
 <summary><strong>Show representative papers for Cognitive and Systems Neuroscience</strong></summary>
@@ -252,19 +252,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Clinical Neurology and Neurodegeneration
+### 临床神经病学和神经退行性疾病
 
-- Papers selected: **1,838**
-- Years covered: **1900-2026**
-- Citation count in selected set: **950,683**
-- Category Overview (main research trends):
-  - Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.
-  - Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.
-  - Translation depends on connecting biological signatures to outcomes that matter to patients and care systems.
-- Limitations:
-  - Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.
-  - Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.
-  - High citation counts can favor broad disease frameworks over smaller mechanistic or interventional studies.
+- 所选论文： **1,838**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**950,683**
+- 类别概述（主要研究趋势）：
+  - 临床脑研究集中于神经系统和神经退行性疾病的诊断、机制、生物标志物、治疗和预后。
+  - 大型队列和生物标志物框架使痴呆、中风、癫痫、帕金森病和脑损伤在引文排名视图中尤其明显。
+  - 转化取决于将生物特征与对患者和护理系统重要的结果联系起来。
+- 限制：
+  - 临床队列通常在疾病阶段、合并症、治疗史和随访持续时间方面存在差异。
+  - 生物标志物可能无法在人群、扫描仪、护理环境或诊断标准之间干净地转移。
+  - 高引用计数可能有利于广泛的疾病框架，而不是较小的机制或介入研究。
 
 <details>
 <summary><strong>Show representative papers for Clinical Neurology and Neurodegeneration</strong></summary>
@@ -298,19 +298,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Development, Plasticity, and Connectomics
+### 大脑发育、可塑性和连接组学
 
-- Papers selected: **711**
-- Years covered: **1900-2026**
-- Citation count in selected set: **728,351**
-- Category Overview (main research trends):
-  - This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.
-  - Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.
-  - Plasticity research links cellular mechanisms, experience, rehabilitation, and large-scale brain reorganization.
-- Limitations:
-  - Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.
-  - Network measures can depend heavily on parcellation, thresholding, and acquisition choices.
-  - Plasticity claims need stronger evidence separating transient compensation from durable functional improvement.
+- 所选论文：**711**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**728,351**
+- 类别概述（主要研究趋势）：
+  - 该类别关注大脑结构、网络和功能在发育、学习、衰老和恢复过程中如何变化。
+  - 连接组学已将该领域从孤立的区域转向网络级组织和生命周期轨迹。
+  - 可塑性研究将细胞机制、经验、康复和大规模大脑重组联系起来。
+- 限制：
+  - 发育和衰老研究对队列组成、人员流失和纵向采样间隔很敏感。
+  - 网络测量在很大程度上取决于分割、阈值和获取选择。
+  - 可塑性主张需要更有力的证据来区分短暂补偿和持久功能改善。
 
 <details>
 <summary><strong>Show representative papers for Brain Development, Plasticity, and Connectomics</strong></summary>
@@ -344,19 +344,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Stimulation, Neurotechnology, and BCI
+### 脑刺激、神经技术和脑机接口
 
-- Papers selected: **54**
-- Years covered: **1916-2026**
-- Citation count in selected set: **47,944**
-- Category Overview (main research trends):
-  - Neurotechnology work uses stimulation, implants, decoding, and closed-loop systems to probe or restore brain function.
-  - The field is moving from proof-of-concept control and stimulation toward durable devices, adaptive therapy, and user-centered deployment.
-  - BCI and neuromodulation papers connect engineering performance with clinical function, safety, and usability.
-- Limitations:
-  - Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.
-  - Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.
-  - Performance in controlled sessions may not reflect daily-life reliability or user burden.
+- 所选论文：**54**
+- 涵盖年份： **1916-2026**
+- 所选集中的引用计数：**47,944**
+- 类别概述（主要研究趋势）：
+  - 神经技术工作使用刺激、植入、解码和闭环系统来探测或恢复大脑功能。
+  - 该领域正在从概念验证控制和刺激转向耐用设备、自适应治疗和以用户为中心的部署。
+  - BCI 和神经调节论文将工程性能与临床功能、安全性和可用性联系起来。
+- 限制：
+  - 小群体、侵入性风险、设备维护和长期稳定性仍然是主要的转化障碍。
+  - 闭环效应很难与安慰剂、训练、药物和疾病波动分开。
+  - 受控会话中的性能可能无法反映日常生活可靠性或用户负担。
 
 <details>
 <summary><strong>Show representative papers for Brain Stimulation, Neurotechnology, and BCI</strong></summary>
@@ -390,19 +390,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Computational Neuroscience and AI
+### 计算神经科学和人工智能
 
-- Papers selected: **117**
-- Years covered: **1907-2026**
-- Citation count in selected set: **113,799**
-- Category Overview (main research trends):
-  - Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.
-  - AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.
-  - High-impact work often clarifies which computations could plausibly be implemented by neural circuits.
-- Limitations:
-  - Predictive performance does not necessarily identify causal neural mechanisms.
-  - Models can inherit dataset bias, preprocessing artifacts, and task constraints.
-  - Interpretability and biological plausibility remain central challenges for large AI-based models.
+- 所选论文：**117**
+- 涵盖年份： **1907-2026**
+- 所选集中的引用计数：**113,799**
+- 类别概述（主要研究趋势）：
+  - 计算大脑研究通过统计和机器学习模型将神经编码、推理、学习、动力学和解码形式化。
+  - 人工智能方法越来越多地用作分析工具和大脑计算的假设。
+  - 高影响力的工作通常会阐明哪些计算可以通过神经电路来实现。
+- 限制：
+  - 预测表现不一定能识别因果神经机制。
+  - 模型可以继承数据集偏差、预处理工件和任务约束。
+  - 可解释性和生物学合理性仍然是大型人工智能模型面临的主要挑战。
 
 <details>
 <summary><strong>Show representative papers for Computational Neuroscience and AI</strong></summary>
@@ -436,19 +436,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cerebrovascular, Metabolism, and Brain Injury
+### 脑血管、新陈代谢和脑损伤
 
-- Papers selected: **484**
-- Years covered: **1900-2026**
-- Citation count in selected set: **188,723**
-- Category Overview (main research trends):
-  - This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.
-  - Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.
-  - The area is clinically important because small changes in timing, physiology, and treatment windows can alter outcomes.
-- Limitations:
-  - Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.
-  - Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.
-  - Translational failures remain common when mechanistic signals are not tied to functional outcomes.
+- 所选论文：**484**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**188,723**
+- 类别概述（主要研究趋势）：
+  - 该类别涵盖影响脑损伤和恢复的血管、代谢、炎症和损伤途径。
+  - 被高度引用的研究通常会定义中风、创伤和屏障功能障碍的机制、急症护理证据或生物标志物。
+  - 该领域在临床上很重要，因为时间、生理和治疗窗口的微小变化都可能改变结果。
+- 限制：
+  - 急性损伤研究可能对时间、严重程度、合并症和治疗异质性敏感。
+  - 动物模型可能无法捕捉人类血管风险、损伤复杂性或康复背景。
+  - 当机械信号与功能结果不相关时，转化失败仍然很常见。
 
 <details>
 <summary><strong>Show representative papers for Cerebrovascular, Metabolism, and Brain Injury</strong></summary>
@@ -482,19 +482,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### General Brain Science and Reviews
+### 一般脑科学和评论
 
-- Papers selected: **5,928**
-- Years covered: **1900-2026**
-- Citation count in selected set: **2,116,311**
-- Category Overview (main research trends):
-  - General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.
-  - Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.
-  - This category also catches broad brain papers that do not fit cleanly into one methodological or disease-focused area.
-- Limitations:
-  - Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.
-  - Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.
-  - Metadata-level curation cannot replace full-text expert appraisal of claims and evidence quality.
+- 所选论文： **5,928**
+- 涵盖年份： **1900-2026**
+- 所选集中的引用计数：**2,116,311**
+- 类别概述（主要研究趋势）：
+  - 一般脑科学论文综合了方法、概念、图集、数据集和跨领域框架。
+  - 评论和共识论文是有用的切入点，因为它们连接了专门的子领域并标准化了术语。
+  - 这一类别还涵盖了那些不完全适合某一方法论或疾病重点领域的宽泛的大脑论文。
+- 限制：
+  - 广泛的评论可以主导引文排名列表，同时掩盖狭义的实证进展。
+  - 分类学的界限并不完善，因为许多脑论文结合了方法、尺度和疾病。
+  - 元数据级别的管理不能取代专家对主张和证据质量的全文评估。
 
 <details>
 <summary><strong>Show representative papers for General Brain Science and Reviews</strong></summary>
@@ -528,7 +528,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-## Yearly Coverage
+## 年度覆盖范围
 
 | Year | Candidate papers | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | ---: | --- |
@@ -660,18 +660,18 @@ These badges define the brain keyword tags used to read and extend this collecti
 | 2025 | 1,000 | 100 | 13,298 | [2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001303) |
 | 2026 | 1,000 | 100 | 1,409 | [2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.](https://doi.org/10.1161/CIR.0000000000001412) |
 
-## Method
+## 方法
 
-The collection uses the Semantic Scholar Academic Graph bulk paper search. For each publication year from 1900 through 2026, the pipeline runs broad brain and neuroscience queries, requests results sorted by `citationCount:desc`, merges and deduplicates the results, keeps up to 1,000 brain-relevant candidates per year after local title/abstract/field relevance checks, and selects the top 100 papers per year by citation count. Taxonomy, keyword tags, key ideas, strengths, limitations, and audit scores are deterministic rule-based enrichments so the repository can be regenerated without paid APIs.
+该集合使用语义学者学术图批量论文搜索。对于从 1900 年到 2026 年的每个出版年，该管道都会运行广泛的大脑和神经科学查询，请求按 `citationCount:desc` 排序的结果，合并和删除重复结果，在本地标题/摘要/领域相关性检查后每年保留多达 1,000 篇与大脑相关的候选论文，并根据引用计数每年选择前 100 篇论文。分类法、关键字标签、关键思想、优势、限制和审核分数是基于确定性规则的丰富，因此可以在无需付费 API 的情况下重新生成存储库。
 
-## Caveats
+## 注意事项
 
-- Citation counts favor older papers and can under-rank very recent 2026 work.
-- Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.
-- Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.
-- Influential citation counts use Semantic Scholar metadata when available.
-- Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.
+- 引用计数偏向于较旧的论文，并且可能低于 2026 年最新论文的排名。
+- 一些早期年份的可发现候选数据库不足 1,000 个，因为在大规模期刊索引之前公共元数据池很稀疏；每年仍贡献100篇精选论文。
+- 语义学者元数据是广泛的学术元数据；这并不是对每个 PDF 的全面系统回顾。
+- 有影响力的引用计数使用语义学者元数据（如果可用）。
+- 非常广泛的大脑研究涵盖神经科学、神经学、心理学、分子生物学、计算和临床医学，因此分类边界必然是近似的。
 
-## Acknowledgements
+## 致谢
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+这个存储库和交互式网站是出于对 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) 的赞赏而创建的。其论文管理工作流程和存储库组织为此处使用的分类优先、引文排名的研究地图提供了方法。

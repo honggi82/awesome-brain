@@ -1,7 +1,7 @@
-# Awesome Brain
+# 素晴らしい頭脳
 [![Awesome](https://awesome.re/badge-flat.png)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
+1900 年から 2026 年までの脳研究を分類法優先で引用順位付けしたマップ。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-brain/">
@@ -10,77 +10,77 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md"><strong>日本語</strong></a> |
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-> Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/
+> 期間、キーワード、グラフ、紙カードのフィルターを備えた完全なインタラクティブな分類サイトを参照します: https://honggi82.github.io/awesome-brain/
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
+無料の公開 Semantic Scholar メタデータから 2026 年 6 月 27 日に生成されました。現在版では、1900 年から 2026 年までの脳関連の候補論文を年間最大 1,000 件調査し、監査済みの候補者プールを維持し、被引用数に基づいて年間上位 100 件の論文を選択し、選択された 12,700 件の論文を研究分類別に再編成しています。
 
-## Project Links
+## プロジェクトリンク
 
-- Website: https://honggi82.github.io/awesome-brain/
-- Selected dataset: `data/papers_1900_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_1900_2026.csv`
-- Precomputed period and keyword analysis: `data/period_analysis_1900_2026.json`
-- Candidate pool: `data/candidates_top1000_1900_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
-- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
+- ウェブサイト: https://honggi82.github.io/awesome-brain/
+- 選択したデータセット: `data/papers_1900_2026.csv`
+- 論文レベルのアイデア、長所、制限を含む分類データセット: `data/papers_taxonomy_1900_2026.csv`
+- 事前計算された期間とキーワードの分析: `data/period_analysis_1900_2026.json`
+- 候補者プール: `data/candidates_top1000_1900_2026.csv`
+- 英語レビュードラフト: `paper/review_en.html`、`paper/review_en.docx`
+- 韓国語レビュー草案: `paper/review_ko.html`
+- キュレーション方法：`paper/curation_method.md`、`paper/curation_method.html`
 
-## Keywords Convention
+## キーワードの規則
 
-These badges define the brain keyword tags used to read and extend this collection.
+これらのバッジは、このコレクションの読み取りと拡張に使用される脳キーワード タグを定義します。
 
-- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: Magnetic resonance imaging, structural MRI, diffusion MRI, or MRI-derived brain measures.
-- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: Functional MRI, BOLD imaging, task activation, resting-state, or functional connectivity.
-- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Electroencephalography, event-related potentials, oscillations, or scalp electrophysiology.
-- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencephalography or magnetic source imaging of brain activity.
-- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Electrocorticography, intracranial EEG, or cortical surface recordings.
-- ![single-cell](https://img.shields.io/badge/keyword-single--cell-f59e0b) **single-cell**: Single-cell, single-nucleus, single-unit, spike, transcriptomic, or cell atlas studies.
-- ![human](https://img.shields.io/badge/keyword-human-be123c) **human**: Human participants, patients, volunteers, human brain tissue, or population cohorts.
-- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, non-human primate, rodent, zebrafish, fly, model organism, or simulation-focused studies.
-- ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: Brain connectivity, connectomics, networks, tractography, or atlas-based mapping.
-- ![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c) **stimulation**: Brain stimulation, DBS, TMS, tDCS, neuromodulation, implants, or closed-loop intervention.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: 磁気共鳴画像法、構造 MRI、拡散 MRI、または MRI 由来の脳測定。
+- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: 機能的 MRI、BOLD イメージング、タスクの起動、休止状態、または機能的接続。
+- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: 脳波検査、事象関連電位、振動、または頭皮電気生理学。
+- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: 脳磁図または脳活動の磁気源イメージング。
+- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: 皮質電図検査、頭蓋内 EEG、または皮質表面の記録。
+- ![単一セル](https://img.shields.io/badge/keyword-single--cell-f59e0b) **単一セル**: 単一細胞、単一核、単一ユニット、スパイク、トランスクリプトーム、またはセル アトラス研究。
+- ![人間](https://img.shields.io/badge/keyword-human-be123c) **人間**: 人間の参加者、患者、ボランティア、人間の脳組織、または集団コホート。
+- ![非ヒト](https://img.shields.io/badge/keyword-non--human-a855f7) **非ヒト**: 動物、非ヒト霊長類、げっ歯類、ゼブラフィッシュ、ハエ、モデル生物、またはシミュレーションに焦点を当てた研究。
+- ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: 脳の接続性、コネクトミクス、ネットワーク、トラクトグラフィー、またはアトラスベースのマッピング。
+- ![刺激](https://img.shields.io/badge/keyword-stimulation-ea580c) **刺激**: 脳刺激、DBS、TMS、tDCS、神経調節、インプラント、または閉ループ介入。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: メタデータ監査で特定された公式 GitHub またはコード リポジトリ リンクを含む論文。
 
-## Taxonomy Overview
+## 分類学の概要
 
-- **Total selected papers**: 12,700 papers
-- **General Brain Science and Reviews**: 5,928 papers
-- **Clinical Neurology and Neurodegeneration**: 1,838 papers
-- **Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers
-- **Cognitive and Systems Neuroscience**: 720 papers
-- **Brain Development, Plasticity, and Connectomics**: 711 papers
-- **EEG, MEG, and Electrophysiology**: 647 papers
-- **Cerebrovascular, Metabolism, and Brain Injury**: 484 papers
-- **Neuroimaging and Brain Mapping**: 471 papers
-- **Computational Neuroscience and AI**: 117 papers
-- **Brain Stimulation, Neurotechnology, and BCI**: 54 papers
+- **選択された論文の合計**: 12,700 件の論文
+- **一般的な脳科学とレビュー**: 5,928 件の論文
+- **臨床神経学と神経変性**: 1,838 件の論文
+- **細胞、分子、およびシナプス神経科学**: 1,730 件の論文
+- **認知およびシステム神経科学**: 720 件の論文
+- **脳の発達、可塑性、およびコネクトミクス**: 711 件の論文
+- **EEG、MEG、および電気生理学**: 647 件の論文
+- **脳血管、代謝、および脳損傷**: 484 件の論文
+- **神経画像化と脳マッピング**: 471 件の論文
+- **計算神経科学と AI**: 117 件の論文
+- **脳刺激、ニューロテクノロジー、BCI**: 54 件の論文
 
-## Taxonomy Collections
+## 分類コレクション
 
-### Neuroimaging and Brain Mapping
+### 神経画像化と脳マッピング
 
-- Papers selected: **471**
-- Years covered: **1901-2026**
-- Citation count in selected set: **599,330**
-- Category Overview (main research trends):
-  - High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.
-  - The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.
-  - Imaging biomarkers increasingly connect anatomy and physiology to cognition, development, degeneration, and psychiatric phenotypes.
-- Limitations:
-  - Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.
-  - Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.
-  - Citation-ranked imaging lists can favor widely reused atlases and datasets over newer mechanistic studies.
+- 選択された論文: **471**
+- 対象年: **1901-2026**
+- 選択したセットの引用数: **599,330**
+- カテゴリー概要（主な研究傾向）：
+  - 高引用の脳イメージング作業では、MRI、fMRI、PET、DTI、およびマルチモーダル コホートにわたる構造、機能、接続性、および疾患の兆候をマッピングします。
+  - 最近の最も強力なトレンドは、調和された前処理、共有アトラス、オープン データセットを使用した大規模集団神経イメージングです。
+  - 画像化バイオマーカーは、解剖学と生理学を認知、発達、変性、精神医学的表現型にますます結びつけています。
+- 制限事項:
+  - スキャナー、プロトコル、サイト、および前処理のバリエーションにより、コホート全体の再現性が制限される可能性があります。
+  - 関連画像バイオマーカーは、多くの場合、因果関係の主張がなされる前に、より強力な長期的証拠または介入証拠を必要とします。
+  - 引用順位付き画像リストでは、新しい機構研究よりも広く再利用されているアトラスやデータセットが優先される可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Neuroimaging and Brain Mapping</strong></summary>
@@ -114,19 +114,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### EEG, MEG, and Electrophysiology
+### EEG、MEG、および電気生理学
 
-- Papers selected: **647**
-- Years covered: **1900-2026**
-- Citation count in selected set: **322,302**
-- Category Overview (main research trends):
-  - Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.
-  - The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.
-  - EEG and MEG remain central where temporal precision, clinical accessibility, or non-invasive monitoring are more important than spatial detail.
-- Limitations:
-  - Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.
-  - Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.
-  - Hardware, montage, preprocessing, and reference choices can make direct comparison difficult.
+- 選択された論文: **647**
+- 対象年: **1900-2026**
+- 選択したセット内の引用数: **322,302**
+- カテゴリー概要（主な研究傾向）：
+  - 電気生理学に関する論文では、高速神経力学、振動、事象関連反応、疾患関連リズムを中心とした脳研究がまとめられています。
+  - この分野は、音源位置特定、マルチモーダル融合、モバイル録画、機械学習支援デコーディングに向かって進んでいます。
+  - EEG と MEG は、空間的な詳細よりも時間的精度、臨床的アクセス、非侵襲的モニタリングが重要な場合に中心的な役割を果たし続けます。
+- 制限事項:
+  - 低い信号対雑音比、アーティファクト、音源位置の不確実性により、解釈が複雑になります。
+  - 多くの研究は制御されたタスクに依存しており、日常の行動や臨床モニタリングに一般化できない場合があります。
+  - ハードウェア、モンタージュ、前処理、参照の選択により、直接の比較が困難になる場合があります。
 
 <details>
 <summary><strong>Show representative papers for EEG, MEG, and Electrophysiology</strong></summary>
@@ -160,19 +160,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cellular, Molecular, and Synaptic Neuroscience
+### 細胞、分子、およびシナプス神経科学
 
-- Papers selected: **1,730**
-- Years covered: **1900-2026**
-- Citation count in selected set: **1,458,320**
-- Category Overview (main research trends):
-  - This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.
-  - High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.
-  - Classic synaptic and plasticity papers remain prominent because they define mechanisms reused across learning, development, and disease research.
-- Limitations:
-  - Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.
-  - Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.
-  - Animal and ex vivo findings need careful translation to human disease and cognition.
+- 選択された論文: **1,730**
+- 対象年: **1900-2026**
+- 選択したセット内の引用数: **1,458,320**
+- カテゴリー概要（主な研究傾向）：
+  - この領域では、細胞の種類、回路、シナプス可塑性、分子経路、および脳機能を顕微鏡レベルから説明する単細胞アトラスが収集されます。
+  - ハイスループットのトランスクリプトミクスと大規模細胞アトラスにより、分子の同一性と解剖学的構造および回路機能の橋渡しがますます進んでいます。
+  - 古典的なシナプスと可塑性の論文は、学習、発達、疾患研究全体で再利用されるメカニズムを定義しているため、依然として著名です。
+- 制限事項:
+  - 細胞のメカニズムは、脳全体のダイナミクスや人間の行動に直接結び付けることが難しい場合があります。
+  - 単一細胞のサンプリング、解離、アライメント、およびバッチ効果により、推定される細胞集団に偏りが生じる可能性があります。
+  - 動物および生体外での発見は、人間の病気と認知に注意深く翻訳する必要があります。
 
 <details>
 <summary><strong>Show representative papers for Cellular, Molecular, and Synaptic Neuroscience</strong></summary>
@@ -206,19 +206,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cognitive and Systems Neuroscience
+### 認知およびシステム神経科学
 
-- Papers selected: **720**
-- Years covered: **1900-2026**
-- Citation count in selected set: **636,954**
-- Category Overview (main research trends):
-  - Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.
-  - The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.
-  - Highly cited papers often become conceptual anchors for how brain systems implement cognition.
-- Limitations:
-  - Task designs can simplify cognition enough that ecological validity becomes uncertain.
-  - Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.
-  - Correlational neural signatures need causal tests before they are treated as mechanisms.
+- 選択された論文: **720**
+- 対象年: **1900-2026**
+- 選択したセットの引用数: **636,954**
+- カテゴリー概要（主な研究傾向）：
+  - 認知およびシステムの働きは、脳のネットワーク、回路、ダイナミクスを知覚、行動、記憶、注意、学習、意思決定に結び付けます。
+  - 文献では、行動、神経記録、画像化、計算モデル、因果的摂動がますます組み合わされています。
+  - 頻繁に引用される論文は、脳システムがどのように認知を実装するかについての概念的なアンカーとなることがよくあります。
+- 制限事項:
+  - タスク設計は、生態学的妥当性が不確実になるほど認識を単純化することができます。
+  - 回路、行動、主観的経験の間の異種間調整は不完全なままです。
+  - 相関神経シグネチャは、メカニズムとして扱われる前に因果関係のテストが必要です。
 
 <details>
 <summary><strong>Show representative papers for Cognitive and Systems Neuroscience</strong></summary>
@@ -252,19 +252,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Clinical Neurology and Neurodegeneration
+### 臨床神経学と神経変性
 
-- Papers selected: **1,838**
-- Years covered: **1900-2026**
-- Citation count in selected set: **950,683**
-- Category Overview (main research trends):
-  - Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.
-  - Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.
-  - Translation depends on connecting biological signatures to outcomes that matter to patients and care systems.
-- Limitations:
-  - Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.
-  - Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.
-  - High citation counts can favor broad disease frameworks over smaller mechanistic or interventional studies.
+- 選択された論文: **1,838**
+- 対象年: **1900-2026**
+- 選択したセットの引用数: **950,683**
+- カテゴリー概要（主な研究傾向）：
+  - 臨床脳研究は、神経疾患および神経変性疾患の診断、メカニズム、バイオマーカー、治療、予後に重点を置いています。
+  - 大規模なコホートとバイオマーカーのフレームワークにより、認知症、脳卒中、てんかん、パーキンソン病、脳損傷が引用順位のビューで特に目立つようになりました。
+  - 翻訳は、生物学的特徴を患者および医療システムにとって重要な結果に結び付けるかどうかにかかっています。
+- 制限事項:
+  - 臨床コホートは、多くの場合、病期、併存疾患、治療歴、追跡期間が異なります。
+  - バイオマーカーは、集団、スキャナー、ケア環境、または診断基準間できれいに移行しない可能性があります。
+  - 引用数が多いと、小規模なメカニズム研究や介入研究よりも広範な疾患の枠組みが有利になる可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Clinical Neurology and Neurodegeneration</strong></summary>
@@ -298,19 +298,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Development, Plasticity, and Connectomics
+### 脳の発達、可塑性、およびコネクトミクス
 
-- Papers selected: **711**
-- Years covered: **1900-2026**
-- Citation count in selected set: **728,351**
-- Category Overview (main research trends):
-  - This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.
-  - Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.
-  - Plasticity research links cellular mechanisms, experience, rehabilitation, and large-scale brain reorganization.
-- Limitations:
-  - Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.
-  - Network measures can depend heavily on parcellation, thresholding, and acquisition choices.
-  - Plasticity claims need stronger evidence separating transient compensation from durable functional improvement.
+- 選択された論文: **711**
+- 対象年: **1900-2026**
+- 選択したセット内の引用数: **728,351**
+- カテゴリー概要（主な研究傾向）：
+  - このカテゴリは、発達、学習、老化、回復を通じて脳の構造、ネットワーク、機能がどのように変化するかを追跡します。
+  - コネクトミクスは、孤立した地域からネットワークレベルの組織と寿命の軌跡へと分野を移行しました。
+  - 可塑性の研究は、細胞のメカニズム、経験、リハビリテーション、大規模な脳の再組織化を結びつけます。
+- 制限事項:
+  - 発達および老化に関する研究は、コホート構成、人口減少、長期的なサンプリング間隔の影響を受けやすい。
+  - ネットワークの測定は、分割、しきい値処理、および取得の選択に大きく依存する可能性があります。
+  - 可塑性の主張には、一時的な補償と永続的な機能改善を区別する強力な証拠が必要です。
 
 <details>
 <summary><strong>Show representative papers for Brain Development, Plasticity, and Connectomics</strong></summary>
@@ -344,19 +344,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Brain Stimulation, Neurotechnology, and BCI
+### 脳刺激、ニューロテクノロジー、BCI
 
-- Papers selected: **54**
-- Years covered: **1916-2026**
-- Citation count in selected set: **47,944**
-- Category Overview (main research trends):
-  - Neurotechnology work uses stimulation, implants, decoding, and closed-loop systems to probe or restore brain function.
-  - The field is moving from proof-of-concept control and stimulation toward durable devices, adaptive therapy, and user-centered deployment.
-  - BCI and neuromodulation papers connect engineering performance with clinical function, safety, and usability.
-- Limitations:
-  - Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.
-  - Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.
-  - Performance in controlled sessions may not reflect daily-life reliability or user burden.
+- 選択された論文: **54**
+- 対象年: **1916-2026**
+- 選択したセット内の引用数: **47,944**
+- カテゴリー概要（主な研究傾向）：
+  - ニューロテクノロジーの研究では、刺激、インプラント、デコーディング、および閉ループ システムを使用して、脳機能を調査または回復します。
+  - この分野は、概念実証の制御と刺激から、耐久性のあるデバイス、適応療法、ユーザー中心の導入へと移行しつつあります。
+  - BCI および神経調節に関する論文は、エンジニアリングのパフォーマンスと臨床機能、安全性、および使いやすさを結びつけます。
+- 制限事項:
+  - 小規模なコホート、侵襲的リスク、デバイスのメンテナンス、長期安定性が依然として翻訳の大きな障壁となっています。
+  - クローズドループ効果をプラセボ、トレーニング、投薬、疾患の変動から切り離すのは困難です。
+  - 制御されたセッションのパフォーマンスは、日常生活の信頼性やユーザーの負担を反映していない可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Brain Stimulation, Neurotechnology, and BCI</strong></summary>
@@ -390,19 +390,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Computational Neuroscience and AI
+### 計算神経科学とAI
 
-- Papers selected: **117**
-- Years covered: **1907-2026**
-- Citation count in selected set: **113,799**
-- Category Overview (main research trends):
-  - Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.
-  - AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.
-  - High-impact work often clarifies which computations could plausibly be implemented by neural circuits.
-- Limitations:
-  - Predictive performance does not necessarily identify causal neural mechanisms.
-  - Models can inherit dataset bias, preprocessing artifacts, and task constraints.
-  - Interpretability and biological plausibility remain central challenges for large AI-based models.
+- 選択された論文: **117**
+- 対象年: **1907-2026**
+- 選択したセット内の引用数: **113,799**
+- カテゴリー概要（主な研究傾向）：
+  - 計算脳研究では、ニューラル コーディング、推論、学習、ダイナミクス、およびデコーディングを統計モデルと機械学習モデルを使用して形式化します。
+  - AI 手法は、分析ツールとしても、脳内計算の仮説としてもますます使用されています。
+  - 影響力の大きい研究では、どの計算がニューラル回路によって実装される可能性が高いかを明らかにすることがよくあります。
+- 制限事項:
+  - 予測パフォーマンスは必ずしも因果関係の神経メカニズムを特定するとは限りません。
+  - モデルは、データセットのバイアス、前処理アーティファクト、およびタスクの制約を継承できます。
+  - 解釈可能性と生物学的妥当性は、大規模な AI ベースのモデルにとって依然として中心的な課題です。
 
 <details>
 <summary><strong>Show representative papers for Computational Neuroscience and AI</strong></summary>
@@ -436,19 +436,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### Cerebrovascular, Metabolism, and Brain Injury
+### 脳血管、代謝、脳損傷
 
-- Papers selected: **484**
-- Years covered: **1900-2026**
-- Citation count in selected set: **188,723**
-- Category Overview (main research trends):
-  - This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.
-  - Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.
-  - The area is clinically important because small changes in timing, physiology, and treatment windows can alter outcomes.
-- Limitations:
-  - Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.
-  - Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.
-  - Translational failures remain common when mechanistic signals are not tied to functional outcomes.
+- 選択された論文: **484**
+- 対象年: **1900-2026**
+- 選択したセットの引用数: **188,723**
+- カテゴリー概要（主な研究傾向）：
+  - このカテゴリでは、脳の損傷と回復を形作る血管、代謝、炎症、損傷の経路を扱います。
+  - 頻繁に引用される研究では、多くの場合、脳卒中、外傷、およびバリア機能不全のメカニズム、急性期治療の証拠、またはバイオマーカーが定義されています。
+  - タイミング、生理機能、治療期間の小さな変化が結果を変える可能性があるため、この領域は臨床的に重要です。
+- 制限事項:
+  - 急性傷害の研究は、タイミング、重症度、併存疾患、および治療の不均一性に敏感な場合があります。
+  - 動物モデルでは、人間の血管リスク、傷害の複雑さ、リハビリテーションの状況を捉えることができない場合があります。
+  - 機械的シグナルが機能的結果に結び付いていない場合、翻訳の失敗は依然として一般的です。
 
 <details>
 <summary><strong>Show representative papers for Cerebrovascular, Metabolism, and Brain Injury</strong></summary>
@@ -482,19 +482,19 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-### General Brain Science and Reviews
+### 一般的な脳科学とレビュー
 
-- Papers selected: **5,928**
-- Years covered: **1900-2026**
-- Citation count in selected set: **2,116,311**
-- Category Overview (main research trends):
-  - General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.
-  - Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.
-  - This category also catches broad brain papers that do not fit cleanly into one methodological or disease-focused area.
-- Limitations:
-  - Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.
-  - Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.
-  - Metadata-level curation cannot replace full-text expert appraisal of claims and evidence quality.
+- 選択された論文: **5,928**
+- 対象年: **1900-2026**
+- 選択したセット内の引用数: **2,116,311**
+- カテゴリー概要（主な研究傾向）：
+  - 一般的な脳科学の論文では、手法、概念、アトラス、データセット、およびクロスドメイン フレームワークが統合されています。
+  - レビューとコンセンサスペーパーは、専門的なサブフィールドを結び付け、用語を標準化するため、有用な入り口点です。
+  - このカテゴリには、1 つの方法論的領域または疾患に焦点を当てた領域にきれいに収まらない幅広い頭脳論文も含まれます。
+- 制限事項:
+  - 広範なレビューが引用ランキングのリストを支配する一方で、より狭い経験的進歩が曖昧になる可能性があります。
+  - 多くの頭脳論文が手法、尺度、疾患を組み合わせているため、分類学の境界は不完全です。
+  - メタデータレベルのキュレーションは、主張と証拠の品質に関する全文の専門家の評価に代わることはできません。
 
 <details>
 <summary><strong>Show representative papers for General Brain Science and Reviews</strong></summary>
@@ -528,7 +528,7 @@ These badges define the brain keyword tags used to read and extend this collecti
 
 </details>
 
-## Yearly Coverage
+## 年間補償範囲
 
 | Year | Candidate papers | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | ---: | --- |
@@ -660,18 +660,18 @@ These badges define the brain keyword tags used to read and extend this collecti
 | 2025 | 1,000 | 100 | 13,298 | [2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001303) |
 | 2026 | 1,000 | 100 | 1,409 | [2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.](https://doi.org/10.1161/CIR.0000000000001412) |
 
-## Method
+## 方法
 
-The collection uses the Semantic Scholar Academic Graph bulk paper search. For each publication year from 1900 through 2026, the pipeline runs broad brain and neuroscience queries, requests results sorted by `citationCount:desc`, merges and deduplicates the results, keeps up to 1,000 brain-relevant candidates per year after local title/abstract/field relevance checks, and selects the top 100 papers per year by citation count. Taxonomy, keyword tags, key ideas, strengths, limitations, and audit scores are deterministic rule-based enrichments so the repository can be regenerated without paid APIs.
+このコレクションでは、Semantic Scholar Academic Graph の一括論文検索を使用します。 1900 年から 2026 年までの出版年ごとに、パイプラインは広範な脳と神経科学のクエリを実行し、`citationCount:desc` で並べ替えられた結果を要求し、結果をマージして重複を除去し、ローカル タイトル/要約/分野の関連性チェック後に脳に関連する候補を年間最大 1,000 件保持し、引用数に基づいて年間上位 100 件の論文を選択します。分類法、キーワード タグ、重要なアイデア、長所、制限、監査スコアは決定論的なルールベースのエンリッチメントであるため、有料 API を使用せずにリポジトリを再生成できます。
 
-## Caveats
+## 注意事項
 
-- Citation counts favor older papers and can under-rank very recent 2026 work.
-- Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.
-- Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.
-- Influential citation counts use Semantic Scholar metadata when available.
-- Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.
+- 引用数では古い論文が優先され、2026 年のごく最近の論文が下位にランクされる可能性があります。
+- 初期の年では、大規模なジャーナルのインデックス付けが行われる前は公開メタデータ プールがまばらであるため、発見可能な候補が 1,000 件に満たない場合もあります。今でも毎年、厳選された 100 件の論文を寄稿しています。
+- Semantic Scholar メタデータは広範な学術メタデータです。これは、すべての PDF を完全に体系的にレビューしたものではありません。
+- 影響力のある引用数には、利用可能な場合は Semantic Scholar メタデータが使用されます。
+- 非常に広範な脳研究は、神経科学、神経学、心理学、分子生物学、計算、臨床医学に及ぶため、分類上の境界は必然的に近似的になります。
 
-## Acknowledgements
+## 謝辞
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+このリポジトリとインタラクティブ サイトは、[jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) に感謝して作成されました。その論文キュレーションのワークフローとリポジトリの構成は、ここで分類法優先の引用ランク付けされた研究マップに使用されるアプローチに影響を与えました。
