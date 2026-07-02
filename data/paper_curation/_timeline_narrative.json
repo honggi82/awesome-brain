@@ -1,0 +1,81 @@
+{
+  "mode": "codex-native-paperbanana-compatible-timeline",
+  "summary": "Codex generated a PaperBanana-compatible timeline artifact path without calling external image APIs.",
+  "categories": [
+    {
+      "id": "hdbscan-bridge-and-noise-papers",
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "count": 27
+    },
+    {
+      "id": "hdbscan-cluster-not-figure-but-his",
+      "name": "HDBSCAN Cluster: not, figure, but, his",
+      "count": 5
+    },
+    {
+      "id": "hdbscan-cluster-brain-which-neuroglia-method",
+      "name": "HDBSCAN Cluster: brain, which, neuroglia, method",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-figure-brain-images-png",
+      "name": "HDBSCAN Cluster: figure, brain, images, png",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-case-brain-had-following",
+      "name": "HDBSCAN Cluster: case, brain, had, following",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-not-case-their-had",
+      "name": "HDBSCAN Cluster: not, case, their, had",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-fall-von-case-cerebral",
+      "name": "HDBSCAN Cluster: fall, von, case, cerebral",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-brain-figure-frontal-more",
+      "name": "HDBSCAN Cluster: brain, figure, frontal, more",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-figure-case-mastoiditis-cerebral-tubercle-death",
+      "name": "HDBSCAN Cluster: figure, case, mastoiditis-cerebral, tubercle-death",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-ode-one-mental-system",
+      "name": "HDBSCAN Cluster: ode, one, mental, system",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-fluid-croonian-lectures-degeneration",
+      "name": "HDBSCAN Cluster: fluid, croonian, lectures, degeneration",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-cases-brain-few-injury",
+      "name": "HDBSCAN Cluster: cases, brain, few, injury",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-brain-after-years-infection",
+      "name": "HDBSCAN Cluster: brain, after, years, infection",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-figure-shadow-cerebral-brain",
+      "name": "HDBSCAN Cluster: figure, shadow, cerebral, brain",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-when-journal-have-operative",
+      "name": "HDBSCAN Cluster: when, journal, have, operative",
+      "count": 2
+    }
+  ]
+}

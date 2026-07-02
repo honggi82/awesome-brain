@@ -4,100 +4,100 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awesome Brain</title>
-  <style>
-    body { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 980px; margin: 40px auto; padding: 0 24px; color: #172033; line-height: 1.65; }
-    h1, h2, h3 { line-height: 1.2; }
-    .table-block { white-space: pre-wrap; background: #f6f8fb; border: 1px solid #d9dee8; padding: 14px; overflow: auto; }
-  </style>
+  <style>body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:980px;margin:40px auto;padding:0 24px;color:#172033;line-height:1.65}h1,h2,h3{line-height:1.2}.table-block{white-space:pre-wrap;background:#f6f8fb;border:1px solid #d9dee8;padding:14px;overflow:auto}</style>
 </head>
 <body>
 <h1>Awesome Brain</h1>
 <p>[![Awesome](https://awesome.re/badge-flat.png)](https://awesome.re)</p>
-
 <p>A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.</p>
-
 <p>&lt;p align=&quot;center&quot;&gt;</p>
-<p>&lt;a href=&quot;https://honggi82.github.io/awesome-brain/&quot;&gt;</p>
-<p>&lt;img src=&quot;https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--brain-0f766e?style=for-the-badge&quot; alt=&quot;Open Interactive Website&quot;&gt;</p>
-<p>&lt;/a&gt;</p>
+<p>  &lt;a href=&quot;https://honggi82.github.io/awesome-brain/&quot;&gt;</p>
+<p>    &lt;img src=&quot;https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--brain-0f766e?style=for-the-badge&quot; alt=&quot;Open Interactive Website&quot;&gt;</p>
+<p>  &lt;/a&gt;</p>
 <p>&lt;/p&gt;</p>
-
 <p>&lt;div align=&quot;center&quot;&gt;</p>
-<p>&lt;a href=&quot;README.md&quot;&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.de.md&quot;&gt;Deutsch&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.es.md&quot;&gt;Español&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.fr.md&quot;&gt;français&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.ja.md&quot;&gt;日本語&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.ko.md&quot;&gt;한국어&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.pt.md&quot;&gt;Português&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.ru.md&quot;&gt;Русский&lt;/a&gt; |</p>
-<p>&lt;a href=&quot;README.zh.md&quot;&gt;中文&lt;/a&gt;</p>
+<p>  &lt;a href=&quot;README.md&quot;&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.de.md&quot;&gt;Deutsch&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.es.md&quot;&gt;Español&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.fr.md&quot;&gt;français&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.ja.md&quot;&gt;日本語&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.ko.md&quot;&gt;한국어&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.pt.md&quot;&gt;Português&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.ru.md&quot;&gt;Русский&lt;/a&gt; |</p>
+<p>  &lt;a href=&quot;README.zh.md&quot;&gt;中文&lt;/a&gt;</p>
 <p>&lt;/div&gt;</p>
-
 <p>&gt; Browse the full interactive taxonomy site with period, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-brain/</p>
-
 <p>Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.</p>
-
+<p>&lt;!-- BEGIN CODEX PAPER CURATION --&gt;</p>
+<h2>Codex-Native Full Curation</h2>
+<ul>
+<li>Full curation site: https://honggi82.github.io/awesome-brain/paper_curation/</li>
+<li>Local static entry: `docs/paper_curation/index.html`</li>
+<li>Related Papers graph: `docs/paper_curation/brain/network.html`</li>
+<li>PaperBanana-compatible timeline: `docs/paper_curation/brain/category_timeline_codex_native.png`</li>
+<li>Processed PDF evidence in this staged run: 65 papers</li>
+<li>Modeling stack: `allenai/specter2_base` embeddings, `hdbscan.HDBSCAN` clustering, `umap.UMAP` projection</li>
+</ul>
+<p>&lt;!-- END CODEX PAPER CURATION --&gt;</p>
 <h2>Project Links</h2>
-
-<p>- Website: https://honggi82.github.io/awesome-brain/</p>
-<p>- Selected dataset: `data/papers_1900_2026.csv`</p>
-<p>- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_1900_2026.csv`</p>
-<p>- Precomputed period and keyword analysis: `data/period_analysis_1900_2026.json`</p>
-<p>- Candidate pool: `data/candidates_top1000_1900_2026.csv`</p>
-<p>- English review draft: `paper/review_en.html`, `paper/review_en.docx`</p>
-<p>- Korean review draft: `paper/review_ko.html`</p>
-<p>- Curation method: `paper/curation_method.md`, `paper/curation_method.html`</p>
-
+<ul>
+<li>Website: https://honggi82.github.io/awesome-brain/</li>
+<li>Selected dataset: `data/papers_1900_2026.csv`</li>
+<li>Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_1900_2026.csv`</li>
+<li>Precomputed period and keyword analysis: `data/period_analysis_1900_2026.json`</li>
+<li>Candidate pool: `data/candidates_top1000_1900_2026.csv`</li>
+<li>English review draft: `paper/review_en.html`, `paper/review_en.docx`</li>
+<li>Korean review draft: `paper/review_ko.html`</li>
+<li>Curation method: `paper/curation_method.md`, `paper/curation_method.html`</li>
+</ul>
 <h2>Keywords Convention</h2>
-
 <p>These badges define the brain keyword tags used to read and extend this collection.</p>
-
-<p>- ![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: Magnetic resonance imaging, structural MRI, diffusion MRI, or MRI-derived brain measures.</p>
-<p>- ![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: Functional MRI, BOLD imaging, task activation, resting-state, or functional connectivity.</p>
-<p>- ![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Electroencephalography, event-related potentials, oscillations, or scalp electrophysiology.</p>
-<p>- ![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencephalography or magnetic source imaging of brain activity.</p>
-<p>- ![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Electrocorticography, intracranial EEG, or cortical surface recordings.</p>
-<p>- ![single-cell](https://img.shields.io/badge/keyword-single--cell-f59e0b) **single-cell**: Single-cell, single-nucleus, single-unit, spike, transcriptomic, or cell atlas studies.</p>
-<p>- ![human](https://img.shields.io/badge/keyword-human-be123c) **human**: Human participants, patients, volunteers, human brain tissue, or population cohorts.</p>
-<p>- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, non-human primate, rodent, zebrafish, fly, model organism, or simulation-focused studies.</p>
-<p>- ![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: Brain connectivity, connectomics, networks, tractography, or atlas-based mapping.</p>
-<p>- ![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c) **stimulation**: Brain stimulation, DBS, TMS, tDCS, neuromodulation, implants, or closed-loop intervention.</p>
-<p>- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.</p>
-
+<ul>
+<li>![MRI](https://img.shields.io/badge/keyword-MRI-2563eb) **MRI**: Magnetic resonance imaging, structural MRI, diffusion MRI, or MRI-derived brain measures.</li>
+<li>![fMRI](https://img.shields.io/badge/keyword-fMRI-7c3aed) **fMRI**: Functional MRI, BOLD imaging, task activation, resting-state, or functional connectivity.</li>
+<li>![EEG](https://img.shields.io/badge/keyword-EEG-0f766e) **EEG**: Electroencephalography, event-related potentials, oscillations, or scalp electrophysiology.</li>
+<li>![MEG](https://img.shields.io/badge/keyword-MEG-0891b2) **MEG**: Magnetoencephalography or magnetic source imaging of brain activity.</li>
+<li>![ECoG](https://img.shields.io/badge/keyword-ECoG-dc2626) **ECoG**: Electrocorticography, intracranial EEG, or cortical surface recordings.</li>
+<li>![single-cell](https://img.shields.io/badge/keyword-single--cell-f59e0b) **single-cell**: Single-cell, single-nucleus, single-unit, spike, transcriptomic, or cell atlas studies.</li>
+<li>![human](https://img.shields.io/badge/keyword-human-be123c) **human**: Human participants, patients, volunteers, human brain tissue, or population cohorts.</li>
+<li>![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, non-human primate, rodent, zebrafish, fly, model organism, or simulation-focused studies.</li>
+<li>![connectome](https://img.shields.io/badge/keyword-connectome-16a34a) **connectome**: Brain connectivity, connectomics, networks, tractography, or atlas-based mapping.</li>
+<li>![stimulation](https://img.shields.io/badge/keyword-stimulation-ea580c) **stimulation**: Brain stimulation, DBS, TMS, tDCS, neuromodulation, implants, or closed-loop intervention.</li>
+<li>![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.</li>
+</ul>
 <h2>Taxonomy Overview</h2>
-
-<p>- **Total selected papers**: 12,700 papers</p>
-<p>- **General Brain Science and Reviews**: 5,928 papers</p>
-<p>- **Clinical Neurology and Neurodegeneration**: 1,838 papers</p>
-<p>- **Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers</p>
-<p>- **Cognitive and Systems Neuroscience**: 720 papers</p>
-<p>- **Brain Development, Plasticity, and Connectomics**: 711 papers</p>
-<p>- **EEG, MEG, and Electrophysiology**: 647 papers</p>
-<p>- **Cerebrovascular, Metabolism, and Brain Injury**: 484 papers</p>
-<p>- **Neuroimaging and Brain Mapping**: 471 papers</p>
-<p>- **Computational Neuroscience and AI**: 117 papers</p>
-<p>- **Brain Stimulation, Neurotechnology, and BCI**: 54 papers</p>
-
+<ul>
+<li>**Total selected papers**: 12,700 papers</li>
+<li>**General Brain Science and Reviews**: 5,928 papers</li>
+<li>**Clinical Neurology and Neurodegeneration**: 1,838 papers</li>
+<li>**Cellular, Molecular, and Synaptic Neuroscience**: 1,730 papers</li>
+<li>**Cognitive and Systems Neuroscience**: 720 papers</li>
+<li>**Brain Development, Plasticity, and Connectomics**: 711 papers</li>
+<li>**EEG, MEG, and Electrophysiology**: 647 papers</li>
+<li>**Cerebrovascular, Metabolism, and Brain Injury**: 484 papers</li>
+<li>**Neuroimaging and Brain Mapping**: 471 papers</li>
+<li>**Computational Neuroscience and AI**: 117 papers</li>
+<li>**Brain Stimulation, Neurotechnology, and BCI**: 54 papers</li>
+</ul>
 <h2>Taxonomy Collections</h2>
-
 <h3>Neuroimaging and Brain Mapping</h3>
-
-<p>- Papers selected: **471**</p>
-<p>- Years covered: **1901-2026**</p>
-<p>- Citation count in selected set: **599,330**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.</p>
-<p>- The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.</p>
-<p>- Imaging biomarkers increasingly connect anatomy and physiology to cognition, development, degeneration, and psychiatric phenotypes.</p>
-<p>- Limitations:</p>
-<p>- Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.</p>
-<p>- Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.</p>
-<p>- Citation-ranked imaging lists can favor widely reused atlases and datasets over newer mechanistic studies.</p>
-
+<ul>
+<li>Papers selected: **471**</li>
+<li>Years covered: **1901-2026**</li>
+<li>Citation count in selected set: **599,330**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - High-citation brain imaging work maps structure, function, connectivity, and disease signatures across MRI, fMRI, PET, DTI, and multimodal cohorts.</p>
+<p>  - The strongest recent trend is large-scale population neuroimaging with harmonized preprocessing, shared atlases, and open datasets.</p>
+<p>  - Imaging biomarkers increasingly connect anatomy and physiology to cognition, development, degeneration, and psychiatric phenotypes.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Scanner, protocol, site, and preprocessing variation can limit reproducibility across cohorts.</p>
+<p>  - Associational imaging biomarkers often need stronger longitudinal or intervention evidence before causal claims are made.</p>
+<p>  - Citation-ranked imaging lists can favor widely reused atlases and datasets over newer mechanistic studies.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Neuroimaging and Brain Mapping&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -124,26 +124,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 471 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>EEG, MEG, and Electrophysiology</h3>
-
-<p>- Papers selected: **647**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **322,302**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.</p>
-<p>- The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.</p>
-<p>- EEG and MEG remain central where temporal precision, clinical accessibility, or non-invasive monitoring are more important than spatial detail.</p>
-<p>- Limitations:</p>
-<p>- Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.</p>
-<p>- Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.</p>
-<p>- Hardware, montage, preprocessing, and reference choices can make direct comparison difficult.</p>
-
+<ul>
+<li>Papers selected: **647**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **322,302**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - Electrophysiology papers organize brain research around fast neural dynamics, oscillations, event-related responses, and disease-related rhythms.</p>
+<p>  - The field is moving toward source localization, multimodal fusion, mobile recordings, and machine-learning assisted decoding.</p>
+<p>  - EEG and MEG remain central where temporal precision, clinical accessibility, or non-invasive monitoring are more important than spatial detail.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Low signal-to-noise ratio, artifacts, and source-localization uncertainty complicate interpretation.</p>
+<p>  - Many studies rely on controlled tasks and may not generalize to everyday behavior or clinical monitoring.</p>
+<p>  - Hardware, montage, preprocessing, and reference choices can make direct comparison difficult.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for EEG, MEG, and Electrophysiology&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -170,26 +169,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 647 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Cellular, Molecular, and Synaptic Neuroscience</h3>
-
-<p>- Papers selected: **1,730**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **1,458,320**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.</p>
-<p>- High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.</p>
-<p>- Classic synaptic and plasticity papers remain prominent because they define mechanisms reused across learning, development, and disease research.</p>
-<p>- Limitations:</p>
-<p>- Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.</p>
-<p>- Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.</p>
-<p>- Animal and ex vivo findings need careful translation to human disease and cognition.</p>
-
+<ul>
+<li>Papers selected: **1,730**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **1,458,320**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - This area captures cell types, circuits, synaptic plasticity, molecular pathways, and single-cell atlases that explain brain function from the microscopic level.</p>
+<p>  - High-throughput transcriptomics and large-scale cell atlases increasingly bridge molecular identity with anatomy and circuit function.</p>
+<p>  - Classic synaptic and plasticity papers remain prominent because they define mechanisms reused across learning, development, and disease research.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Cellular mechanisms can be difficult to connect directly to whole-brain dynamics or human behavior.</p>
+<p>  - Single-cell sampling, dissociation, alignment, and batch effects can bias inferred cell populations.</p>
+<p>  - Animal and ex vivo findings need careful translation to human disease and cognition.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Cellular, Molecular, and Synaptic Neuroscience&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -216,26 +214,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 1,730 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Cognitive and Systems Neuroscience</h3>
-
-<p>- Papers selected: **720**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **636,954**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.</p>
-<p>- The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.</p>
-<p>- Highly cited papers often become conceptual anchors for how brain systems implement cognition.</p>
-<p>- Limitations:</p>
-<p>- Task designs can simplify cognition enough that ecological validity becomes uncertain.</p>
-<p>- Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.</p>
-<p>- Correlational neural signatures need causal tests before they are treated as mechanisms.</p>
-
+<ul>
+<li>Papers selected: **720**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **636,954**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - Cognitive and systems work links brain networks, circuits, and dynamics to perception, action, memory, attention, learning, and decision making.</p>
+<p>  - The literature increasingly combines behavior, neural recording, imaging, computational models, and causal perturbation.</p>
+<p>  - Highly cited papers often become conceptual anchors for how brain systems implement cognition.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Task designs can simplify cognition enough that ecological validity becomes uncertain.</p>
+<p>  - Cross-species alignment between circuits, behavior, and subjective experience remains imperfect.</p>
+<p>  - Correlational neural signatures need causal tests before they are treated as mechanisms.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Cognitive and Systems Neuroscience&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -262,26 +259,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 720 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Clinical Neurology and Neurodegeneration</h3>
-
-<p>- Papers selected: **1,838**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **950,683**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.</p>
-<p>- Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.</p>
-<p>- Translation depends on connecting biological signatures to outcomes that matter to patients and care systems.</p>
-<p>- Limitations:</p>
-<p>- Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.</p>
-<p>- Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.</p>
-<p>- High citation counts can favor broad disease frameworks over smaller mechanistic or interventional studies.</p>
-
+<ul>
+<li>Papers selected: **1,838**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **950,683**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - Clinical brain research concentrates on diagnosis, mechanisms, biomarkers, treatment, and prognosis for neurological and neurodegenerative disorders.</p>
+<p>  - Large cohorts and biomarker frameworks have made dementia, stroke, epilepsy, Parkinson disease, and brain injury especially visible in citation-ranked views.</p>
+<p>  - Translation depends on connecting biological signatures to outcomes that matter to patients and care systems.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Clinical cohorts often differ in disease stage, comorbidity, treatment history, and follow-up duration.</p>
+<p>  - Biomarkers may not transfer cleanly across populations, scanners, care settings, or diagnostic criteria.</p>
+<p>  - High citation counts can favor broad disease frameworks over smaller mechanistic or interventional studies.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Clinical Neurology and Neurodegeneration&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -308,26 +304,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 1,838 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Brain Development, Plasticity, and Connectomics</h3>
-
-<p>- Papers selected: **711**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **728,351**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.</p>
-<p>- Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.</p>
-<p>- Plasticity research links cellular mechanisms, experience, rehabilitation, and large-scale brain reorganization.</p>
-<p>- Limitations:</p>
-<p>- Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.</p>
-<p>- Network measures can depend heavily on parcellation, thresholding, and acquisition choices.</p>
-<p>- Plasticity claims need stronger evidence separating transient compensation from durable functional improvement.</p>
-
+<ul>
+<li>Papers selected: **711**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **728,351**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - This category follows how brain structure, networks, and function change across development, learning, aging, and recovery.</p>
+<p>  - Connectomics has shifted the field from isolated regions toward network-level organization and lifespan trajectories.</p>
+<p>  - Plasticity research links cellular mechanisms, experience, rehabilitation, and large-scale brain reorganization.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Developmental and aging studies are sensitive to cohort composition, attrition, and longitudinal sampling intervals.</p>
+<p>  - Network measures can depend heavily on parcellation, thresholding, and acquisition choices.</p>
+<p>  - Plasticity claims need stronger evidence separating transient compensation from durable functional improvement.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Brain Development, Plasticity, and Connectomics&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -354,26 +349,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 711 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Brain Stimulation, Neurotechnology, and BCI</h3>
-
-<p>- Papers selected: **54**</p>
-<p>- Years covered: **1916-2026**</p>
-<p>- Citation count in selected set: **47,944**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- Neurotechnology work uses stimulation, implants, decoding, and closed-loop systems to probe or restore brain function.</p>
-<p>- The field is moving from proof-of-concept control and stimulation toward durable devices, adaptive therapy, and user-centered deployment.</p>
-<p>- BCI and neuromodulation papers connect engineering performance with clinical function, safety, and usability.</p>
-<p>- Limitations:</p>
-<p>- Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.</p>
-<p>- Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.</p>
-<p>- Performance in controlled sessions may not reflect daily-life reliability or user burden.</p>
-
+<ul>
+<li>Papers selected: **54**</li>
+<li>Years covered: **1916-2026**</li>
+<li>Citation count in selected set: **47,944**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - Neurotechnology work uses stimulation, implants, decoding, and closed-loop systems to probe or restore brain function.</p>
+<p>  - The field is moving from proof-of-concept control and stimulation toward durable devices, adaptive therapy, and user-centered deployment.</p>
+<p>  - BCI and neuromodulation papers connect engineering performance with clinical function, safety, and usability.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Small cohorts, invasive risk, device maintenance, and long-term stability remain major translation barriers.</p>
+<p>  - Closed-loop effects are hard to separate from placebo, training, medication, and disease fluctuation.</p>
+<p>  - Performance in controlled sessions may not reflect daily-life reliability or user burden.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Brain Stimulation, Neurotechnology, and BCI&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -400,26 +394,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 54 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Computational Neuroscience and AI</h3>
-
-<p>- Papers selected: **117**</p>
-<p>- Years covered: **1907-2026**</p>
-<p>- Citation count in selected set: **113,799**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.</p>
-<p>- AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.</p>
-<p>- High-impact work often clarifies which computations could plausibly be implemented by neural circuits.</p>
-<p>- Limitations:</p>
-<p>- Predictive performance does not necessarily identify causal neural mechanisms.</p>
-<p>- Models can inherit dataset bias, preprocessing artifacts, and task constraints.</p>
-<p>- Interpretability and biological plausibility remain central challenges for large AI-based models.</p>
-
+<ul>
+<li>Papers selected: **117**</li>
+<li>Years covered: **1907-2026**</li>
+<li>Citation count in selected set: **113,799**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - Computational brain research formalizes neural coding, inference, learning, dynamics, and decoding with statistical and machine-learning models.</p>
+<p>  - AI methods are increasingly used both as analysis tools and as hypotheses for brain computation.</p>
+<p>  - High-impact work often clarifies which computations could plausibly be implemented by neural circuits.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Predictive performance does not necessarily identify causal neural mechanisms.</p>
+<p>  - Models can inherit dataset bias, preprocessing artifacts, and task constraints.</p>
+<p>  - Interpretability and biological plausibility remain central challenges for large AI-based models.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Computational Neuroscience and AI&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -446,26 +439,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 117 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>Cerebrovascular, Metabolism, and Brain Injury</h3>
-
-<p>- Papers selected: **484**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **188,723**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.</p>
-<p>- Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.</p>
-<p>- The area is clinically important because small changes in timing, physiology, and treatment windows can alter outcomes.</p>
-<p>- Limitations:</p>
-<p>- Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.</p>
-<p>- Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.</p>
-<p>- Translational failures remain common when mechanistic signals are not tied to functional outcomes.</p>
-
+<ul>
+<li>Papers selected: **484**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **188,723**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - This category covers vascular, metabolic, inflammatory, and injury pathways that shape brain damage and recovery.</p>
+<p>  - Highly cited studies often define mechanisms, acute care evidence, or biomarkers for stroke, trauma, and barrier dysfunction.</p>
+<p>  - The area is clinically important because small changes in timing, physiology, and treatment windows can alter outcomes.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Acute injury studies can be sensitive to timing, severity, comorbidity, and treatment heterogeneity.</p>
+<p>  - Animal models may not capture human vascular risk, injury complexity, or rehabilitation context.</p>
+<p>  - Translational failures remain common when mechanistic signals are not tied to functional outcomes.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for Cerebrovascular, Metabolism, and Brain Injury&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -492,26 +484,25 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 484 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h3>General Brain Science and Reviews</h3>
-
-<p>- Papers selected: **5,928**</p>
-<p>- Years covered: **1900-2026**</p>
-<p>- Citation count in selected set: **2,116,311**</p>
-<p>- Category Overview (main research trends):</p>
-<p>- General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.</p>
-<p>- Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.</p>
-<p>- This category also catches broad brain papers that do not fit cleanly into one methodological or disease-focused area.</p>
-<p>- Limitations:</p>
-<p>- Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.</p>
-<p>- Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.</p>
-<p>- Metadata-level curation cannot replace full-text expert appraisal of claims and evidence quality.</p>
-
+<ul>
+<li>Papers selected: **5,928**</li>
+<li>Years covered: **1900-2026**</li>
+<li>Citation count in selected set: **2,116,311**</li>
+<li>Category Overview (main research trends):</li>
+</ul>
+<p>  - General brain science papers synthesize methods, concepts, atlases, datasets, and cross-domain frameworks.</p>
+<p>  - Reviews and consensus papers are useful entry points because they connect specialized subfields and standardize terminology.</p>
+<p>  - This category also catches broad brain papers that do not fit cleanly into one methodological or disease-focused area.</p>
+<ul>
+<li>Limitations:</li>
+</ul>
+<p>  - Broad reviews can dominate citation-ranked lists while obscuring narrower empirical advances.</p>
+<p>  - Taxonomy boundaries are imperfect because many brain papers combine methods, scales, and diseases.</p>
+<p>  - Metadata-level curation cannot replace full-text expert appraisal of claims and evidence quality.</p>
 <p>&lt;details&gt;</p>
 <p>&lt;summary&gt;&lt;strong&gt;Show representative papers for General Brain Science and Reviews&lt;/strong&gt;&lt;/summary&gt;</p>
-
 <p>&lt;table width=&quot;100%&quot;&gt;</p>
 <p>&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;right&quot;&gt;Rank&lt;/th&gt;&lt;th&gt;Paper&lt;/th&gt;&lt;th&gt;Meta&lt;/th&gt;&lt;th&gt;Keywords&lt;/th&gt;&lt;th&gt;Key idea&lt;/th&gt;&lt;th&gt;Strengths&lt;/th&gt;&lt;th&gt;Limitations&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</p>
 <p>&lt;tbody&gt;</p>
@@ -538,13 +529,9 @@
 <p>&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;See the website and taxonomy CSV for all 5,928 papers in this category.&lt;/td&gt;&lt;/tr&gt;</p>
 <p>&lt;/tbody&gt;</p>
 <p>&lt;/table&gt;</p>
-
 <p>&lt;/details&gt;</p>
-
 <h2>Yearly Coverage</h2>
-
-<pre class="table-block">
-| Year | Candidate papers | Selected papers | Citation count | Top paper |
+<pre class="table-block">| Year | Candidate papers | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | ---: | --- |
 | 1900 | 133 | 100 | 268 | [Hughlings Jackson and the Cortical Motor Centres in the Light of Physiological Research](https://doi.org/10.1136/bmj.2.2083.1564) |
 | 1901 | 161 | 100 | 584 | [The division of differentiated cells in the central nervous system of the white rat](https://doi.org/10.1002/cne.910110403) |
@@ -672,23 +659,18 @@
 | 2023 | 1,000 | 100 | 47,712 | [Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial.](https://doi.org/10.1001/jama.2023.13239) |
 | 2024 | 1,000 | 100 | 25,933 | [2024 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001209) |
 | 2025 | 1,000 | 100 | 13,298 | [2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association](https://doi.org/10.1161/CIR.0000000000001303) |
-| 2026 | 1,000 | 100 | 1,409 | [2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.](https://doi.org/10.1161/CIR.0000000000001412) |
-</pre>
-
+| 2026 | 1,000 | 100 | 1,409 | [2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.](https://doi.org/10.1161/CIR.0000000000001412) |</pre>
 <h2>Method</h2>
-
 <p>The collection uses the Semantic Scholar Academic Graph bulk paper search. For each publication year from 1900 through 2026, the pipeline runs broad brain and neuroscience queries, requests results sorted by `citationCount:desc`, merges and deduplicates the results, keeps up to 1,000 brain-relevant candidates per year after local title/abstract/field relevance checks, and selects the top 100 papers per year by citation count. Taxonomy, keyword tags, key ideas, strengths, limitations, and audit scores are deterministic rule-based enrichments so the repository can be regenerated without paid APIs.</p>
-
 <h2>Caveats</h2>
-
-<p>- Citation counts favor older papers and can under-rank very recent 2026 work.</p>
-<p>- Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.</p>
-<p>- Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.</p>
-<p>- Influential citation counts use Semantic Scholar metadata when available.</p>
-<p>- Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.</p>
-
+<ul>
+<li>Citation counts favor older papers and can under-rank very recent 2026 work.</li>
+<li>Some early years have fewer than 1,000 discoverable candidates because the public metadata pool is sparse before large-scale journal indexing; every year still contributes 100 selected papers.</li>
+<li>Semantic Scholar metadata is broad scholarly metadata; this is not a full systematic review of every PDF.</li>
+<li>Influential citation counts use Semantic Scholar metadata when available.</li>
+<li>Very broad brain research spans neuroscience, neurology, psychology, molecular biology, computation, and clinical medicine, so taxonomy boundaries are necessarily approximate.</li>
+</ul>
 <h2>Acknowledgements</h2>
-
 <p>This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.</p>
 </body>
 </html>

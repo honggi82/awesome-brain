@@ -874,6 +874,90 @@ def limitations_for(row):
     return "; ".join(dict.fromkeys(limitations[:3]))
 
 
+def localized_strengths_for(row, lang):
+    if lang == "en":
+        return row["strengths"]
+    tags = {tag for tag in row["keywordTags"].split(";") if tag}
+    citation = row["citationCount"]
+    parts = {
+        "ko": [f"인용 신호가 높음({citation:,}회)"],
+        "zh": [f"引用信号高（{citation:,} 次）"],
+        "ja": [f"引用シグナルが高い（{citation:,}件）"],
+    }[lang]
+    if recognized_venue(row["venue"]):
+        parts.append({"ko": "인정받는 학술지/학회", "zh": "发表渠道具有认可度", "ja": "認知度の高い掲載先"}[lang])
+    if row.get("openAccessPdf"):
+        parts.append({"ko": "공개 PDF 메타데이터 있음", "zh": "包含开放 PDF 元数据", "ja": "公開 PDF メタデータあり"}[lang])
+    if "review" in row["workType"] or "review" in row["title"].lower():
+        parts.append({"ko": "종합/리뷰 가치", "zh": "具有综述或综合价值", "ja": "レビュー/総合整理として有用"}[lang])
+    if "human" in tags:
+        parts.append({"ko": "인간 대상 근거 신호", "zh": "包含人类证据信号", "ja": "ヒト対象のエビデンス信号"}[lang])
+    if "single-cell" in tags:
+        parts.append({"ko": "세포 해상도 신호", "zh": "包含细胞分辨率信号", "ja": "細胞解像度の信号"}[lang])
+    return "; ".join(dict.fromkeys(parts[:4]))
+
+
+def localized_limitations_for(row, lang):
+    if lang == "en":
+        return row["limitations"]
+    tags = set(row["keywordTags"].split(";")) if row["keywordTags"] else set()
+    base = {
+        "ko": [
+            "메타데이터 기반 분류는 전문 검토로 보완해야 합니다.",
+            "인용 순위는 연구 품질이나 인과성을 직접 보장하지 않습니다.",
+        ],
+        "zh": [
+            "基于元数据的分类仍需全文专家审阅补充。",
+            "引用排名不能直接保证研究质量或因果性。",
+        ],
+        "ja": [
+            "メタデータにもとづく分類は全文専門レビューで補完する必要があります。",
+            "引用順位は研究品質や因果性を直接保証しません。",
+        ],
+    }[lang]
+    if "human" in tags and "non-human" not in tags:
+        base.append({
+            "ko": "인간 코호트 결과는 모집, 인구통계, 공존질환, 측정 맥락에 좌우될 수 있습니다.",
+            "zh": "人类队列结果可能受招募、人口统计、共病和测量情境影响。",
+            "ja": "ヒトコホートの結果は募集条件、人口統計、併存疾患、測定文脈に左右されます。",
+        }[lang])
+    elif "non-human" in tags:
+        base.append({
+            "ko": "비인간 연구 결과는 인간 뇌 조직과 임상 결과로 신중히 번역해야 합니다.",
+            "zh": "非人类研究发现需要谨慎转化到人脑组织和临床结果。",
+            "ja": "非ヒト研究の知見は人間の脳構造や臨床転帰へ慎重に翻訳する必要があります。",
+        }[lang])
+    elif "MRI" in tags or "fMRI" in tags:
+        base.append({
+            "ko": "영상 결론은 acquisition, preprocessing, model specification에 따라 달라질 수 있습니다.",
+            "zh": "影像结论可能受采集、预处理和模型设定影响。",
+            "ja": "画像解析の結論は取得条件、前処理、モデル仕様に左右されます。",
+        }[lang])
+    return "; ".join(dict.fromkeys(base[:3]))
+
+
+def localized_paper_text(row):
+    texts = {
+        "en": {
+            "keyIdea": row["keyIdea"],
+            "strengths": row["strengths"],
+            "limitations": row["limitations"],
+        }
+    }
+    templates = {
+        "ko": "'{title}'는 {year}년에 발표된 {category} 분야의 인용 상위 뇌 연구 논문입니다.",
+        "zh": "《{title}》是 {year} 年发表的 {category} 方向高引用脑研究论文。",
+        "ja": "「{title}」は {year} 年に発表された {category} 分野の高引用脳研究論文です。",
+    }
+    for lang, template in templates.items():
+        texts[lang] = {
+            "keyIdea": template.format(title=row["title"], year=row["year"], category=row["category"]),
+            "strengths": localized_strengths_for(row, lang),
+            "limitations": localized_limitations_for(row, lang),
+        }
+    return texts
+
+
 def normalize_work(work):
     abstract = abstract_from_inverted_index(work.get("abstract_inverted_index"))
     score, reason = relevance_score(work, abstract)
@@ -1858,6 +1942,7 @@ def site_rows(selected):
                 "keyIdea": row["keyIdea"],
                 "strengths": row["strengths"],
                 "limitations": row["limitations"],
+                "localized": localized_paper_text(row),
                 "url": row["url"],
                 "semanticScholarUrl": semantic_scholar_url(row),
                 "openAccessPdf": row["openAccessPdf"],
@@ -2208,6 +2293,10 @@ def write_site(selected):
         return `<span class="badge" style="--badge-color:#${{color}}">${{tag}}</span>`;
       }}).join('');
     }}
+    function localizedPaperField(paper, field) {{
+      const languageBlock = paper.localized?.[state.lang] || paper.localized?.en || null;
+      return (languageBlock && languageBlock[field]) || paper[field] || '';
+    }}
     function paperCard(p) {{
       const l = labels[state.lang];
       const links = `<a href="${{p.url}}">paper</a>${{p.semanticScholarUrl ? ` · <a href="${{p.semanticScholarUrl}}">Semantic Scholar</a>` : ''}}${{p.openAccessPdf ? ` · <a href="${{p.openAccessPdf}}">PDF</a>` : ''}}${{p.githubUrl ? ` · <a href="${{p.githubUrl}}">GitHub</a>` : ''}}`;
@@ -2215,7 +2304,7 @@ def write_site(selected):
         <div class="paper-head"><div><a class="paper-title" href="${{p.url}}">${{p.title}}</a><div class="meta">${{p.authors}}</div></div><div class="meta">#${{p.rank}} in ${{p.year}}</div></div>
         <div class="meta">${{p.year}} · ${{p.venue}} · ${{fmt(p.citationCount)}} citations · influential citations ${{fmt(p.influentialCitationCount)}} · score ${{p.importanceScore}} · ${{links}}</div>
         <div class="badges">${{badges(p.keywordTags)}}</div>
-        <dl><dt>${{l.keyIdea}}</dt><dd>${{p.keyIdea}}</dd><dt>${{l.strengths}}</dt><dd>${{p.strengths}}</dd><dt>${{l.limitations}}</dt><dd>${{p.limitations}}</dd></dl>
+        <dl><dt>${{l.keyIdea}}</dt><dd>${{escapeHtml(localizedPaperField(p, 'keyIdea'))}}</dd><dt>${{l.strengths}}</dt><dd>${{escapeHtml(localizedPaperField(p, 'strengths'))}}</dd><dt>${{l.limitations}}</dt><dd>${{escapeHtml(localizedPaperField(p, 'limitations'))}}</dd></dl>
       </article>`;
     }}
     function allTaxonomiesDetails(rows) {{
