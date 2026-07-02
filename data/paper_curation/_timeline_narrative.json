@@ -5,26 +5,36 @@
     {
       "id": "hdbscan-bridge-and-noise-papers",
       "name": "HDBSCAN Bridge and Noise Papers",
-      "count": 27
+      "count": 37
+    },
+    {
+      "id": "hdbscan-cluster-figure-brain-insomnia-images",
+      "name": "HDBSCAN Cluster: figure, brain, insomnia, images",
+      "count": 7
+    },
+    {
+      "id": "hdbscan-cluster-figure-philadelphia-brain-vertigo",
+      "name": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
+      "count": 6
+    },
+    {
+      "id": "hdbscan-cluster-neuroglia-which-brain-figure",
+      "name": "HDBSCAN Cluster: neuroglia, which, brain, figure",
+      "count": 5
     },
     {
       "id": "hdbscan-cluster-not-figure-but-his",
       "name": "HDBSCAN Cluster: not, figure, but, his",
-      "count": 5
+      "count": 4
     },
     {
-      "id": "hdbscan-cluster-brain-which-neuroglia-method",
-      "name": "HDBSCAN Cluster: brain, which, neuroglia, method",
-      "count": 3
+      "id": "hdbscan-cluster-case-brain-figure-had",
+      "name": "HDBSCAN Cluster: case, brain, figure, had",
+      "count": 4
     },
     {
-      "id": "hdbscan-cluster-figure-brain-images-png",
-      "name": "HDBSCAN Cluster: figure, brain, images, png",
-      "count": 3
-    },
-    {
-      "id": "hdbscan-cluster-case-brain-had-following",
-      "name": "HDBSCAN Cluster: case, brain, had, following",
+      "id": "hdbscan-cluster-mental-one-figure-has",
+      "name": "HDBSCAN Cluster: mental, one, figure, has",
       "count": 3
     },
     {
@@ -38,8 +48,13 @@
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-brain-figure-frontal-more",
-      "name": "HDBSCAN Cluster: brain, figure, frontal, more",
+      "id": "hdbscan-cluster-has-been-figure-one",
+      "name": "HDBSCAN Cluster: has, been, figure, one",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-brain-after-years-not",
+      "name": "HDBSCAN Cluster: brain, after, years, not",
       "count": 3
     },
     {
@@ -48,8 +63,23 @@
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-ode-one-mental-system",
-      "name": "HDBSCAN Cluster: ode, one, mental, system",
+      "id": "hdbscan-cluster-die-der-yon-sich",
+      "name": "HDBSCAN Cluster: die, der, yon, sich",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-laryngeal-disturbances-which-figure",
+      "name": "HDBSCAN Cluster: laryngeal, disturbances, which, figure",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-case-brain-region-figure",
+      "name": "HDBSCAN Cluster: case, brain, region, figure",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-infantile-cases-figure-cerebral",
+      "name": "HDBSCAN Cluster: infantile, cases, figure, cerebral",
       "count": 2
     },
     {
@@ -63,8 +93,8 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-brain-after-years-infection",
-      "name": "HDBSCAN Cluster: brain, after, years, infection",
+      "id": "hdbscan-cluster-nervous-white-rat-gland",
+      "name": "HDBSCAN Cluster: nervous, white, rat, gland",
       "count": 2
     },
     {
@@ -73,8 +103,18 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-when-journal-have-operative",
-      "name": "HDBSCAN Cluster: when, journal, have, operative",
+      "id": "hdbscan-cluster-motor-cerebral-cortex-his",
+      "name": "HDBSCAN Cluster: motor, cerebral, cortex, his",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-mental-functions-brain-lancet",
+      "name": "HDBSCAN Cluster: mental, functions, brain, lancet",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-any-brown-cerebral-without",
+      "name": "HDBSCAN Cluster: any, brown, cerebral, without",
       "count": 2
     }
   ]

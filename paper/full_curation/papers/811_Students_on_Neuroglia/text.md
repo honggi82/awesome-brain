@@ -1,0 +1,36 @@
+[Figure 1]
+
+[Figure 2]
+
+# PERISCOPE. 697
+
+sympathetic, which is known as Jonncsco's operation, is the most effec¬ tive. The mere stretching and even the simple division of the nerve do not destroy all the connections of the sympathetic with the thyroid- The partial and extensive resection is applicable in only those cases in which the tachycardia is not pronounced. Although the direct surgical treat¬ ment of simple goiter by means of the almost total resection of the thy¬ roid gland is not in itself a dangerous operation, in the struma of Base¬ dow’s disease it is very serious and is accompanied by many disadvan¬ tages. Jelliffe.
+
+A Scheme for the Anthropological Examination of Insane Pa¬ tients with the Results of its Application to Control Patients. E. Goodall (Br. Med. Jour., Oct. 26, 1901).
+
+The author says that the best work has been done in the United States and Italy. The full application of his scheme to ruly patients occupies from three to four hours. He calls special attention to the fact that there can be no intelligible or useful statistics created with¬ out a normal standard to judge them by, and this must be gathered from measurements made on normals born and bred in the locality from which the insane come. The main objects of comparing the normal and abnormal standards are as follows: (1) To ascertain what conditions constitute deviations from the normal; this is not yet known. (2) Which of these are most common in the insane. (3) Whether they are grouped about the head and face. (4) Whether there exist stigmata by which the gravity of a case can be measured. (5) Whether there is a correlation of any value between certain stigmata and definite mental disorders. (6) The relation of inheri¬ tance to mental disorders. (7) Relation of stigmata to prognosis.
+
+Jelliffe. Basedow’s Disease. C. L. Dana (N. Y. Med. Jour., June 14, 1902).
+
+This author believes that the primary disturbance of Basedow’s dis¬ ease is in the cerebral centers, especially those which control the nutri¬ tion of the thyroid and regulate the circulation. In cases where the dis¬ ease exists there is an almost uniform evidence of neuropathic personal and family history, showing that these centers are constitutionally weak and this weakness is increased by emotional strain and infection. Fev¬ ers, sepsis, operation procedures and pregnancy are often followed by this disease, exophthalmic goiter more often following typhoid than the other infectious fevers. The author reports two autopsies after a rather acute course where pathological changes were found in the nerve-cells of the pons and medulla, which leads him to believe that in well-marked cases these changes in the nuclei of the pneumogastric and other nerves are constant and important lesions.
+
+W. B. Noyes.
+
+Studies on Neuroglia. G. Carl Huber (Amer. Jour. Anat., Vol. 1, No. 1). From studies of the neuroglia of the dog. the cat, the rabbit, the dove, the tortoise and the frog this author concludes that the neuroglia of the spinal cords of these animals is made up of the neuroglia cells and fibers, the protoplasm of the fibers differing chemically from that of the cells, although in all the animals studied this difference was not equally marked. The fibers may be regarded as intercellular in structure, bearing no constant relation to the great majority of cell nuclei or neu¬ roglia cells observed. Using Benda’s method, the author has demon¬ strated that there are some neuroglia cells, usually possessing protoplas-
+
+[Figure 3]
+
+[Figure 4]
+
+## 698 PERISCOPE.
+
+mic branches, in which the neuroglic fibers are not completely separated from the protoplasm, but are in continuity with it, or even passing through it. The fibers usually follow the course of the protoplasmic branches of the cells. Jelliffe.
+
+Tetany. Sanger Brown (Med. News, July 5, 1902).
+
+In the discussion of this subject this author mentions as frequent causes of tetany, thyroid deprivation, due to disease or surgical inter¬ ference, gastrointestinal disorders, such as diarrhea and constipation, sometimes acute infections, or in women pregnancy and lactation. Some¬ times hysteria and epilepsy are found in connection with tetany. Young adults are most subject to this affection and as yet no post-mortem ex¬ amination has led to any clear comprehension of the nature of the dis¬ ease. It is always marked by the occurrence of spasms, which usually decrease during sleep. _ These spasms are nearly always symmetrical, but variable in distribution, and the electrical excitation of both nerves and muscles is greatly increased. Such sensory phenomena as tingling or burning may he present, as well as vasomotor and trophic phenomena, such as edema of the parts of the location of the spasm, as cloudiness of the lens has been observed in some instances. The diagnosis is not difficult in typical cases. The duration of the disease varies from a few hours to months. With the exception of thyroid and pregnancy cases no specific has yet been discovered, and in cases resulting from extirpation or atrophy of the thyroid the treatment is obvious. The pres¬ ence of a physician is necessary when it is imperative to employ seda¬ tives and antispasmodics sufficient to subdue any violent paroxysm. The general characteristics of the disease are tonic spasms, either par¬ oxysmal or continuous, and ordinarily symmetrical. These spasms are generally limited to the hands and feet, but in severe cases may be more extended. When sensory and general symptoms are present they are al¬ most invariably distinctly subordinate. W. B. Noyes.
+
+Fatigue in Non-Medullated Nerves. T. G. Brodie and W. D. Halli¬ burton (Jour. Physiol., May 28, 1902).
+
+It has been demonstrated by Waller that while nerve activity is going on there is an increase in the action current, somewhat like that caused by small doses of carbolic acid, and by this he infers that this substance is produced during the passage of the nerve impulse, resulting from the destructive changes in the substances which make up the fatty sheath. He is of the opinion that the gray axis in action both lays down and uses up its own fatty sheath, the process of nutrition following destruc¬ tion so quickly that the evidence of fatigue cannot be demonstrated. These authors, assuming this to be the case, showed that it would be possible to show evidence of fatigue in non-medullated fibers, and those of the spleen were selected for experiment. The result of a stimulation of these fibers by an electric current was a contraction of the spleen, the volume of which was measured by an oncometer. Water, slightly above the freezing point, was passed through a tube, placed between the electrodes and the spleen, with the nerve resting upon it. The cold pre¬ vents the nerve impulses from entering the spleen, acting as a block. After the nerve had been stimulated for many hours the block was re¬ moved. When the nerve was again stimulated the contraction of the spleen was quite as vigorous as before the long-continued stimulation, which showed that the non-medullated nerve fibers of the spleen evinced no apparent evidences of fatigue. The authors believe that the “stimu¬ lation fatigue” referred to by Howell and others, is the result of polari¬ zation of the nerve after prolonged faradization and that an extended
+

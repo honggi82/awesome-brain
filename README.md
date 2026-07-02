@@ -26,6 +26,7 @@ A taxonomy-first, citation-ranked map of brain research from 1900 through 2026.
 Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 1,000 brain-related candidate papers per year for 1900-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the selected 12,700 papers by research taxonomy.
 
 
+
 <!-- BEGIN CODEX PAPER CURATION -->
 
 ## Codex-Native Full Curation
@@ -34,7 +35,7 @@ Generated on 2026-06-27 from free public Semantic Scholar metadata. The current 
 - Local static entry: `docs/paper_curation/index.html`
 - Related Papers graph: `docs/paper_curation/brain/network.html`
 - PaperBanana-compatible timeline: `docs/paper_curation/brain/category_timeline_codex_native.png`
-- Processed PDF evidence in this staged run: 65 papers
+- Processed PDF evidence in this staged run: 105 papers
 - Modeling stack: `allenai/specter2_base` embeddings, `hdbscan.HDBSCAN` clustering, `umap.UMAP` projection
 
 <!-- END CODEX PAPER CURATION -->

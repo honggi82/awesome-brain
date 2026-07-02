@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-01T20:23:34.467697+00:00",
+  "generated": "2026-07-02T10:08:55.734572+00:00",
   "mode": "codex-native-full-curation",
   "topic": "brain",
   "paperCurationDir": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect",
   "awesomeRepo": "E:\\조선대\\연구\\awesome-brain",
   "extractReport": "E:\\조선대\\연구\\paper-curation\\paper\\awesome-brain\\_folder_source_extract_report.json",
-  "processedPapers": 65,
-  "sourceReportTotal": 65,
+  "processedPapers": 105,
+  "sourceReportTotal": 105,
   "sourceManifestTotal": 1685,
   "docsEntry": "docs/paper_curation/index.html",
   "networkEntry": "docs/paper_curation/brain/network.html",
@@ -19,6 +19,6 @@
   "clusterer": "hdbscan.HDBSCAN",
   "projection": "umap.UMAP",
   "missingRequired": [],
-  "copiedFiles": 156,
+  "copiedFiles": 242,
   "note": "Codex-native artifacts generated from extract-only evidence. Cached local SPECTER2, HDBSCAN, and UMAP are attempted; any fallback is recorded in _topic_model_info.json. External Claude/Gemini/PaperBanana APIs were not called."
 }

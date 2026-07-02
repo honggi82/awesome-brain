@@ -5,7 +5,7 @@
     {
       "slug": "003_Hughlings_Jackson_and_the_Cortical_Motor_Centres_in_the_Ligh",
       "title": "Hughlings Jackson and the Cortical Motor Centres in the Light of Physiological Research",
-      "category": "HDBSCAN Cluster: ode, one, mental, system",
+      "category": "HDBSCAN Cluster: mental, one, figure, has",
       "key": "FOLDER00001_9c9ae9d7290b",
       "sourceIndex": null,
       "textBytes": 86963,
@@ -25,7 +25,7 @@
     {
       "slug": "016_A_new_brain_microtome",
       "title": "A new brain microtome",
-      "category": "HDBSCAN Cluster: brain, which, neuroglia, method",
+      "category": "HDBSCAN Cluster: neuroglia, which, brain, figure",
       "key": "FOLDER00012_d86e7a1da7fd",
       "sourceIndex": null,
       "textBytes": 10753,
@@ -35,7 +35,7 @@
     {
       "slug": "017_140_Ueber_das_Gewicht_des_schwersten_bis_jetzt_beschriebenen",
       "title": "140 Ueber das Gewicht des schwersten bis jetzt beschriebenen Gehirns (The Weight of the Heaviest Brain Yet Described)",
-      "category": "HDBSCAN Cluster: figure, brain, images, png",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
       "key": "FOLDER00015_941431fb92f1",
       "sourceIndex": null,
       "textBytes": 0,
@@ -55,7 +55,7 @@
     {
       "slug": "019_A_CASE_OF_TUMOR_AT_THE_BASE_OF_THE_BRAIN_IN_THE_PONTINE_REGI",
       "title": "A CASE OF TUMOR AT THE BASE OF THE BRAIN IN THE PONTINE REGION",
-      "category": "HDBSCAN Cluster: case, brain, had, following",
+      "category": "HDBSCAN Cluster: case, brain, region, figure",
       "key": "FOLDER00022_4d7f07cc817d",
       "sourceIndex": 5,
       "textBytes": 5090,
@@ -75,7 +75,7 @@
     {
       "slug": "055_Cases_of_Acromegaly_and_Infantile_Myxœdema_Occurring_Respect",
       "title": "Cases of Acromegaly and Infantile Myxœdema Occurring Respectively in Father and Daughter *",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: infantile, cases, figure, cerebral",
       "key": "FOLDER00027_1b2193e89f7b",
       "sourceIndex": 7,
       "textBytes": 18755,
@@ -125,7 +125,7 @@
     {
       "slug": "060_PROBABLE_BRAIN_TUMOR_WITH_RECOVERY",
       "title": "PROBABLE BRAIN TUMOR WITH RECOVERY.",
-      "category": "HDBSCAN Cluster: case, brain, had, following",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00045_3b17e178be1c",
       "sourceIndex": 12,
       "textBytes": 14853,
@@ -145,7 +145,7 @@
     {
       "slug": "062_THE_DIFFERENTIATION_OF_CHOREA_AND_THE_DISORDERS_SIMULATING_I",
       "title": "THE DIFFERENTIATION OF CHOREA AND THE DISORDERS SIMULATING IT.",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: has, been, figure, one",
       "key": "FOLDER00047_77a64d721bd3",
       "sourceIndex": 14,
       "textBytes": 21555,
@@ -155,7 +155,7 @@
     {
       "slug": "063_136_Gehirn-Substanz_In_Nervenkrankheiten_Use_of_Brain_Substa",
       "title": "136 Gehirn-Substanz In Nervenkrankheiten (Use of Brain Substance in Nervous Disease)",
-      "category": "HDBSCAN Cluster: figure, brain, images, png",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
       "key": "FOLDER00049_d42d78e96844",
       "sourceIndex": 15,
       "textBytes": 0,
@@ -185,7 +185,7 @@
     {
       "slug": "243_EXPERIMENTAL_WORK_ON_BRAIN_PRESSURE_FOLLOWING_INJURY",
       "title": "EXPERIMENTAL WORK ON BRAIN PRESSURE FOLLOWING INJURY",
-      "category": "HDBSCAN Cluster: brain, figure, frontal, more",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
       "key": "FOLDER00062_764a6d029da4",
       "sourceIndex": 18,
       "textBytes": 3866,
@@ -195,7 +195,7 @@
     {
       "slug": "244_GUNSHOT_WOUND_OF_THE_HEAD_PERFORATION_OF_THE_BRAIN_RECOVERY",
       "title": "GUNSHOT WOUND OF THE HEAD; PERFORATION OF THE BRAIN; RECOVERY.",
-      "category": "HDBSCAN Cluster: brain, after, years, infection",
+      "category": "HDBSCAN Cluster: brain, after, years, not",
       "key": "FOLDER00063_4254c810dc7d",
       "sourceIndex": 19,
       "textBytes": 8563,
@@ -205,7 +205,7 @@
     {
       "slug": "245_RECONSTRUCTION_OF_SERIAL_SECTIONS_OF_BRAIN",
       "title": "RECONSTRUCTION OF SERIAL SECTIONS OF BRAIN",
-      "category": "HDBSCAN Cluster: figure, brain, images, png",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
       "key": "FOLDER00068_cf46bece416f",
       "sourceIndex": 20,
       "textBytes": 0,
@@ -235,7 +235,7 @@
     {
       "slug": "248_The_Effect_of_Small_Doses_of_Alcohol_on_the_Brain",
       "title": "The Effect of Small Doses of Alcohol on the Brain",
-      "category": "HDBSCAN Cluster: not, figure, but, his",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00072_a6ba263cb20d",
       "sourceIndex": 23,
       "textBytes": 26696,
@@ -245,7 +245,7 @@
     {
       "slug": "249_Insomnia",
       "title": "Insomnia",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
       "key": "FOLDER00078_826ad11fc825",
       "sourceIndex": 24,
       "textBytes": 369,
@@ -265,7 +265,7 @@
     {
       "slug": "251_Relation_between_Nervous_and_Glandular_Tissue_in_Ascidians",
       "title": "Relation between Nervous and Glandular Tissue in Ascidians",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: nervous, white, rat, gland",
       "key": "FOLDER00082_355f927db653",
       "sourceIndex": 26,
       "textBytes": 2602,
@@ -335,7 +335,7 @@
     {
       "slug": "258_ACUTE_ARTICULAR_RHEUMATISM-ITS_ETIOLOGY_AND_PATHOLOGY",
       "title": "ACUTE ARTICULAR RHEUMATISM-ITS ETIOLOGY AND PATHOLOGY.",
-      "category": "HDBSCAN Cluster: brain, figure, frontal, more",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
       "key": "FOLDER00092_0098892e9dc3",
       "sourceIndex": 33,
       "textBytes": 37611,
@@ -365,7 +365,7 @@
     {
       "slug": "261_The_division_of_differentiated_cells_in_the_central_nervous",
       "title": "The division of differentiated cells in the central nervous system of the white rat",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: nervous, white, rat, gland",
       "key": "FOLDER00101_cb0fce57c6b5",
       "sourceIndex": 36,
       "textBytes": 51035,
@@ -375,7 +375,7 @@
     {
       "slug": "262_The_Brain_of_Acipenser_A_Contribution_to_the_Morphology_of_t",
       "title": "The Brain of Acipenser. A Contribution to the Morphology of the Vertebrate Brain",
-      "category": "HDBSCAN Cluster: brain, which, neuroglia, method",
+      "category": "HDBSCAN Cluster: neuroglia, which, brain, figure",
       "key": "FOLDER00104_cb6ad0d501ce",
       "sourceIndex": 37,
       "textBytes": 8932,
@@ -385,7 +385,7 @@
     {
       "slug": "263_An_ADDRESS_on_LOCALISATION_in_the_MOTOR_CEREBRAL_CORTEX",
       "title": "An ADDRESS on LOCALISATION in the \"MOTOR\" CEREBRAL CORTEX",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: motor, cerebral, cortex, his",
       "key": "FOLDER00108_cbc8b2e83bfe",
       "sourceIndex": 38,
       "textBytes": 26010,
@@ -405,7 +405,7 @@
     {
       "slug": "265_Das_cerebellum_von_scyllium_canicula",
       "title": "Das cerebellum von scyllium canicula.",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: die, der, yon, sich",
       "key": "FOLDER00115_e17286f2c068",
       "sourceIndex": 40,
       "textBytes": 40022,
@@ -415,7 +415,7 @@
     {
       "slug": "266_Studies_on_the_Neuroglia",
       "title": "Studies on the Neuroglia",
-      "category": "HDBSCAN Cluster: brain, which, neuroglia, method",
+      "category": "HDBSCAN Cluster: neuroglia, which, brain, figure",
       "key": "FOLDER00116_73a117044c15",
       "sourceIndex": 41,
       "textBytes": 44564,
@@ -495,7 +495,7 @@
     {
       "slug": "274_A_REPORT_OF_SEVEN_OPERATIONS_FOR_BRAIN_TUMORS_AND_CYSTS",
       "title": "A REPORT OF SEVEN OPERATIONS FOR BRAIN TUMORS AND CYSTS.",
-      "category": "HDBSCAN Cluster: brain, after, years, infection",
+      "category": "HDBSCAN Cluster: brain, after, years, not",
       "key": "FOLDER00135_8d2c52a6feae",
       "sourceIndex": 49,
       "textBytes": 66255,
@@ -505,7 +505,7 @@
     {
       "slug": "275_Destruction_of_Left_Eye_and_Frontal_Lobe_of_Brain_from_a_Sho",
       "title": "Destruction of Left Eye and Frontal Lobe of Brain from a Shotgun Explosion",
-      "category": "HDBSCAN Cluster: brain, figure, frontal, more",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
       "key": "FOLDER00137_46efa9eb20d2",
       "sourceIndex": 50,
       "textBytes": 23375,
@@ -565,7 +565,7 @@
     {
       "slug": "281_REPORT_OF_A_CASE_OF_BRAIN_INJURY_WITH_PECULIAR_WHISTLING_SPE",
       "title": "REPORT OF A CASE OF BRAIN INJURY, WITH PECULIAR WHISTLING SPELLS FOLLOWING OPERATION",
-      "category": "HDBSCAN Cluster: case, brain, had, following",
+      "category": "HDBSCAN Cluster: case, brain, figure, had",
       "key": "FOLDER00148_cc6fab272dee",
       "sourceIndex": 56,
       "textBytes": 3374,
@@ -575,7 +575,7 @@
     {
       "slug": "282_The_operative_treatment_of_abscess_when_situated_in_the_brai",
       "title": "The operative treatment of abscess when situated in the brain",
-      "category": "HDBSCAN Cluster: when, journal, have, operative",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00149_96f9d75ec15e",
       "sourceIndex": 57,
       "textBytes": 39427,
@@ -585,7 +585,7 @@
     {
       "slug": "283_XII_Laryngeal_Disturbances_in_the_Diseases_of_the_Central_Ne",
       "title": "XII. Laryngeal Disturbances in the Diseases of the Central Nervous System with Special Consideration of Laryngeal Disturbances in Tabes Dorsalis",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: laryngeal, disturbances, which, figure",
       "key": "FOLDER00150_2d68bff3536c",
       "sourceIndex": 58,
       "textBytes": 101743,
@@ -605,7 +605,7 @@
     {
       "slug": "285_EVOLUTIONAL_AND_INVOLUTIONAL_TYPES_OF_MENTAL_AND_NERVOUS_DIS",
       "title": "EVOLUTIONAL AND INVOLUTIONAL TYPES OF MENTAL AND NERVOUS DISEASE.",
-      "category": "HDBSCAN Cluster: ode, one, mental, system",
+      "category": "HDBSCAN Cluster: mental, one, figure, has",
       "key": "FOLDER00152_f027cfc5a547",
       "sourceIndex": 60,
       "textBytes": 29485,
@@ -645,12 +645,412 @@
     {
       "slug": "289_PARESIS_OF_THE_EXTERNAL_RECTI_ASSOCIATED_WITH_IRREGULAR_TABE",
       "title": "PARESIS OF THE EXTERNAL RECTI ASSOCIATED WITH IRREGULAR TABES.",
-      "category": "HDBSCAN Cluster: when, journal, have, operative",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00159_baecfb1ca33e",
       "sourceIndex": 64,
       "textBytes": 25108,
       "figuresExtracted": 0,
       "excerpt": "[Figure 1] subject is wide. It is, 1 am sorry to say, too wide to be mastered in all its details even when a whole life-time Virchow, R.: Morgagni und der anatomische Gedanke; Berlin, Klin. Woch., 1894, xxi, 345-350. Walton, G. L.: The Study of Anatomy in the Leipzig University; Boston Med. and Surg. Jour., 1882, cvi, 389. is devoted exclusively to it. The scientific anatomist, after familiarizing himself with the main facts and principles of its various subdivisions, does best, in agreement with the great law of division of labor, to direct his efforts toward the acquisition and promulgation of knowledge, in some one portion of it. Waldeyer, W.: Wie soll man Anatomie lehren und lernen: Berlin, 1884. PARESIS OF THE EXTERNAL RECTI ASSOCI- BIBLIOGRAPHY. In the preparation of this address, I have made free use of a large number of addresses made on similar occasions by other anatomists. I h"
+    },
+    {
+      "slug": "782_THE_CEREBRAL_NEURONS_IN_RELATION_TO_MEMORY_AND_ELECTRICITY",
+      "title": "THE CEREBRAL NEURONS IN RELATION TO MEMORY AND ELECTRICITY.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00164_e8e5b0ffc670",
+      "sourceIndex": 65,
+      "textBytes": 14926,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] oftions of declining activity. Such is observed in the loss ing known as specialists in otology. Among close observers there can be no doubt that, in patients under 15 years of age, an adenoid exists in almost every case of suppuration of the ear. To have any etiological bearing, however, it must promote a chronic congestion of the nasopharynx. In order to serve that purpose, the growth need not be very large, although the greater the adenoid, the more likely will it be to cause trouble in the ears. hair, and the bald scalp, in the decay of teeth and consequent defective power of mastication, so also in the defective auditory process, as well as in gradually- impaireddoubtedsuch be invisiontheirandcharacter,memory.andSuchpositiveevidencesproof,areshouldun- wanting, of an abnormal decline in systemic power, coincident with advancing years. While these systemic evidences of chan"
+    },
+    {
+      "slug": "772_The_Minute_Changes_in_the_Cerebral_Cortex_consecutive_to_Exp",
+      "title": "The Minute Changes in the Cerebral Cortex consecutive to Experimental Mutilations of the Cerebellum [Le fine alterazioni della corteccia cerebrale consecutive a mutilazioni cerebellari sperimentali]. (Arch. di psichiat., vol. xxi, fasc. iv, v.) Christiani",
+      "category": "HDBSCAN Cluster: laryngeal, disturbances, which, figure",
+      "key": "FOLDER00165_35363f550957",
+      "sourceIndex": 66,
+      "textBytes": 3106,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] S88 EPITOME. (voluntary) direct, and the indirect through the thalamus, with other relays further down. In man, the latter path is only used in emotional expression, but in the lower animals is also voluntary. The physiological significance of the optic thalamus lies in its con nection with all the centres of the organs of sense. In conclusion, a very interesting case is cited in which practically the whole of one optic thalamus was destroyed by haemorrhage in a senile dement, without directly involving any other parts. In this case, the symptoms and changes due to the thalamic lesion corresponded with those experimentally produced in animals. From some of the sym ptoms present in this and another case where both thalami were de stroyed by a tumour it appears possible that the optic thalamus may have some vaso motor function to discharge. For a vast wealtii of reliable observa"
+    },
+    {
+      "slug": "773_THE_SOMATIC_SIGNS_OF_BRAIN_SYPHILIS",
+      "title": "THE SOMATIC SIGNS OF BRAIN SYPHILIS.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00173_2ab668b219be",
+      "sourceIndex": 67,
+      "textBytes": 21932,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] #### aloneOn the whole, artificially prepared starches given ## andteritis.4. MostNextfrequentlyin frequencebrain syphiliscome syphiliticmeans syphiliticmeningiti-.ar- or mixed with specially prepared milk foods have given good results in my hands. They offer a convenient formtions, inand,whichas atochangeexhibitfromthis classthe variousof dieteticotherprepara-foodstuffs,It is are generally very much relished by patients. syphilitic infiltration of the cranial nerves, while a gumma5. comparable to a brain tumor is least frequent.1 ## of theParalysiscranial from brain syphilis (excluding paralysis thrombosisby the pressurenerves)of a gummais mostnorfrequentlyby hemorrhage,caused neitherbut by not my object, nor would it here be in place, to attempt a criticism on the value of these and other especially prepared foods in infant feeding. When used with judgment and discretion the"
+    },
+    {
+      "slug": "775_A_CASE_OF_ASTEREOGNOSIS_RESULTING_FROM_INJURY_OF_THE_BRAIN_I",
+      "title": "A CASE OF ASTEREOGNOSIS RESULTING FROM INJURY OF THE BRAIN IN THE SUPERIOR PARIETAL REGION.1",
+      "category": "HDBSCAN Cluster: case, brain, region, figure",
+      "key": "FOLDER00175_1b1c4ccbecc4",
+      "sourceIndex": 68,
+      "textBytes": 4969,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] A CASE OF ASTEREOGNOS1S RESULTING FROM INJURY OF THE BRAIN IN THE SUPERIOR PARIETAL REGION.1 BY William H. Teller, M.D., AND F. X. Dercum, M.D. Surgical memoranda: J. J., act 20 years, was admitted to the Jewish Hospital on the morning of the 23rd of Novem¬ ber, 1900, with the history that he had been struck by a base¬ ball bat on the 16th of November, becoming unconscious, in which condition he was at the time of admission to the hos¬ pital. On examination there was found a small cut above the right eyebrow, and on the skull one-half an inch behind the fissure of Rolando and three-quarters of an inch from the longitudinal fissure (on the posterior perpendicular line through the intraparietal fissure) a depressed area was felt. There was complete paralysis of right leg, right arm, right side of face and tongue, and upward and outward deviation of eyeballs. Pulse ran"
+    },
+    {
+      "slug": "776_Observation_on_Brain_Surgery",
+      "title": "Observation on Brain Surgery",
+      "category": "HDBSCAN Cluster: laryngeal, disturbances, which, figure",
+      "key": "FOLDER00184_969ea55da577",
+      "sourceIndex": 69,
+      "textBytes": 7369,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] 234 PERISCOPE. definite focal symptom of a callosal tumor, which can be explained by the direct effect upon its fibers is the psychical state of stuporous dementia, due to the injured association function of the fibers of the corpus callosum. It is also probable that in addition to the psychi¬ cal function of the corpus callosum, it has to do with the innervation of voluntary muscles and their co-ordination in homolateral move¬ ments of the body. This has been experimentally proven in animals by Mott. In this case there was an extreme disturbance of equilib¬ rium together with ability to use a single extremity in isolated move¬ ments. This symptom has been observed before in tumors in this region. The co-ordination disturbance which affects chiefly those muscular actions which have to do with retention of equilibrium is a focal symptom of callosal tumors and the nam"
+    },
+    {
+      "slug": "777_Some_Cases_of_Brain_Injury",
+      "title": "Some Cases of Brain Injury",
+      "category": "HDBSCAN Cluster: case, brain, figure, had",
+      "key": "FOLDER00186_7cbbd7fbc1a0",
+      "sourceIndex": 70,
+      "textBytes": 7156,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] PERISCOPE. 239' time, and severe headache followed. The child’s birth had been normal; no anomalies of development nor history of injury to head. No family history of neuropathy, etc. After the sixth year of age, signs of idiocy were apparent and rapidly increasing, so that at the age of eight, idiocy was complete. He ate fecal matter, etc. The in¬ fluenza which attacked this boy was of a severe type, lasting thirty days. After recovery, which was unexpected, no sign of idiocy or ep' ilepsy remained. Intelligence was marked, and the child made better* progress than his healthy brother and many comrades. Coveos con-' fesses that this outcome of the case is a great mystery to him. In discussion Dr. Foustanos, editor of La Grece Medicale, at¬ tempts at great length to explain the parodox as follows: The case could hardly have been one of essential epilepsy. The latter "
+    },
+    {
+      "slug": "778_Successful_Operation_upon_a_Case_of_Brain_Abscess_Following",
+      "title": "Successful Operation upon a Case of Brain Abscess Following Suppurative Middle Ear Disease",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00189_03cf974c5454",
+      "sourceIndex": 71,
+      "textBytes": 15332,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] be recognized, and progress in the future is likely to depend much more upon the discoveries which shall make surgery less necessary than to open new 1889 von Bergmann 3 found only 8 successful operations on brain abscess of otitic origin ; up to 1894 Körner4 had collected only 55 cases of operation both successful and unsuccessful ; in the following yearhe had increased this number to 92. In 1898 Marsch found reports of 60 successful operations upon temporal and 12 upon cerebellar abscess. thefieldsmarvelousfor surgicalbenefitstreatment. Fully recognizing to humanity which anesthesia and asepsis have brought about, it must be admitted also that these benefits are not wholly unalloyed. Operations are undertaken which are followed by the immediate death of the patient ; others prove to be wholly unnecessary ; and still others leave the patient in a condition of helpless invalid"
+    },
+    {
+      "slug": "790_SYMPTOMATOLOGY_OF_CEREBRAL_HEMORRHAGE",
+      "title": "SYMPTOMATOLOGY OF CEREBRAL HEMORRHAGE.",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
+      "key": "FOLDER00190_89870699ba8e",
+      "sourceIndex": 72,
+      "textBytes": 30359,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] the later or chronic stage. While the patient may have beenheadachefeeling some premonitory signs, such as dizziness, SYMPTOMATOLOGY OF CEREBRAL HEMORRHAGE. ### and dulness of mentality for some days or weeks before the onset of the attack, still it is the rule that he is feeling particularly well immediately preucding the apoplexy, which in the majority of instances oc- F. SAVARY PEARCE, M.D. Professor of Nervous and Mental Diseases in the Medico-Chirurgical College of Philadelphia; Neurologist to the Philadelphia Hospital. curshas during the sleeping hours of the night. This fact PHILADELPHIA. The symptoms of cerebral hemorrhage, in unison with many other of the acute affections of the central nervous system, are so frequently aberrant and simulated by different diseases producing a sudden insult to that vital organ of the body, the brain, that rehearsing the subject ### alw"
+    },
+    {
+      "slug": "779_THE_IMMEDIATE_AND_REMOTE_EFFECTS_OF_BRAIN_INJURY",
+      "title": "THE IMMEDIATE AND REMOTE EFFECTS OF BRAIN INJURY.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00193_5cdf685ff730",
+      "sourceIndex": 73,
+      "textBytes": 82449,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] reveal the fact, or if the marks of violence are found over the region of the middle meningeal artery, the faci ##### THE IMMEDIATE AND REMOTE EFFECTS OF BRAIN INJURY. firstshould be very helpful in our diagnosis. If then the D. S. FAIRCHILD, M.D. Professor Surgical Pathology, Medical Department, Drake University; Surgeon, St. Joseph Hospital. CLINTON, IOWA. symptoms of intracranial injury are determined to bethefrommiddlea rupture of a meningeal artery, particularly meningeal, the immediate effects of the injury may be regarded as serious unless a prompt surgical procedure is employed. Three cases are now presented illustrating the foregoing observations: Immediate Effects.\\p=m-\\Thephenomena which immediately follow as the result of brain trauma are interesting chiefly on account of their diagnostic value in revealing the nature and extent of the injury and are of some import"
+    },
+    {
+      "slug": "781_Thermo-Electric_Studies_on_the_Epileptic_Brain",
+      "title": "Thermo-Electric Studies on the Epileptic Brain",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
+      "key": "FOLDER00196_0ff9e7d207e6",
+      "sourceIndex": 74,
+      "textBytes": 0,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2]"
+    },
+    {
+      "slug": "774_Ueber_die_Prüfung_von_Cortex_Granati",
+      "title": "Ueber die Prüfung von Cortex Granati",
+      "category": "HDBSCAN Cluster: die, der, yon, sich",
+      "key": "FOLDER00198_efdc746c7ec1",
+      "sourceIndex": 75,
+      "textBytes": 4936,
+      "figuresExtracted": 0,
+      "excerpt": "134 Bericht: Specielle analy~ische Methoden. oder doeh nur sehwache Spuren Phosphorstture, Butter jedoeh gleictlfMh nur minimale~ im Mittel 0,017°/o Lecithin entspreehende Mengen. 2. Auf ]?harmacie beztigliche hlethoden. Von It. ~/iilhe. Ueber die Priifung yon Cortex Granati beriehtet E. Ewers~)° in frischen stidfranzSsisehen Rinden i~nd der Verfasser 0,5--0,7 °/o Alkaloid. In don I~ger gelagerten Rinden betrug der Alkaloidgehalt nur noeh 0,33 his 0,40°/0. Am schnellsten ging die Zersetzung in gepulverten Rinden vor sick Eine holl~ndische Rinde entbielt 0,71 °/o reines Alkaloid. Die Wurzelrinde zeigte einen wenn auch nur weni~ hSheren Alkaloidgehalt als die Stammrinde. Zur Bestimmtmg des Alkaloidgehaltes bediente der ¥erfasser sieh des yon C. C. Keller zur Bestimmung des Nicotins im Tabak an- gegebenen Verfahrens in folgender Weise: 6,0 g der geloulverten Rinde2) werden in einem 200 cc f"
+    },
+    {
+      "slug": "783_A_CASE_OF_COMBINED_GASTRIC_AND_AURAL_VERTIGO_WITH_A_DISCUSSI",
+      "title": "A CASE OF COMBINED GASTRIC AND AURAL VERTIGO, WITH A DISCUSSION OF THE PATHOLOGY OF SUCH CASES.",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
+      "key": "FOLDER00199_46909481d624",
+      "sourceIndex": 76,
+      "textBytes": 24925,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] though involvement of these vessels might possibly be one reason why vertigo is so constant and early a symptom of arteriosclerosis—especially in those cases of comparatively rapid type, and especially if, as Mendel be- A CASE OF COMBINED GASTRIC AND AURAL VERTIGO, WITH A DISCUSSION OF THE PATHOLOGY OF SUCH CASES. G. W. McCASKEY, A.M., M.D. Professor of Clinical Medicine and Nervous Diseases, Fort Wayne College of Medicine; President of the Indiana State Medical Society. FORT WAYNE, IND. lieves,of the true vertigo is always associated with disturbances eye muscles. The nature of gastric vertigo, to which attention was long ago called by Trousseau, has given rise to considerableical combinationcontroversy.of No one denies the frequent clin- The pathology of the symptom known as vertigo is obscure in a great many cases. It seems quite clear that in some, and that a rather large "
+    },
+    {
+      "slug": "785_An_attempt_to_define_the_primitive_functional_divisions_of_t",
+      "title": "An attempt to define the primitive functional divisions of the central nervous system",
+      "category": "HDBSCAN Cluster: has, been, figure, one",
+      "key": "FOLDER00203_9d0641ba24b9",
+      "sourceIndex": 77,
+      "textBytes": 43679,
+      "figuresExtracted": 1,
+      "excerpt": "[Figure 1] AN ATTEMI'T TO OEFIXE THE PRIMITIVE FUNC'I'IONAL IJIVISJOXS OF THE CENTRAL SERVOUS SYSTLM. By J. H. JOHSSTON. The time has come, as I think ever-y comparative neurologist feels, that we niust break a\"ay from the c;ld cumbersome nomenclature and dcscriptions imposcd by hunmn anatomy, and createa new and simple mode ot dcscribiiig the brain which shall express rather than vbscurr the funct~oiisot its several parts. Any moveiiient of this kind must be made with the greatest care regarding the foundation in tact and also with due care to avoid too great a gap bctireeii thc old and the new. Although thr contribution offered here is based chiefly on the author's investigation of the brain 01 fi>hes, full consideration has been giveii to the work of others, and nhaiiy parts of the following scheme have been suggcsttrd by one or another of numerous investigators, of whom GASG~LI.,STKO"
+    },
+    {
+      "slug": "786_Ueber_die_heteroplastische_Knochenbildung",
+      "title": "Ueber die heteroplastische Knochenbildung",
+      "category": "HDBSCAN Cluster: die, der, yon, sich",
+      "key": "FOLDER00205_4aaad6c2bab7",
+      "sourceIndex": 78,
+      "textBytes": 24163,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 432 sich als Heteroplasien die O ansehen, deren Entstehung mit Transposition- b auch an entfernte Stellen- und nachheriger Einschliessung yon o B in B ziehung gebracht werden kann; denn in diesen F haben sich nur spontan / V verwirklicht, w man s experimentell durch Periost-Transplantation hervorrufen kann. )~ Abet ausser diesen Tumoren finden sich auch O beschrieben, die, eben w s in 0rganen vorkommen, i denen normaler Weise kein K vorhanden ist, und w sich Periost-Transplantationen schwer annehmen l a heteroplastische bezeichnet werden. Ihre Entstehung lisst sich in g F auf einen embryonalen E z h jedoch l sich logischer Weise annehmen, dass man es mit echten Metaplasien zu thun habe, die das B wegen besonderer V n i denen es sich f a In der That behauptet s Virchow in seinem Werke f die G )~ dort, ow er y den heteroplastischen O sprieht, dass diese h mit vorausgegangenen E "
+    },
+    {
+      "slug": "787_A_note_on_the_significance_of_the_size_of_nerve_fibers_in_fi",
+      "title": "A note on the significance of the size of nerve fibers in fishes",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00209_db8875b5bc81",
+      "sourceIndex": 79,
+      "textBytes": 12476,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] A NOTE ON THE SIGNIFICANCE OF T H E SIZE OF NERVE FIBERS IN FISHES.’ ## By C. JUDSONHERRICK. The observations upon the relation between diameter and distribution of nerve fibers in the frog, reported upon by Miss DUNN(‘02), call to mind certain facts which came under my notice in the prosecution of my researches on the nerve components of fishes and which may serve to supplement as well as to verify her observations. The eye-muscle nerves of Menidia I have found (see Section g of the work cited in the appended bibliography) to contain both typical coarse motor fibers and also very fine fibers which leave the brain bound up in the same root with the others, but terminate peripherally on a different set of muscle fibers. All of the extrinsic eye-muscles have, in addition to the usual large muscle fibers, a large number of very small ones. These latter are, for the most part, seg"
+    },
+    {
+      "slug": "788_The_Mental_Functions_of_the_Brain",
+      "title": "The Mental Functions of the Brain",
+      "category": "HDBSCAN Cluster: mental, functions, brain, lancet",
+      "key": "FOLDER00212_05358aff711a",
+      "sourceIndex": 80,
+      "textBytes": 8275,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 1300 THE ETHICS OF THE PUBLIC VACCINATOR. 7b the Editors of THE LANCET. # THE MENTAL FUNCTIONS OF THE BRAIN. To the Editors of THE LANCET. SIRS,&mdash;Owing to the complaints one hears upon all sides as to the elastic manner in which some of the public vaccinators are interpreting the duties of their office I have ventured to submit to you a series of questions which are not without interest to general practitioners at the present time. SIRS,&mdash;I have to thank you for the review of my book on The Mental Functions of the Brain,\" which appeared in THE LANCET of Oct. 19th, p. 1051. If, as your reviewer says : \"The work is a pretentious one and its claims are of .an exceptional character,\"it seems to me a pity that he should have ignored one-third of it, containing some important statements, which-if they are not true-require imme’diate contradiction. It is stated in the book "
+    },
+    {
+      "slug": "789_The_neuroglia_of_the_spinal_cord_of_the_elephant_with_some_p",
+      "title": "The neuroglia of the spinal cord of the elephant with some preliminary observations upon the development of neuroglia fibers",
+      "category": "HDBSCAN Cluster: neuroglia, which, brain, figure",
+      "key": "FOLDER00215_45dca8e59bb6",
+      "sourceIndex": 81,
+      "textBytes": 58647,
+      "figuresExtracted": 1,
+      "excerpt": "[Figure 1] THE NEUROGLIA OF THE SPINAL CORD OF THE ELEPHANT WITH SOME PRELIMINARY OBSERVATIONS UPON THE DEVELOPMENT O F NEUROGLIA FIBERS. BY #### IRVING HARDESTY. From the Hearst Anatomical Laboratory, University of California. ### WITH4 TEXTFIQURES. The material from which is made the following contribution to the comparative study of neuroglia has been on hand several years. It consists of a portion of the spinal cord of a 21-year old bull elephant killed in Bridgeport, Conn., in 1897. Through the kindness of Prof. H. H. Donaldson, the specimen was finally allotted to me and a partid description of its gross and microscopic anatomy is contained in a previous paper.' The material was removed a few hours after death and fixed in 10%formalin in which the unused portions have been preserved ever since. The medullated axones of the spinal cord of the elephant have an appreciably larger diam"
+    },
+    {
+      "slug": "791_A_Case_of_Tumour_of_the_Left_Prefrontal_Lobe_Removed_by_Oper",
+      "title": "A Case of Tumour of the Left Prefrontal Lobe Removed by Operation",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00217_adcbc74b3044",
+      "sourceIndex": 82,
+      "textBytes": 29261,
+      "figuresExtracted": 0,
+      "excerpt": "TUMOUR OF THE LEFT PREFRONTAL LOBE 81 VI. Original Communication A CASE OF TUMOUR OF THE LEFT PREFRONTAL LOBE REMOVED BY OPERATION By William Elder, M.D., F.R.C.P.Edin., Physician to Leith Hospital ; and Alexander Miles, M.D., F.R.C.S.Edin., Surgeon to Leith Hospital; Assistant Surgeon, Royal Infirmary, Edinburgh ## The following case presents features which appear to us worthy of being recorded. In spite of the advances made in cerebral surgery in recent years a very small number of the successful operations have been performed for tumours. This is due chiefly to the fact that very few cerebral tumours, even if they can be accurately diagnosed and located, are removable. Starr has a table of iioo cases of cerebral tumours reported by several well-known observers which shows that only 7 per cent, were published \" probably removable.\" The difficulty in localising cerebral tumours is still"
+    },
+    {
+      "slug": "792_MENTAL_THERAPEUTICS_AND_THE_NEED_OF_PSYCHOLOGY_IN_THE_MEDICA",
+      "title": "MENTAL THERAPEUTICS AND THE NEED OF PSYCHOLOGY IN THE MEDICAL CURRICULUM.",
+      "category": "HDBSCAN Cluster: mental, one, figure, has",
+      "key": "FOLDER00223_71f01c166ffd",
+      "sourceIndex": 83,
+      "textBytes": 23390,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] history are brought before the class for discussion and criticism. In this work we aim to treat the existing conditionsor, as some one has said: \"to treat the patient.\" of the need of psychologic knowledge in the practice of medicine in general. Insanity will not be included, for, strange to say, the great problems of mental disease are physical rather than psychologic problems. Hypnotism will also be omitted from the discussion, as I do not regard it as an eligible therapeutic agency in any but exceedingly rare cases. MENTAL THERAPEUTICS AND THE NEED OF PSYCHOLOGY IN THE MEDICAL CURRICULUM. An Illustrative Case.—Some years ago a young Russian Jew came to Denver from one of the hospitals in Philadelphia, armed with a big box of creosote pills, which were to aid him in a desperate fight to escape death from consumption. Less than a year before, while in apparently robust health"
+    },
+    {
+      "slug": "793_Observations_on_Certain_Cerebral_Localizations",
+      "title": "Observations on Certain Cerebral Localizations",
+      "category": "HDBSCAN Cluster: motor, cerebral, cortex, his",
+      "key": "FOLDER00224_8693a5b4586e",
+      "sourceIndex": 84,
+      "textBytes": 35112,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 1822 Kimic\"T= BUM=JouxuALJI [Dice's 10-062'. ###### PROFESSOR DURiNTE ON OEREBR&L LOCALIZATION. - I --.. . years and seven months beforc--forfibro-sarcoma of-the dura mater.six After the operation' she enjoyed perfect health' for withmonths;lossof then one morning she had an epileptic seizure consciousness, which lasted for forty-eight hours. A year later she had a second fit, and from that time onwards theandattacks manifested themseW*es,with increasing frequency, The mostwere characterized -bya cataleptic state of the limbs. ON ###### CERTAIN CEREBRAL LOCALIZATIONS. By PROFESSOR FRANCESCO DURANTE. lDirector of the Surgical Clinic, University of, Romne;_ Senator of the Kingdom of Italy; ilonorary Member of the British Medical Association, etc. severe fits occurred at night. On examination, we noted displacement of the eyeball outwards -and downwards, and abolition of the sens"
+    },
+    {
+      "slug": "794_BULLET_WOUND_OF_THE_MOTOR_REGION_OF_THE_BRAIN_BULLET_RETAINE",
+      "title": "BULLET WOUND OF THE MOTOR REGION OF THE BRAIN: BULLET RETAINED: SUCCESSFUL EXTRACTION",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00227_2a63b65cacb6",
+      "sourceIndex": 85,
+      "textBytes": 20748,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 138 MEDIAL JOURNALJ Bl, LET WOUND OF BRAIN. [JAN. I8, 9o2. which bear special characteristic forms according to the particular lesion existing. In (i) the bruises are most intense along the lower borders of the two malleoli, and later on become general around the ankle; in (2) it is most intense in the neighbotirhood of the inner malleolus; in (3) it becomes most intense between the tibial malleolus and the os calcis, whilst later on it is evident on the outer aspect of the tendo Achillis; in (4) there is usually seen bilateral discoloration on each side of the tendo Achillis, and their upper limits become connected by a broad band of mixed colours giving an n shape to the bruise; whilst (5) shows bilateral discoloration on each side of the tendo Achillis running downwards below both malleoli, and is joined at the level of the malleoli or the seat of the ruptured tendon, by a "
+    },
+    {
+      "slug": "795_ETIOLOGY_AND_TREATMENT_OF_MIGRAINE",
+      "title": "ETIOLOGY AND TREATMENT OF MIGRAINE.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00230_fe14323f2db0",
+      "sourceIndex": 86,
+      "textBytes": 22233,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] proper massage. This point I especially emphasize in my instructions to assistants, as to the necessary directions to be given patient in oral hygiene. ## hose with great force, and the stream was directed into the mouth, cleansing it most thoroughly and giving a delightful sense of comfort. Dr G. V. I. Brown, Milwaukee—We all have our own ways of accomplishing the same results. The broader view of the paper is its significance in relation to the prophylactic feature. I want to correct what may appear to be in print, as I am sure it was not intended to be—a protest against the examination of school children. Very little has been developed out of these examinations, yet there is a work in this direction which ought to be looked after. I think many of the ills of young persons' future lives could be avoided by proper attention to this examination. Matters pertaining to nose and "
+    },
+    {
+      "slug": "796_A_FATAL_CASE_OF_CEREBRAL_HÆMORRHAGE_IN_A_YOUTH",
+      "title": "A FATAL CASE OF CEREBRAL HÆMORRHAGE IN A YOUTH.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00232_a33984ba7cbf",
+      "sourceIndex": 87,
+      "textBytes": 7988,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 1321 wished himself at the pump in company with another lodger, to whom he appeared well and cheerful. Entering the house he met in the passage the woman with whom he lodged, when he suddenly stopped and said to her, \"My head does ache.\" The woman noticed that his right band, and more particularly his right thumb, were twitching. He then reeled, when hislandlady dragged him to a chair and asked him if he had ever been like that before, to which he answered in the negative. The whole of his right arm now began to twitch convulsively and he rapidly lost consciousness. I was called about 12 30 P. and living near I saw the patient within five minutes after being summoned. He was lying on the floor and was miconscious. The pupil reflexes were absent ; the right pupil was markedly contracted and the left one was normal. The breathing was laboured and noisy ; there was mo distension "
+    },
+    {
+      "slug": "797_PARADOXICAL_PSEUDO-HYPERTROPHY_FOLLOWING_INFANTILE_CEREBRAL",
+      "title": "PARADOXICAL PSEUDO-HYPERTROPHY FOLLOWING INFANTILE CEREBRAL HEMIPLEGIA",
+      "category": "HDBSCAN Cluster: infantile, cases, figure, cerebral",
+      "key": "FOLDER00234_ca6dc8ea3f63",
+      "sourceIndex": 88,
+      "textBytes": 28801,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] Volume 29. November, 1902. No. II. THE ## Journal OF # Nervous and Mental Disease. ### ©nQtttal articles. PARADOXICAL PSEUDO-HYPERTROPHY FOLLOWING IN¬ FANTILE CEREBRAL HEMIPLEGIA. By L. Pierce Clark, M.D. NI--W YORK. The hypertrophy of paralyzed parts in infantile cerebral palsy is a rare condition. No special article on the subject exists in literature, and no cases illustrative have been re¬ ported in America, although several observers, such as Sachs, Peterson and Osier have made diligent search for them. The different degrees of muscular and bone atrophy in spinal palsy of children have been well studied and satisfactorily ex¬ plained on a basis of a disturbance in the trophic center of the anterior horns of the cord, the site of the destructive palsy lesion. Notwithstanding the almost uniform presence of atrophy in spinal palsies (acute anterior poliomyelitis) "
+    },
+    {
+      "slug": "798_A_NEW_SCHEME_OF_THE_ZONES_AND_CENTERS_OF_THE_HUMAN_CEREBRUM",
+      "title": "A NEW SCHEME OF THE ZONES AND CENTERS OF THE HUMAN CEREBRUM, WITH REMARKS ON CEREBRAL LOCALIZATION, ESPECIALLY WITH REFERENCE TO OSTEOPLASTIC OPERATIONS FOR BRAIN TUMORS.",
+      "category": "HDBSCAN Cluster: any, brown, cerebral, without",
+      "key": "FOLDER00238_3bf782d77a31",
+      "sourceIndex": 89,
+      "textBytes": 62198,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] over the spring months without a recurrence of the attack. Within a few weeks I saw a patient that I have had under observation for ten years, a woman, who came to me with a very serious condition, her vision being 2/200 in each eye. Almost without exception she has had a return of the trouble during the latter part of each winter. I was surprised on o»e occasion to find that the irides were attached to the lens at the lower outer segments, and .she had well-defined triangular markings in the anterior chambers. The patient has been pronounced free from any organic disease. I saw her this spring with lowered vision, but hope to relieve her condition by the use of éliminants. ization in the cerebrum of the representation of sensationhaveandnotof movements. My views regarding this subject changed in any essential particulars, and were presented in detail at the meeting of the Ame"
+    },
+    {
+      "slug": "799_A_CASE_OF_TUMOUR_OF_THE_CEREBRAL_CORTEX",
+      "title": "A CASE OF TUMOUR OF THE CEREBRAL CORTEX",
+      "category": "HDBSCAN Cluster: any, brown, cerebral, without",
+      "key": "FOLDER00242_a5aa51bc6c2a",
+      "sourceIndex": 90,
+      "textBytes": 9715,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] ### 5365 KHiTM|,LBJJOuAID MEMORANDA. rMAECH 8, io. greyAs eyes.to theVerycolouring,few hadmostdarkhadhair,brownonlyhairtwo andhad brownred hair.or Several were described as having fair hair, but brown and dark brown greatly predominated. The colour of the eyes was noted as either dark, brown, hazel, grey, and blue. Brown hair with hazel or grey eyes greatly predominated, so also does this type normally in the London area; the dark Iberian-Mediterranean type being comparatively infrequent outside Cornwall. as to the nature of that lesion the data obtained did not give any very clear indication. The absence of optic neuritis, vomiting, and the very slight pain in the head all seemed to negative cerebral tumour. The short duration of the illness (thirty-three days) and the sudden termination without any preliminary stage of coma are points which are deserving of notice. # MEMO RA"
+    },
+    {
+      "slug": "800_TREPHINING_FOR_BRAIN_TUMORS_REPORT_OF_TWO_SUCCESSFUL_CASES-O",
+      "title": "TREPHINING FOR BRAIN TUMORS; REPORT OF TWO SUCCESSFUL CASES-ONE OF NINE YEARS.",
+      "category": "HDBSCAN Cluster: brain, after, years, not",
+      "key": "FOLDER00246_0ee68903e7c5",
+      "sourceIndex": 91,
+      "textBytes": 30521,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] tionbut is strictly similar to the operation for knock-knees, CONCLUSIONS. simpler, as the tibia is nearer the surface. The bone is attacked on its subcutaneous surface, the shape of the bone and its relation to surrounding parts being borne in mind. The fracture is completed by hand as before. It is necessary to remember that, in cases of bow-legs severe enough for operation, there is a considerable inward twist of the tibia, which causes marked inversion of the feet. When the knees point forward the feet usually turn in 15 to 30 degrees. In order to correct this deformity it is necessary to break or sharply bend the fibula after division of the tibia, to overcorrect the bowing, and also to rotate the lower fragment outward. This is not always easy, and is frequently neglected in practice, and I have in some instances seen poor results from the neglect of this precaution. For"
+    },
+    {
+      "slug": "801_A_CASE_OF_CHOLESTEATOMA_OF_THE_BRAIN",
+      "title": "A CASE OF CHOLESTEATOMA OF THE BRAIN",
+      "category": "HDBSCAN Cluster: case, brain, figure, had",
+      "key": "FOLDER00247_361c2ac84c8e",
+      "sourceIndex": 92,
+      "textBytes": 4746,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] A CASE OF CHOLESTEATOMA OF THE BRAIN.* By Charles Lewis Allen, M.D., PATHOLOGIST AND ASSISTANT PHYSICIAN, NEW JERSEY STATE HOSPITAL, AT TRENTON. Cholesteatoma is certain to be classed among the rarer neoplasms of the brain, hence the following case, which is re¬ markable also for the size and position of the tumor, has been thought worth recording, although it was first encountered by the writer upon the post-mortem table, and clinical history is lacking. J. J., a friendless man, said to be thirty-three years old, was brought to the hospital on May 30, 190T, with a state¬ ment that a short time before he had been struck in the head and had since been apparently insane. He did not speak, ap¬ peared to be entirely demented, and had from time to time epileptiform convulsions until his death in status epilepticus on June 27. No record of any focal symptoms is obtainable"
+    },
+    {
+      "slug": "802_A_Clinical_Lecture_ON_A_CASE_OF_TRAUMATIC_EPILEPSY_WITH_ADHE",
+      "title": "A Clinical Lecture ON A CASE OF TRAUMATIC EPILEPSY WITH ADHESION OF SKIN TO BRAIN",
+      "category": "HDBSCAN Cluster: case, brain, figure, had",
+      "key": "FOLDER00248_5e9603812f8a",
+      "sourceIndex": 93,
+      "textBytes": 12420,
+      "figuresExtracted": 1,
+      "excerpt": "[Figure 1] MAY 24, 1902.] TRAUMATIC EPILEPSY. IMEDIOALr TxE BaLnUmJOVXNAL 1257 Three or four years later he had some fits, accompanied by violent twitching. and in one of them he dislocated his jaw. After this he was quite well until I894, when fits came on again, and he was admitted into the National Hospital for the Paralysed and Epileptic under the care of Dr. Ramskill. Mr. Victor Horsley also saw hlim, and the fits passed off without operative interference. # A. tIiutrat 3Jcrture ON A CASE OF ### TRAUMATIC EPILEPSY WITH ADHESION OF SKIN TO BRAIN; On November ist, 1895, he was admitted into this infirmary, under my care, on account of a return of his fits. He had only one fit after admission, however, and I thought operation unnecessary as far as the fits were concerned. But as there was a translucent cystic condition of the scar over a gap in the bone at the seat of former injury (Fi"
+    },
+    {
+      "slug": "803_BRAIN_TUMOR_DEVELOPING_IN_A_CASE_OF_PERIPHERAL_NEURITIS_THE",
+      "title": "BRAIN TUMOR: DEVELOPING IN A CASE OF PERIPHERAL NEURITIS, THE LATTER OBSCURING DIAGNOSIS-OPERATIVE REMOVAL OF TUMOR-RECOVERY.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00251_ac4bbf80823a",
+      "sourceIndex": 94,
+      "textBytes": 21832,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] counting of a large number of fields, but practical results are obtained in fifteen minutes. #### you get in underheating specimens, is replaced by a goldenwill be yellow.found Then the details within the leucocytes delicately differentiated. A great increase in the number of lymphocytes means leukemia, which can be diagnosed in no other way than fromby the assistance of a blood count. A leucocytosis of The stain easiest to use is Gollasch's. The smear, is fixed by immersion for a quarter of an hour in absolute alcohol, to which ether may or may not be added. The stain, which is composed of hematoxylin and eosin, is applied for fifteen minutes. If you are interrupted the specimen is not spoiled by overstaining, as occurs with the methyl blue and eosin methods. The white corpuscles are so plain that they are easily studied with a 1/5 objective. Goldhorn's polychrome stain, orig"
+    },
+    {
+      "slug": "804_Certain_Clinical_Types_of_Brain_Syphilis",
+      "title": "Certain Clinical Types of Brain Syphilis",
+      "category": "HDBSCAN Cluster: figure, philadelphia, brain, vertigo",
+      "key": "FOLDER00252_46472da8e499",
+      "sourceIndex": 95,
+      "textBytes": 7047,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] PERISCOPE. 509 as to what symptoms are to be considered essential for the diagnosis. It is an answer to a paper on a similar subject by Nissl. 4. To be continued. McCarthy (Philadelphia). MISCELLANY. Hyoscine in Paralysis Agitans. Dr. Judson S. Bury (Lancet, April 19, 1902). The author says that hyoscine is probably the most useful drug that has hitherto been tried in the treatment of paralysis agitans. As a rule it diminishes or arrests the tremor, checks the troublesome restlessness and the desire to change position, and relieves the “hot flushes” and un¬ pleasant sensations of heat by which these patients are often troubled. It is important to remember, however, that hyoscine is a powerful drug, and one which must be administered with great care. Merck’s hyoscine hydrobromate is probably the best preparation, and it is safer to give it by the mouth than to inject"
+    },
+    {
+      "slug": "805_Clinical_Differentiation_of_Brain_Syphilis_And_General_Pares",
+      "title": "Clinical Differentiation of Brain Syphilis And General Paresis",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
+      "key": "FOLDER00253_85f93e798b80",
+      "sourceIndex": 96,
+      "textBytes": 0,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2]"
+    },
+    {
+      "slug": "806_SEVERE_BRAIN_INJURY_WITHOUT_FOCAL_SYMPTOMS",
+      "title": "SEVERE BRAIN INJURY WITHOUT FOCAL SYMPTOMS.",
+      "category": "HDBSCAN Cluster: has, been, figure, one",
+      "key": "FOLDER00259_558ba514da39",
+      "sourceIndex": 97,
+      "textBytes": 13446,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] are so fond. Synthesis rather than analysis is what is now required, lest we lose our way in the terminologie forest. For •ordinary purposes I recognize three varieties of sarcoma of the skin. The first is that slightly malignant, superficial growth called, sarcoid by lioeck. The second is the localized sarcoma, either primary in the skin or secondary to sarcoma of other organs. The third includes the idiopathic, diffuse sarcomas, pigmented or white. In the present state of our knowledge of the subject I do not believe that variations in color, course, -etc., justify us in subdividing maladies which are microscopically almost identical. Treatment.—The course of the wound was slightly to the left. How deep the bolt penetrated I did not have the necessarysize ofcuriositythe to ascertain, but was satisfied to calculate by the opening that there must be buried in the cerebrum the "
+    },
+    {
+      "slug": "788_The_Mental_Functions_of_the_Brain",
+      "title": "The Mental Functions of the Brain",
+      "category": "HDBSCAN Cluster: mental, functions, brain, lancet",
+      "key": "FOLDER00260_6535cbf43ab4",
+      "sourceIndex": 98,
+      "textBytes": 8275,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] 1300 THE ETHICS OF THE PUBLIC VACCINATOR. 7b the Editors of THE LANCET. # THE MENTAL FUNCTIONS OF THE BRAIN. To the Editors of THE LANCET. SIRS,&mdash;Owing to the complaints one hears upon all sides as to the elastic manner in which some of the public vaccinators are interpreting the duties of their office I have ventured to submit to you a series of questions which are not without interest to general practitioners at the present time. SIRS,&mdash;I have to thank you for the review of my book on The Mental Functions of the Brain,\" which appeared in THE LANCET of Oct. 19th, p. 1051. If, as your reviewer says : \"The work is a pretentious one and its claims are of .an exceptional character,\"it seems to me a pity that he should have ignored one-third of it, containing some important statements, which-if they are not true-require imme’diate contradiction. It is stated in the book "
+    },
+    {
+      "slug": "807_THE_SPECIFIC_AND_NON-SPECIFIC_LESIONS_OF_THE_BRAIN_RESULTING",
+      "title": "THE SPECIFIC AND NON-SPECIFIC LESIONS OF THE BRAIN RESULTING FROM SYPHILIS AND THEIR INFLUENCE UPON DIAGNOSIS, PROGNOSIS AND TREATMENT.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00261_883ec349241a",
+      "sourceIndex": 99,
+      "textBytes": 27317,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] brainlures in Syphilis of the Brain.—The lesions of the that may direetly or indirectly result from syphilis may be divided into three classes: 1, the specific or luetie lesions, those that are caused by the poison of THE SPECIFIC AND NON-SPECIFIC LESIONS OF THE BRAIN RESULTING FROM SYPHILIS AND THEIR INFLUENCE UPON DIAGNOSIS, PROGNOSIS AND TREATMENT. J. T. ESKRIDGE, M.D. Alienist and Neurologist to the St. Luke's Hospital; Consulting Alienist and Neurologist to the Arapahoe County Hospital. DENVER, COLO. syphilisbrain and by nothing else; 2. those lesions of the that may have a specific or non-specific origin, and 3, the non-specific lesions of the brain that occur as indirectIt is ofresults of the syphilitic virus. ### the utmost practical importance when possiblefic lesionsto distinguish between the specific and non-speci- affecting the intracranial structures. Unless such "
+    },
+    {
+      "slug": "808_ACUTE_HEMORRHAGIC_CORTICAL_ENCEPHALITIS",
+      "title": "ACUTE HEMORRHAGIC CORTICAL ENCEPHALITIS",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00264_677389b4cd42",
+      "sourceIndex": 100,
+      "textBytes": 39500,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] ACUTE HEMORRHAGIC CORTICAL ENCEPHALITIS.1 By Herman H. Hoppe, M.D., CINCINNATI, o. The study of the acute non-purulent inflammation of the gray matter of the brain has received much attention during the last decade especially, but so much space and time has been devoted to the subject of the acute hemorrhagic inflammation of the gray matter surrounding the floor of the fourth ventricle, and especially the canal of Sylvius, that the other, far more im¬ portant study of cortical affections pf this character, has been pushed into the background. This in a large measure is, and was, due to the striking picture presented by Wernicke’s acute encephalitis hemorrhagica superior, whereas the cortical form is either frequently mistaken on the one hand for leptomeningi¬ tis, acute mania or, occurring as it so frequently does, intercur¬ rent or after an acute infectious disease"
+    },
+    {
+      "slug": "809_ANÆSTHESIA_BY_SUBARACHNOID_INJECTIONS_OF_COCAINE_IN_THE_LUMB",
+      "title": "ANÆSTHESIA BY SUBARACHNOID INJECTIONS OF COCAINE IN THE LUMBAR REGION: ITS USE IN GYNÆCOLOGY AND OBSTETRICS.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00265_adaf3199f13c",
+      "sourceIndex": 101,
+      "textBytes": 45871,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] Lea : Spinal Anesthesia 7' CRITICAL ESSAY. ANESTHESIA BY SUBARACHNOID INJECTIONS OF COCAINE I N T H E LUMBAR REGION: ITS USE I N GYNECOLOGY AND OBSTETRICS. BY .\\RNOLD W. W. LEA, M.D., B.S., F.R.C.S., Assistant Lecturer on Obstetrics, Owens College; Assistant Surgeon,Clinical Hospital for Women, Manchester. THEplan of inducing anesthesia by the injection of a solution of cocaine into the subarachnoid space has been extensively adopted during the last two years, more especially on the Continent and in America. The literature of the subject is very extensive, and upwards of 1,500cases have been operated upon by this method. The idea of producing anesthesia by injections of cocaine into the spinal region undoubtedly originated with Dr. Leonard Corning, of New York, in the year 1885.* He carried out experiments on dogs, and also on the human being, by injecting solutions of cocaine"
+    },
+    {
+      "slug": "810_MATERNAL_IMPRESSION_MARKS_CHILD_FOR_A_FROG",
+      "title": "MATERNAL IMPRESSION MARKS CHILD FOR A FROG.",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00267_ee55518fda67",
+      "sourceIndex": 102,
+      "textBytes": 4273,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] The gross appearance of the child's back is that of the back in one already predisposed by even as moderate an amount of arteriosclerosis as the one in question. of an injured frog when he elevates the flat surface extending backward from the head. # My thanks are due to the .Superintendent. Dr. J. Percy Wade, for the privilege of reporting the case. » [The case described above is a form of monster belonging to the group of exencephalus. The deformities in these monsters, as well as in the anencephali and in the cases of spina bifida, is started by a failure of the posterior vertebral plates to close over the neural canal in early embryonic development. This deformity, cranio-rachischisis, may be due to an excessive formation of ceiebrospinal fluid or to some thing that interferes with the union of the posterior lamina, e. g., adhesions of amnion to the edges of the medullary "
+    },
+    {
+      "slug": "811_Students_on_Neuroglia",
+      "title": "Students on Neuroglia",
+      "category": "HDBSCAN Cluster: neuroglia, which, brain, figure",
+      "key": "FOLDER00270_678e626c3625",
+      "sourceIndex": 103,
+      "textBytes": 7406,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # PERISCOPE. 697 sympathetic, which is known as Jonncsco's operation, is the most effec¬ tive. The mere stretching and even the simple division of the nerve do not destroy all the connections of the sympathetic with the thyroid- The partial and extensive resection is applicable in only those cases in which the tachycardia is not pronounced. Although the direct surgical treat¬ ment of simple goiter by means of the almost total resection of the thy¬ roid gland is not in itself a dangerous operation, in the struma of Base¬ dow’s disease it is very serious and is accompanied by many disadvan¬ tages. Jelliffe. A Scheme for the Anthropological Examination of Insane Pa¬ tients with the Results of its Application to Control Patients. E. Goodall (Br. Med. Jour., Oct. 26, 1901). The author says that the best work has been done in the United States and Italy. The full applicat"
+    },
+    {
+      "slug": "812_Upon_the_Presence_of_Neuroglia_in_the_Choroid_Plexuses",
+      "title": "Upon the Presence of Neuroglia in the Choroid Plexuses",
+      "category": "HDBSCAN Cluster: figure, brain, insomnia, images",
+      "key": "FOLDER00271_9ee6f88bba79",
+      "sourceIndex": 104,
+      "textBytes": 0,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2]"
     }
   ]
 }
